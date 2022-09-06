@@ -47,6 +47,9 @@ def main(dataset: str, splitBy: str):
 
         ref_ids = refer.getRefIds(split=split)
         print(f"{len(ref_ids)} refs are in split [{split_name}].")
+        if len(ref_ids) == 0:
+            print(f"No such split available: {split_name}")
+            continue
 
         for ref_id in ref_ids:
             # print_green(f"ref_id: {ref_id}")
@@ -69,7 +72,7 @@ def main(dataset: str, splitBy: str):
             f.close()
 
         print_green(f"Saved to {csv_filepath}")
-    print()
+    print("\n==================================================================\n")
 
 
 def peak():
