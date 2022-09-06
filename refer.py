@@ -38,7 +38,7 @@ from matplotlib.collections import PatchCollection
 from matplotlib.patches import Polygon, Rectangle
 from skimage import io
 
-# from external import mask
+from external import mask
 
 # import cv2
 # from skimage.measure import label, regionprops
@@ -283,13 +283,13 @@ class REFER:
                 ax.add_collection(p)  # thin red polygon
             else:
                 ...  # # mask used for refclef
-                # rle = ann["segmentation"]
-                # m = mask.decode(rle)
-                # img = np.ones((m.shape[0], m.shape[1], 3))
-                # color_mask = np.array([2.0, 166.0, 101.0]) / 255
-                # for i in range(3):
-                #     img[:, :, i] = color_mask[i]
-                # ax.imshow(np.dstack((img, m * 0.5)))
+                rle = ann["segmentation"]
+                m = mask.decode(rle)
+                img = np.ones((m.shape[0], m.shape[1], 3))
+                color_mask = np.array([2.0, 166.0, 101.0]) / 255
+                for i in range(3):
+                    img[:, :, i] = color_mask[i]
+                ax.imshow(np.dstack((img, m * 0.5)))
         # show bounding-box
         elif seg_box == "box":
             ann_id = ref["ann_id"]
@@ -310,17 +310,17 @@ class REFER:
         ann = self.refToAnn[ref["ref_id"]]
         image = self.Imgs[ref["image_id"]]
         if type(ann["segmentation"][0]) == list:  # polygon
-            ...  # rle = mask.frPyObjects(ann["segmentation"], image["height"], image["width"])
+            rle = mask.frPyObjects(ann["segmentation"], image["height"], image["width"])
         else:
             rle = ann["segmentation"]
-        # m = mask.decode(rle)
+        m = mask.decode(rle)
         m = np.sum(
             m, axis=2
         )  # sometimes there are multiple binary map (corresponding to multiple segs)
         m = m.astype(np.uint8)  # convert to np.uint8
         # compute area
-        # area = sum(mask.area(rle))  # should be close to ann['area']
-        # return {"mask": m, "area": area}
+        area = sum(mask.area(rle))  # should be close to ann['area']
+        return {"mask": m, "area": area}
         # # position
         # position_x = np.mean(np.where(m==1)[1]) # [1] means columns (matlab style) -> x (c style)
         # position_y = np.mean(np.where(m==1)[0]) # [0] means rows (matlab style)    -> y (c style)
