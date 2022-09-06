@@ -27,16 +27,16 @@ showMask   - show mask of the referred object given ref
 import itertools
 import json
 import os.path as osp
+import pickle
 import sys
 import time
 from pprint import pprint
 
-import pickle
 import matplotlib.pyplot as plt
 import numpy as np
-from skimage import io
 from matplotlib.collections import PatchCollection
 from matplotlib.patches import Polygon, Rectangle
+from skimage import io
 
 # from external import mask
 

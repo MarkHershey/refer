@@ -8,7 +8,7 @@ import os
 import subprocess
 
 URLS = [
-    "https://bvisionweb1.cs.unc.edu/licheng/referit/data/refclef.zip",
+    # "https://bvisionweb1.cs.unc.edu/licheng/referit/data/refclef.zip",
     "https://bvisionweb1.cs.unc.edu/licheng/referit/data/refcoco.zip",
     "https://bvisionweb1.cs.unc.edu/licheng/referit/data/refcoco+.zip",
     "https://bvisionweb1.cs.unc.edu/licheng/referit/data/refcocog.zip",
