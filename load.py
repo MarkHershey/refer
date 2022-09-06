@@ -30,30 +30,45 @@ def main(dataset: str, splitBy: str):
         else:
             splits = ["train", "val", "test"]
     elif dataset == "refcoco":
-        splits = ["train", "val", "test"]
+        splits = ["train", "val", "testA", "testB"]
     elif dataset == "refcoco+":
-        splits = ["train", "val", "test"]
+        splits = ["train", "val", "testA", "testB"]
     elif dataset == "refcocog":
-        splits = ["train", "val"]  # we don't have test split for refcocog right now.
+        splits = [
+            "train",
+            "val",
+            "test",
+        ]  # we don't have test split for refcocog right now.
 
     for split in splits:
         split_name = f"{base_name}_{split}"
         csv_filepath = DATA_DIR / f"{split_name}.csv"
-        csv_content_lines = ["ref_id,img_id, ref_exp_id, exp_id"]
+        csv_content_lines = ["uid,ref_id,img_id,sent_id,sent"]
 
         ref_ids = refer.getRefIds(split=split)
         print(f"{len(ref_ids)} refs are in split [{split_name}].")
-        for ref_id in ref_ids[123:130]:
-            print_green(f"ref_id: {ref_id}")
+
+        for ref_id in ref_ids:
+            # print_green(f"ref_id: {ref_id}")
+
             ref = refer.Refs[ref_id]
-            image_id = ref.get("image_id")
-            print_green(f"img_id: {image_id}")
+            img_id = ref.get("image_id")
+            # print_green(f"img_id: {img_id}")
+
             for idx, sent in enumerate(ref["sentences"]):
-                ref_exp_id = f"{ref_id}_{idx}"
-                print_green(f"ref_exp_id: {ref_exp_id}")
-                print(f"expression[{sent['sent_id']}]: {sent['sent']}")
-            print()
-        break
+                uid = f"{ref_id}_{idx}"
+                sent_id = sent["sent_id"]
+                sent = sent["sent"]
+                # new_line = f"'{uid}','{ref_id}','{img_id}','{sent_id}','{sent}'"
+                new_line = f'{uid},{ref_id},{img_id},{sent_id},"{sent}"'
+                csv_content_lines.append(new_line)
+
+        with open(csv_filepath, "w") as f:
+            f.write("\n".join(csv_content_lines))
+            f.close()
+
+        print_green(f"Saved to {csv_filepath}")
+    print()
 
 
 def peak():
@@ -73,9 +88,8 @@ def peak():
 
 
 if __name__ == "__main__":
-    # main("refcoco", "unc")
-    # main("refcoco", "google")
-    # main("refcoco+", "unc")
-    # main("refcocog", "google")
-    # main("refcocog", "umd")
+    main("refcoco", "unc")
+    main("refcoco+", "unc")
+    main("refcocog", "google")
+    main("refcocog", "umd")
     ...
