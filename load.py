@@ -43,13 +43,15 @@ def main(dataset: str, splitBy: str):
     for split in splits:
         split_name = f"{base_name}_{split}"
         csv_filepath = DATA_DIR / f"{split_name}.csv"
-        csv_content_lines = ["uid,ref_id,img_id,sent_id,sent"]
+        csv_content_lines = ["uid,ref_id,img_id,sent_id,sent,bbox"]
 
         ref_ids = refer.getRefIds(split=split)
         print(f"{len(ref_ids)} refs are in split [{split_name}].")
 
         for ref_id in ref_ids:
             # print_green(f"ref_id: {ref_id}")
+            bbox = refer.getRefBox(ref_id)
+            bbox_str = str(bbox)
 
             ref = refer.Refs[ref_id]
             img_id = ref.get("image_id")
@@ -59,8 +61,7 @@ def main(dataset: str, splitBy: str):
                 uid = f"{ref_id}_{idx}"
                 sent_id = sent["sent_id"]
                 sent = sent["sent"]
-                # new_line = f"'{uid}','{ref_id}','{img_id}','{sent_id}','{sent}'"
-                new_line = f'{uid},{ref_id},{img_id},{sent_id},"{sent}"'
+                new_line = f'{uid},{ref_id},{img_id},{sent_id},"{sent}","{bbox_str}"'
                 csv_content_lines.append(new_line)
 
         with open(csv_filepath, "w") as f:
