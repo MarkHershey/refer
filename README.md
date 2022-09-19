@@ -9,15 +9,6 @@ They are with different train/val/test split by UNC, Google and UC Berkeley resp
 </tr>
 </table>
 
-## Citation
-
-If you used the following three datasets RefClef, RefCOCO and RefCOCO+ that were collected by UNC, please consider cite our EMNLP2014 paper; if you want to compare with our recent results, please check our ECCV2016 paper.
-
-```bash
-Kazemzadeh, Sahar, et al. "ReferItGame: Referring to Objects in Photographs of Natural Scenes." EMNLP 2014.
-Yu, Licheng, et al. "Modeling Context in Referring Expressions." ECCV 2016.
-```
-
 ## Setup
 
 Run "make" before using the code.
@@ -26,12 +17,59 @@ These mask-related codes are copied from mscoco [API](https://github.com/pdollar
 
 ## Download
 
-Download the cleaned data and extract them into "data" folder
+```bash
+python3 download.py
+```
 
--   1. https://bvisionweb1.cs.unc.edu/licheng/referit/data/refclef.zip
--   2. https://bvisionweb1.cs.unc.edu/licheng/referit/data/refcoco.zip
--   3. https://bvisionweb1.cs.unc.edu/licheng/referit/data/refcoco+.zip
--   4. https://bvisionweb1.cs.unc.edu/licheng/referit/data/refcocog.zip
+## Example
+
+### `"data/refcoco/instances.json"`
+
+Top-level keys:
+
+-   `info`
+-   `images`
+-   `licenses`
+-   `annotations`
+-   `categories`
+
+### `data["images"][0]`
+
+```json
+{
+    "license": 1,
+    "file_name": "COCO_train2014_000000098304.jpg",
+    "coco_url": "http://mscoco.org/images/98304",
+    "height": 424,
+    "width": 640,
+    "date_captured": "2013-11-21 23:06:41",
+    "flickr_url": "http://farm6.staticflickr.com/5062/5896644212_a326e96ea9_z.jpg",
+    "id": 98304
+}
+```
+
+### `data["annotations"][0]`
+
+```json
+{
+    "segmentation": [
+        [
+            267.52, 229.75, 265.6, 226.68, 265.79, 223.6, 263.87, 220.15,
+            263.87, 216.88, 266.94, 217.07, 268.48, 221.3, 272.32, 219.95,
+            276.35, 220.15, 279.62, 218.03, 283.46, 218.42, 285.0, 220.92,
+            285.0, 223.22, 284.42, 224.95, 280.96, 225.14, 279.81, 226.48,
+            281.73, 228.41, 279.43, 229.37, 275.78, 229.17, 273.86, 229.56,
+            274.24, 232.05, 269.82, 231.67, 267.14, 231.48, 266.75, 228.6
+        ]
+    ],
+    "area": 197.29899999999986,
+    "iscrowd": 0,
+    "image_id": 98304,
+    "bbox": [263.87, 216.88, 21.13, 15.17],
+    "category_id": 18,
+    "id": 3007
+}
+```
 
 ## Prepare Images:
 
@@ -55,10 +93,9 @@ refer = REFER(data_root, dataset='refcocog', splitBy='google')   # test split no
 refer = REFER(data_root, dataset='refcocog', splitBy='umd')      # Recommended, including train/val/test
 ```
 
-<!-- refs(dataset).p contains list of refs, where each ref is
-{ref_id, ann_id, category_id, file_name, image_id, sent_ids, sentences}
+`refs(dataset).p` contains list of refs, where each ref is
+`{ref_id, ann_id, category_id, file_name, image_id, sent_ids, sentences}`
 ignore filename
 
 Each sentences is a list of sent
-{arw, sent, sent_id, tokens}
- -->
+`{arw, sent, sent_id, tokens}`
