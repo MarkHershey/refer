@@ -23,9 +23,7 @@ python3 download.py
 
 ## Example
 
-### `"data/refcoco/instances.json"`
-
-Top-level keys:
+### `"data/refcoco/instances.json"` Top-level keys:
 
 -   `info`
 -   `images`
@@ -33,7 +31,7 @@ Top-level keys:
 -   `annotations`
 -   `categories`
 
-### `data["images"][0]`
+### `data["images"][0]` in `"data/refcoco/instances.json"`
 
 ```json
 {
@@ -48,7 +46,7 @@ Top-level keys:
 }
 ```
 
-### `data["annotations"][0]`
+### `data["annotations"][0]` in `"data/refcoco/instances.json"`
 
 ```json
 {
@@ -68,6 +66,40 @@ Top-level keys:
     "bbox": [263.87, 216.88, 21.13, 15.17],
     "category_id": 18,
     "id": 3007
+}
+```
+
+### A `ref` object stored in `refs(dataset).p`
+
+```json
+{
+    "sent_ids": [0, 1, 2],
+    "file_name": "COCO_train2014_000000581857_16.jpg",
+    "ann_id": 1719310,
+    "ref_id": 0,
+    "image_id": 581857,
+    "split": "train",
+    "sentences": [
+        {
+            "tokens": ["the", "lady", "with", "the", "blue", "shirt"],
+            "raw": "THE LADY WITH THE BLUE SHIRT",
+            "sent_id": 0,
+            "sent": "the lady with the blue shirt"
+        },
+        {
+            "tokens": ["lady", "with", "back", "to", "us"],
+            "raw": "lady w back to us",
+            "sent_id": 1,
+            "sent": "lady with back to us"
+        },
+        {
+            "tokens": ["blue", "shirt"],
+            "raw": "blue shirt",
+            "sent_id": 2,
+            "sent": "blue shirt"
+        }
+    ],
+    "category_id": 1
 }
 ```
 

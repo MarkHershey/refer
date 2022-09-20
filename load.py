@@ -52,15 +52,16 @@ def main(dataset: str, splitBy: str):
             continue
 
         for ref_id in ref_ids:
-            # print_green(f"ref_id: {ref_id}")
+            print_green(f"ref_id: {ref_id}")
             bbox = refer.getRefBox(ref_id)
             bbox_str = str(bbox)
 
             ref = refer.Refs[ref_id]
             img_id = ref.get("image_id")
-            # print_green(f"img_id: {img_id}")
+            print_green(f"img_id: {img_id}")
+            print_green(f"ref: {ref}")
 
-            # mask = refer.getMask(ref)
+            # mask = refer.getMask(refer.loadRefs(ref_id)[0])
             # print_green(f"mask: {mask}")
 
             for idx, sent in enumerate(ref["sentences"]):

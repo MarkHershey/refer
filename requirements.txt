@@ -1,3 +1,5 @@
-scikit-image
-numpy
 matplotlib
+puts
+numpy
+Cython
+scikit-image
