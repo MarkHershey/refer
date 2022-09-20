@@ -60,18 +60,22 @@ def main(dataset: str, splitBy: str):
             img_id = ref.get("image_id")
             # print_green(f"img_id: {img_id}")
 
+            # mask = refer.getMask(ref)
+            # print_green(f"mask: {mask}")
+
             for idx, sent in enumerate(ref["sentences"]):
                 uid = f"{ref_id}_{idx}"
                 sent_id = sent["sent_id"]
                 sent = sent["sent"]
                 new_line = f'{uid},{ref_id},{img_id},{sent_id},"{sent}","{bbox_str}"'
                 csv_content_lines.append(new_line)
+            break
 
-        with open(csv_filepath, "w") as f:
-            f.write("\n".join(csv_content_lines))
-            f.close()
+        # with open(csv_filepath, "w") as f:
+        #     f.write("\n".join(csv_content_lines))
+        #     f.close()
+        # print_green(f"Saved to {csv_filepath}")
 
-        print_green(f"Saved to {csv_filepath}")
     print("\n==================================================================\n")
 
 
@@ -93,7 +97,8 @@ def peak():
 
 if __name__ == "__main__":
     main("refcoco", "unc")
-    main("refcoco+", "unc")
-    main("refcocog", "google")
-    main("refcocog", "umd")
+    # main("refcoco+", "unc")
+    # main("refcocog", "google")
+    # main("refcocog", "umd")
     ...
+    # peak()
