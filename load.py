@@ -96,10 +96,24 @@ def peak():
     print(annotations[0])
 
 
+def peak2():
+    import pickle
+
+    tmp = "data/refcoco/refs(unc).p"
+    with open(tmp, "rb") as f:
+        data: list = pickle.load(f)
+
+    print_green(f"Length: {len(data)}")
+    ref = data[0]
+    print(ref)
+    print_green(list(ref.keys()))
+
+
 if __name__ == "__main__":
-    main("refcoco", "unc")
+    # main("refcoco", "unc")
     # main("refcoco+", "unc")
     # main("refcocog", "google")
     # main("refcocog", "umd")
     ...
     # peak()
+    peak2()

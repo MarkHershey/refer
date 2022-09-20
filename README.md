@@ -67,7 +67,7 @@ python3 download.py
 ```json
 {
     "sent_ids": [0, 1, 2],
-    "file_name": "COCO_train2014_000000581857_16.jpg",
+    "file_name": "COCO_train2014_000000581857_16.jpg", // ignore this
     "ann_id": 1719310,
     "ref_id": 0,
     "image_id": 581857,
@@ -107,20 +107,17 @@ For RefCLEF, please add `saiapr_tc-12` into `data/images` folder. We extracted t
 The "refer.py" is able to load all 4 datasets with different kinds of data split by UNC, Google, UMD and UC Berkeley.
 **Note for RefCOCOg, we suggest use UMD's split which has train/val/test splits and there is no overlap of images between different split.**
 
-```bash
+```python
 # locate your own data_root, and choose the dataset_splitBy you want to use
-refer = REFER(data_root, dataset='refclef',  splitBy='unc')
-refer = REFER(data_root, dataset='refclef',  splitBy='berkeley') # 2 train and 1 test images missed
+# refer = REFER(data_root, dataset='refclef',  splitBy='unc')
+# refer = REFER(data_root, dataset='refclef',  splitBy='berkeley') # 2 train and 1 test images missed
 refer = REFER(data_root, dataset='refcoco',  splitBy='unc')
-refer = REFER(data_root, dataset='refcoco',  splitBy='google')
+# refer = REFER(data_root, dataset='refcoco',  splitBy='google')
 refer = REFER(data_root, dataset='refcoco+', splitBy='unc')
-refer = REFER(data_root, dataset='refcocog', splitBy='google')   # test split not released yet
 refer = REFER(data_root, dataset='refcocog', splitBy='umd')      # Recommended, including train/val/test
+refer = REFER(data_root, dataset='refcocog', splitBy='google')   # test split not released yet
 ```
 
-`refs(dataset).p` contains list of refs, where each ref is
-`{ref_id, ann_id, category_id, file_name, image_id, sent_ids, sentences}`
-ignore filename
+## Notes
 
-Each sentences is a list of sent
-`{arw, sent, sent_id, tokens}`
+important modifications commented as `NOTE: added by Mark`

@@ -170,8 +170,10 @@ class REFER:
                 elif split == "train" or split == "val":
                     refs = [ref for ref in refs if ref["split"] == split]
                 else:
-                    print("No such split [%s]" % split)
-                    sys.exit()
+                    # print("No such split [%s]" % split)
+                    # sys.exit()
+                    # NOTE: added by Mark
+                    refs = [ref for ref in refs if ref["split"] == split]
         ref_ids = [ref["ref_id"] for ref in refs]
         return ref_ids
 
