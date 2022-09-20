@@ -7,7 +7,6 @@ This interface provides access to four datasets:
 3) refcoco+
 4) refcocog
 split by unc and google
-
 The following API functions are defined:
 REFER      - REFER api class
 getRefIds  - get ref ids that satisfy given filter conditions.
@@ -38,22 +37,22 @@ import skimage.io as io
 from matplotlib.collections import PatchCollection
 from matplotlib.patches import Polygon, Rectangle
 
-from external import mask
+# from external import mask
+from pycocotools import mask
+
 
 # import cv2
 # from skimage.measure import label, regionprops
-
-
 class REFER:
     def __init__(self, data_root, dataset="refcoco", splitBy="unc"):
         # provide data_root folder which contains refclef, refcoco, refcoco+ and refcocog
         # also provide dataset name and splitBy information
         # e.g., dataset = 'refcoco', splitBy = 'unc'
-        print("loading dataset %s into memory..." % dataset)
+        # print ('loading dataset %s into memory...' % dataset)
         self.ROOT_DIR = osp.abspath(osp.dirname(__file__))
         self.DATA_DIR = osp.join(data_root, dataset)
         if dataset in ["refcoco", "refcoco+", "refcocog"]:
-            self.IMAGE_DIR = osp.join(data_root, "images/mscoco/images/train2014")
+            self.IMAGE_DIR = osp.join(data_root, "images/mscoco/train2014")
         elif dataset == "refclef":
             self.IMAGE_DIR = osp.join(data_root, "images/saiapr_tc-12")
         else:
@@ -92,7 +91,7 @@ class REFER:
         # 10) catToRefs: 	{category_id: refs}
         # 11) sentToRef: 	{sent_id: ref}
         # 12) sentToTokens: {sent_id: tokens}
-        print("creating index...")
+        # print("creating index...")
         # fetch info from instances
         Anns, Imgs, Cats, imgToAnns = {}, {}, {}, {}
         for ann in self.data["annotations"]:
@@ -139,7 +138,7 @@ class REFER:
         self.catToRefs = catToRefs
         self.sentToRef = sentToRef
         self.sentToTokens = sentToTokens
-        print("index created.")
+        # print("index created.")
 
     def getRefIds(self, image_ids=[], cat_ids=[], ref_ids=[], split=""):
         image_ids = image_ids if type(image_ids) == list else [image_ids]
@@ -223,7 +222,7 @@ class REFER:
     def loadAnns(self, ann_ids=[]):
         if type(ann_ids) == list:
             return [self.Anns[ann_id] for ann_id in ann_ids]
-        elif type(ann_ids) == int or type(ann_ids) == unicode:
+        elif type(ann_ids) == int or type(ann_ids) == str:
             return [self.Anns[ann_ids]]
 
     def loadImgs(self, image_ids=[]):

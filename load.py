@@ -61,8 +61,8 @@ def main(dataset: str, splitBy: str):
             print_green(f"img_id: {img_id}")
             print_green(f"ref: {ref}")
 
-            # mask = refer.getMask(refer.loadRefs(ref_id)[0])
-            # print_green(f"mask: {mask}")
+            mask = refer.getMask(refer.loadRefs(ref_id)[0])["mask"]
+            print_green(f"mask: {mask}")
 
             for idx, sent in enumerate(ref["sentences"]):
                 uid = f"{ref_id}_{idx}"

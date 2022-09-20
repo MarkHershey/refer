@@ -1,21 +1,14 @@
-## Note
+# Referring Expression Comprehension/Segmentation Data API
 
-This API is able to load all 4 referring expression datasets, i.e., RefClef, RefCOCO, RefCOCO+ and RefCOCOg.
-They are with different train/val/test split by UNC, Google and UC Berkeley respectively. We provide all kinds of splits here.
+## Dependencies
 
-<table width="100%">
-<tr>
-<td><img src="http://bvisionweb1.cs.unc.edu/licheng/referit/refer_example.jpg", alt="Mountain View" width="95%"></td>
-</tr>
-</table>
+-   Python 3.X
 
-## Setup
+```bash
+pip install -r requirements.txt
+```
 
-Run "make" before using the code.
-It will generate `_mask.c` and `_mask.so` in `external/` folder.
-These mask-related codes are copied from mscoco [API](https://github.com/pdollar/coco).
-
-## Download
+## Download Data
 
 ```bash
 python3 download.py
