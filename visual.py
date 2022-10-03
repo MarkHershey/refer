@@ -1,9 +1,8 @@
-from refer import REFER
-import numpy as np
-import skimage.io as io
-import matplotlib.pyplot as plt
 from pathlib import Path
-from pprint import pprint
+
+import matplotlib.pyplot as plt
+
+from refer import REFER
 
 DATA_DIR = Path("__file__").resolve().parent / "data"
 
@@ -17,7 +16,11 @@ def main(dataset: str, splitBy: str, ref_id: int):
     plt.figure()
     refer.showRef(ref, seg_box="seg")
     # save the figure
-    plt.savefig(f"{dataset}_{splitBy}_ref{ref_id}.png")
+    plt.savefig(
+        f"{dataset}_{splitBy}_ref{ref_id}.png",
+        bbox_inches="tight",
+        transparent=True,
+    )
 
 
 if __name__ == "__main__":

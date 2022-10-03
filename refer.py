@@ -36,7 +36,6 @@ import numpy as np
 import skimage.io as io
 from matplotlib.collections import PatchCollection
 from matplotlib.patches import Polygon, Rectangle
-
 # from external import mask
 from pycocotools import mask
 
@@ -250,6 +249,9 @@ class REFER:
         image = self.Imgs[ref["image_id"]]
         I = io.imread(osp.join(self.IMAGE_DIR, image["file_name"]))
         ax.imshow(I)
+        # Mark: hide axis
+        ax.get_xaxis().set_visible(False)
+        ax.get_yaxis().set_visible(False)
         # show refer expression
         for sid, sent in enumerate(ref["sentences"]):
             print("%s. %s" % (sid + 1, sent["sent"]))
@@ -264,24 +266,25 @@ class REFER:
                 # polygon used for refcoco*
                 for seg in ann["segmentation"]:
                     poly = np.array(seg).reshape((int(len(seg) / 2), 2))
-                    polygons.append(Polygon(poly, True, alpha=0.4))
+                    polygons.append(Polygon(poly, True, alpha=0.1))
                     color.append(c)
                 p = PatchCollection(
                     polygons,
-                    facecolors=color,
-                    edgecolors=(1, 1, 0, 0),
+                    facecolors=(1, 1, 0, 0.2),
+                    edgecolors=(1, 0, 0, 0),
                     linewidths=3,
-                    alpha=1,
+                    alpha=0.4,
                 )
                 ax.add_collection(p)  # thick yellow polygon
-                p = PatchCollection(
-                    polygons,
-                    facecolors=color,
-                    edgecolors=(1, 0, 0, 0),
-                    linewidths=1,
-                    alpha=1,
-                )
-                ax.add_collection(p)  # thin red polygon
+
+                # p = PatchCollection(
+                #     polygons,
+                #     # facecolors=(0, 0, 0, 0),
+                #     edgecolors=(1, 0, 0, 0),
+                #     linewidths=1,
+                #     alpha=0.8,
+                # )
+                # ax.add_collection(p)  # thin red polygon
             else:
                 # mask used for refclef
                 rle = ann["segmentation"]
