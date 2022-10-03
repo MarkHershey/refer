@@ -263,7 +263,7 @@ class REFER:
             if type(ann["segmentation"][0]) == list:
                 # polygon used for refcoco*
                 for seg in ann["segmentation"]:
-                    poly = np.array(seg).reshape((len(seg) / 2, 2))
+                    poly = np.array(seg).reshape((int(len(seg) / 2), 2))
                     polygons.append(Polygon(poly, True, alpha=0.4))
                     color.append(c)
                 p = PatchCollection(
