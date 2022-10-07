@@ -9,7 +9,7 @@ import json
 import pickle
 from pathlib import Path
 
-from puts import print_green, print_red, print_yellow, print_cyan
+from puts import print_cyan, print_green, print_red, print_yellow
 
 from refer import REFER
 
