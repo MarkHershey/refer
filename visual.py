@@ -31,7 +31,7 @@ def find_ref_id(dataset="refcoco+", splitBy="unc", setName="train", idx: int = N
     custom_dir = Path("/home/markhh/CODE/DEEP_LEARNING/novel_composition/data/custom")
     assert custom_dir.exists()
     custom_file = custom_dir / f"{dataset}_{splitBy}_{setName}.csv"
-    assert custom_file.exists()
+    assert custom_file.exists(), f"{custom_file}"
 
     with open(custom_file, "r") as f:
         csv_reader = list(csv.reader(f))
@@ -51,18 +51,18 @@ if __name__ == "__main__":
     main(
         "refcoco+",
         "unc",
-        save_dir="nv7",
-        ref_id=find_ref_id(setName="train", idx=212793),
+        save_dir="nv9",
+        ref_id=find_ref_id(setName="train", idx=149847),
     )
     main(
         "refcoco+",
         "unc",
-        save_dir="nv7",
-        ref_id=find_ref_id(setName="train", idx=133462),
+        save_dir="nv9",
+        ref_id=find_ref_id(setName="train", idx=173155),
     )
     main(
         "refcoco+",
         "unc",
-        save_dir="nv7",
-        ref_id=find_ref_id(setName="val", idx=259348),
+        save_dir="nv9",
+        ref_id=find_ref_id(setName="val", idx=260929),
     )
