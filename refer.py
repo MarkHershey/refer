@@ -36,6 +36,7 @@ import numpy as np
 import skimage.io as io
 from matplotlib.collections import PatchCollection
 from matplotlib.patches import Polygon, Rectangle
+
 # from external import mask
 from pycocotools import mask
 
@@ -270,10 +271,10 @@ class REFER:
                     color.append(c)
                 p = PatchCollection(
                     polygons,
-                    facecolors=(1, 1, 0, 0.2),
-                    edgecolors=(1, 0, 0, 0),
-                    linewidths=3,
-                    alpha=0.4,
+                    facecolors=[],
+                    edgecolors=(0, 1, 0, 0),
+                    linewidths=5,
+                    alpha=0.7,
                 )
                 ax.add_collection(p)  # thick yellow polygon
 

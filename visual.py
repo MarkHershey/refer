@@ -28,7 +28,7 @@ def main(dataset: str, splitBy: str, ref_id: int, save_dir: str):
 
 
 def find_ref_id(dataset="refcoco+", splitBy="unc", setName="train", idx: int = None):
-    custom_dir = Path("")
+    custom_dir = Path("/home/markhh/CODE/DEEP_LEARNING/novel_composition/data/custom")
     assert custom_dir.exists()
     custom_file = custom_dir / f"{dataset}_{splitBy}_{setName}.csv"
     assert custom_file.exists()
@@ -51,119 +51,18 @@ if __name__ == "__main__":
     main(
         "refcoco+",
         "unc",
-        save_dir="nv1",
-        ref_id=find_ref_id(setName="train", idx=135078),
+        save_dir="nv7",
+        ref_id=find_ref_id(setName="train", idx=212793),
     )
     main(
         "refcoco+",
         "unc",
-        save_dir="nv1",
-        ref_id=find_ref_id(setName="train", idx=133567),
+        save_dir="nv7",
+        ref_id=find_ref_id(setName="train", idx=133462),
     )
     main(
         "refcoco+",
         "unc",
-        save_dir="nv1",
-        ref_id=find_ref_id(setName="val", idx=252836),
-    )
-
-    main(
-        "refcoco+",
-        "unc",
-        save_dir="nv2",
-        ref_id=find_ref_id(setName="train", idx=137456),
-    )
-    main(
-        "refcoco+",
-        "unc",
-        save_dir="nv2",
-        ref_id=find_ref_id(setName="train", idx=138073),
-    )
-    main(
-        "refcoco+",
-        "unc",
-        save_dir="nv2",
-        ref_id=find_ref_id(setName="val", idx=256936),
-    )
-
-    main(
-        "refcoco+",
-        "unc",
-        save_dir="nv3",
-        ref_id=find_ref_id(setName="train", idx=194914),
-    )
-    main(
-        "refcoco+",
-        "unc",
-        save_dir="nv3",
-        ref_id=find_ref_id(setName="train", idx=166748),
-    )
-    main(
-        "refcoco+",
-        "unc",
-        save_dir="nv3",
-        ref_id=find_ref_id(setName="val", idx=253252),
-    )
-
-    main(
-        "refcoco+",
-        "unc",
-        save_dir="nv4",
-        ref_id=find_ref_id(setName="train", idx=173636),
-    )
-    main(
-        "refcoco+",
-        "unc",
-        save_dir="nv4",
-        ref_id=find_ref_id(setName="train", idx=172401),
-    )
-    main(
-        "refcoco+",
-        "unc",
-        save_dir="nv4",
-        ref_id=find_ref_id(setName="val", idx=260526),
-    )
-
-    main(
-        "refcoco+",
-        "unc",
-        save_dir="nv5",
-        ref_id=find_ref_id(setName="train", idx=162776),
-    )
-    main(
-        "refcoco+",
-        "unc",
-        save_dir="nv5",
-        ref_id=find_ref_id(setName="train", idx=167181),
-    )
-    main(
-        "refcoco+",
-        "unc",
-        save_dir="nv5",
-        ref_id=find_ref_id(setName="train", idx=184575),
-    )
-    main(
-        "refcoco+",
-        "unc",
-        save_dir="nv5",
-        ref_id=find_ref_id(setName="val", idx=258718),
-    )
-
-    main(
-        "refcoco+",
-        "unc",
-        save_dir="nv6",
-        ref_id=find_ref_id(setName="train", idx=205395),
-    )
-    main(
-        "refcoco+",
-        "unc",
-        save_dir="nv6",
-        ref_id=find_ref_id(setName="train", idx=235836),
-    )
-    main(
-        "refcoco+",
-        "unc",
-        save_dir="nv6",
-        ref_id=find_ref_id(setName="val", idx=254213),
+        save_dir="nv7",
+        ref_id=find_ref_id(setName="val", idx=259348),
     )
