@@ -43,26 +43,34 @@ def find_ref_id(dataset="refcoco+", splitBy="unc", setName="train", idx: int = N
     raise ValueError(f"Cannot find {idx} in {custom_file}")
 
 
+def get(save_dir="nv10", dataset="refcoco+", setName="train", idx: int = None):
+    return main(
+        dataset=dataset,
+        splitBy="umd" if dataset == "refcocog" else "unc",
+        save_dir=save_dir,
+        ref_id=find_ref_id(
+            dataset=dataset,
+            splitBy="umd" if dataset == "refcocog" else "unc",
+            setName=setName,
+            idx=idx,
+        ),
+    )
+
+
 if __name__ == "__main__":
     # main("refcoco+", "unc", ref_id=861)
     # main("refcoco+", "unc", ref_id=19794)
     # main("refcoco+", "unc", ref_id=48870)
 
-    main(
-        "refcoco+",
-        "unc",
-        save_dir="nv9",
-        ref_id=find_ref_id(setName="train", idx=149847),
-    )
-    main(
-        "refcoco+",
-        "unc",
-        save_dir="nv9",
-        ref_id=find_ref_id(setName="train", idx=173155),
-    )
-    main(
-        "refcoco+",
-        "unc",
-        save_dir="nv9",
-        ref_id=find_ref_id(setName="val", idx=260929),
-    )
+    get("nv-tmp", "refcoco+", "val", 251944)
+    get("nv-tmp", "refcoco+", "val", 255415)
+    get("nv-tmp", "refcoco+", "val", 256032)
+    get("nv-tmp", "refcoco+", "val", 258570)
+    get("nv-tmp", "refcoco+", "val", 258726)
+    get("nv-tmp", "refcoco+", "val", 258828)
+    get("nv-tmp", "refcoco+", "val", 261452)
+    get("nv-tmp", "refcoco+", "val", 252014)
+    get("nv-tmp", "refcoco+", "val", 252129)
+    get("nv-tmp", "refcoco+", "val", 253890)
+    get("nv-tmp", "refcoco+", "val", 253988)
+    get("nv-tmp", "refcoco+", "val", 256978)
