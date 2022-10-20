@@ -9,7 +9,7 @@ from refer import REFER
 DATA_DIR = Path("__file__").resolve().parent / "data"
 
 
-def main(dataset: str, splitBy: str, ref_id: int, save_dir: str):
+def main(dataset: str, splitBy: str, ref_id: int, save_dir: str = "nv-tmp"):
     assert dataset in ["refcoco", "refcoco+", "refcocog"]
     assert splitBy in ["unc", "google", "umd"]
     refer = REFER(str(DATA_DIR), dataset, splitBy)
@@ -66,27 +66,28 @@ def find_orange_juice():
             if "orange juice" in line:
                 print(line)
                 idxes.append(int(line.split(",")[0]))
-    
+
     for i in idxes:
         print(i)
         get("nv-tmp-orange", "refcoco+", "train", i)
+
 
 if __name__ == "__main__":
     ...
     # main("refcoco+", "unc", ref_id=861)
     # main("refcoco+", "unc", ref_id=19794)
     # main("refcoco+", "unc", ref_id=48870)
+    main("refcoco+", "unc", ref_id=839)
 
     # get("nv-tmp", "refcoco+", "val", 252014) # 252014 [person] [against wall]
     # get("nv-tmp", "refcoco+", "val", 253890) # 253890 [jumping] [on skate board]
     # get("nv-tmp", "refcoco+", "val", 253988) # 253988 [motorcycle] [in the foreground]
     # get("nv-tmp", "refcoco+", "val", 258726) # 258726 [brown doughnut] [no sprinkles]
-    
+
     # get("nv-pp", "refcoco", "testB", 9617) # 9617 [white bear] [in red sweater]
     # get("nv-pp", "refcoco", "train", 9460) # "9460": "left white bear",
     # get("nv-pp", "refcoco", "train", 26934) # "26934": "man in red sweater",
 
-    
     # get("nv-wp", "refcocog", "test", 7527) # 7527 [lighting] [a birthday cake]
     # get("nv-wp", "refcocog", "train", 303023) # "303023": "a man in a coat lighting a cigarette"
     # get("nv-wp", "refcocog", "train", 324916) # "324916": "a birthday cake on a purple table",
@@ -100,6 +101,5 @@ if __name__ == "__main__":
     # get("nv-wp3", "refcoco+", "train", 185932) # "185932": "person jumping high into air",
     # get("nv-wp3", "refcoco+", "train", 206601) # "206601": "empty seat section against wall"
 
-    get("nv-ww", "refcoco+", "val", 258020) # 258020 [wooden] [seat]
-    get("nv-ww", "refcoco+", "train", 246961) # "246961": "wooden table",
-
+    # get("nv-ww", "refcoco+", "val", 258020) # 258020 [wooden] [seat]
+    # get("nv-ww", "refcoco+", "train", 246961) # "246961": "wooden table",
