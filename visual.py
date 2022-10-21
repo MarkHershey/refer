@@ -28,6 +28,9 @@ def main(dataset: str, splitBy: str, ref_id: int, save_dir: str = "nv-tmp"):
 
 
 def find_ref_id(dataset="refcoco+", splitBy="unc", setName="train", idx: int = None):
+    """
+    Note that this func assumes that idx supplied is after offset
+    """
     custom_dir = Path("/home/mark/code/novel_composition/data/custom")
     assert custom_dir.exists()
     custom_file = custom_dir / f"{dataset}_{splitBy}_{setName}.csv"
