@@ -56,3 +56,125 @@
 | pac man pizza | ![53](refcoco_unc_ref45399_idx9932_gt.png) | ![53](refcoco_unc_ref45399_idx9932_pred_ours.png) |  ![53](refcoco_unc_ref45399_idx9932_pred_base.png) | 0.48 | 0.91 | +0.43 |
 | remaining pizza | ![54](refcoco_unc_ref45399_idx9933_gt.png) | ![54](refcoco_unc_ref45399_idx9933_pred_ours.png) |  ![54](refcoco_unc_ref45399_idx9933_pred_base.png) | 0.0 | 0.91 | +0.91 |
 | man holding a white cord | ![55](refcoco_unc_ref49763_idx10746_gt.png) | ![55](refcoco_unc_ref49763_idx10746_pred_ours.png) |  ![55](refcoco_unc_ref49763_idx10746_pred_base.png) | 0.29 | 0.94 | +0.65 |
+ 
+ 
+-   687 121311 3282 sww        
+    -   [book] [page]
+-   774 121398 3700 sww        
+    -   [flame] [shirt]
+-   776 121400 3700     swp    
+    -   [flames] [on it]
+-   781 121405 3702         spp
+    -   [the person] [holding the pie]
+-   1042 121666 5067     swp    
+    -   [sub] [on left]
+-   1236 121860 5948 sww        
+    -   [chocolate] [powdered]
+    -   [powdered] [cake]
+-   1293 121917 6221     swp    
+    -   [bananas] [right side]
+-   1299 121923 6234     swp    
+    -   [toilet seat] [hangin]
+-   1525 122149 7228 sww        
+    -   [striped] [leg]
+-   2020 122644 9388 sww        
+    -   [left] [forearm]
+-   2068 122692 9642     swp spp
+    -   [a bit] [of it]
+    -   [elephant] [all you see]
+    -   [all you see] [is]
+-   2267 122891 10553 sww        
+    -   [man] [texting]
+-   2817 123441 12766     swp    
+    -   [license plate] [right]
+-   3035 123659 13590 sww        
+    -   [two] [door]
+-   3038 123662 13597     swp    
+    -   [table] [with bananas]
+-   3353 123977 15270     swp    
+    -   [tray] [in front of girl]
+-   3621 124245 16536 sww        
+    -   [super] [blurry]
+-   3723 124347 16860 sww        
+    -   [pizza] [big]
+    -   [big] [side]
+-   3724 124348 16860         spp
+    -   [the bottom half] [of pizza]
+-   4092 124716 18485     swp    
+    -   [man] [on knees]
+-   4166 124790 18836         spp
+    -   [cool guy] [with sunglasses]
+-   4314 124938 19757 sww        
+    -   [batter] [2ns]
+-   4445 125069 20399 sww        
+    -   [grapefruit] [slices]
+-   4507 125131 20824 sww        
+    -   [with] [plane]
+-   4656 125280 21842 sww        
+    -   [meat] [section]
+    -   [nut] [and]
+    -   [carrot] [section]
+-   4774 125398 22094 sww        
+    -   [pink] [stuff]
+-   4776 125400 22095     swp    
+    -   [mirror] [on the left]
+-   4946 125570 22560     swp    
+    -   [the player] [not]
+    -   [not] [the bat]
+-   4966 125590 22724 sww        
+    -   [with] [faces]
+-   5117 125741 23257 sww        
+    -   [ketchup] [drizzle]
+-   5491 126115 24732 sww        
+    -   [pizza] [d]
+-   5649 126273 25423 sww        
+    -   [of] [sushi]
+-   5812 126436 26337     swp    
+    -   [person] [on right in glasses]
+-   6086 126710 27426     swp    
+    -   [the bread] [only]
+-   6092 126716 27440 sww        
+    -   [glove] [cookie]
+-   6722 127346 30207         spp
+    -   [white cake] [on right]
+-   6723 127347 30207     swp    
+    -   [white cake] [right]
+-   6926 127550 31117     swp    
+    -   [hair bottom] [right]
+-   7135 127759 32055     swp    
+    -   [left] [bottom edge]
+-   7382 128006 33253     swp    
+    -   [topped] [with tomato]
+-   7399 128023 33281     swp    
+    -   [phone] [with keyboard]
+-   7457 128081 33728 sww        
+    -   [candles] [bottom]
+-   7458 128082 33728 sww        
+    -   [lower] [photo]
+-   7548 128172 34339 sww        
+    -   [nike] [shoes]
+-   7761 128385 35610 sww        
+    -   [top] [traffic]
+-   7878 128502 36140 sww        
+    -   [table] [covered]
+-   7901 128525 36437         spp
+    -   [teddy bear] [facing camera]
+-   8313 128937 38332     swp    
+    -   [guy] [right behind meter]
+-   8317 128941 38394 sww        
+    -   [triangular] [slice]
+-   8451 129075 38988 sww        
+    -   [near] [boy]
+-   9038 129662 41482 sww        
+    -   [pizza] [mouth]
+-   9436 130060 43104 sww        
+    -   [bowl] [wit]
+    -   [wit] [apples]
+-   9548 130172 43332     swp    
+    -   [boat] [on right side]
+-   9932 130556 45399 sww        
+    -   [man] [pizza]
+-   9933 130557 45399 sww        
+    -   [remaining] [pizza]
+-   10746 131370 49763 sww        
+    -   [white] [cord]

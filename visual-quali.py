@@ -200,6 +200,15 @@ def main():
     gt_paths = []
     ours_paths = []
     base_paths = []
+    ref_ids = []
+    info_lines = []
+    nc_lines_lst = []
+
+    nc_lookup_fp = Path(
+        "/home/markhh/CODE/DEEP_LEARNING/novel_composition/coco-val-snc.json"
+    )
+    with nc_lookup_fp.open() as f:
+        nc_lookup = json.load(f)
 
     for model in ["baseline", "ours"]:
         isOurs = model == "ours"
@@ -222,14 +231,18 @@ def main():
             else:
                 base_ious.append(iou)
 
-            print_cyan(
-                idx,
-                idx_w_offset,
-                ref_id,
-                "sww" if idx_w_offset in sww else "   ",
-                "swp" if idx_w_offset in swp else "   ",
-                "spp" if idx_w_offset in spp else "   ",
-            )
+            info_line = f'{idx} {idx_w_offset} {ref_id} {"sww" if idx_w_offset in sww else "   "} {"swp" if idx_w_offset in swp else "   "} {"spp" if idx_w_offset in spp else "   "}'
+            print_cyan(info_line)
+            nc_lines = []
+
+            ref_ids.append(ref_id)
+            if isOurs:
+                info_lines.append(info_line)
+                ncs = [x for x in nc_lookup if x[0] == idx_w_offset]
+                for j in ncs:
+                    nc_line = f"[{j[1]}] [{j[2]}]"
+                    nc_lines.append(nc_line)
+                nc_lines_lst.append(nc_lines)
 
             pred = torch.tensor(i[2])
             gt = torch.tensor(i[3])
@@ -260,6 +273,15 @@ def main():
         markdown_lines.append(
             f"| {sent} | ![{i}]({gt_p}) | ![{i}]({ours_p}) |  ![{i}]({base_p}) | {base_iou} | {ours_iou} | {delta} |"
         )
+
+    markdown_lines.append(" ")
+    markdown_lines.append(" ")
+    for i in range(len(info_lines)):
+        info_line = info_lines[i]
+        nc_lines = nc_lines_lst[i]
+        markdown_lines.append(f"-   {info_line}")
+        for j in nc_lines:
+            markdown_lines.append(f"    -   {j}")
 
     with open("qualitative/README.md", "w") as f:
         f.write("\n".join(markdown_lines))
