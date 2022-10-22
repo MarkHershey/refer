@@ -288,4 +288,7 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    # main()
+    print(IMG_DIR / get_image_dict(ref_id=10553)["file_name"])
+    print(IMG_DIR / get_image_dict(ref_id=18836)["file_name"])
+    print(IMG_DIR / get_image_dict(ref_id=36437)["file_name"])
