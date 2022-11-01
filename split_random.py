@@ -61,15 +61,25 @@ def split_random(
     random.shuffle(refs_flatten)
     split_idx = int(len(refs_flatten) * 0.6)
     support_random = refs_flatten[:split_idx]
-    query_random = refs_flatten[split_idx:]
+    split_idx1 = int(len(refs_flatten) * 0.7333)
+    split_idx2 = int(len(refs_flatten) * 0.8667)
+    query_random_1 = refs_flatten[split_idx:split_idx1]
+    query_random_2 = refs_flatten[split_idx1:split_idx2]
+    query_random_3 = refs_flatten[split_idx2:]
 
     new_refs = []
 
     for ref in support_random:
         ref["split"] = "meta_support_random"
         new_refs.append(ref)
-    for ref in query_random:
-        ref["split"] = "meta_query_random"
+    for ref in query_random_1:
+        ref["split"] = "query_random_1"
+        new_refs.append(ref)
+    for ref in query_random_2:
+        ref["split"] = "query_random_2"
+        new_refs.append(ref)
+    for ref in query_random_3:
+        ref["split"] = "query_random_3"
         new_refs.append(ref)
 
     with export_fp.open("wb") as f:
@@ -91,7 +101,9 @@ def check(dataset: str, split_by: str):
     print("Among them:")
     for split_name in [
         "meta_support_random",
-        "meta_query_random",
+        "query_random_1",
+        "query_random_2",
+        "query_random_3",
     ]:
         ref_ids = refer.getRefIds(split=split_name)
         print_cyan(f"{len(ref_ids)} refs are in split [{split_name}].")
@@ -106,21 +118,21 @@ def main(seed: int):
         dataset="refcoco",
         split_by="unc",
         new_split_by=f"meta_split_rand{seed}",
-        overwrite=False,
+        overwrite=True,
         seed=seed,
     )
     split_random(
         dataset="refcoco+",
         split_by="unc",
         new_split_by=f"meta_split_rand{seed}",
-        overwrite=False,
+        overwrite=True,
         seed=seed,
     )
     split_random(
         dataset="refcocog",
         split_by="umd",
         new_split_by=f"meta_split_rand{seed}",
-        overwrite=False,
+        overwrite=True,
         seed=seed,
     )
 
