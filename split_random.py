@@ -1,14 +1,14 @@
 """
 Author: Mark H H 
 
-This script is used to split the original refcoco/refcoco+/refcocog dataset into new splits based on uids file *_train_split_uids.json
+This script is used to split the original refcoco/refcoco+/refcocog dataset into new splits randomly
 """
 
 import copy
 import json
 import pickle
 from pathlib import Path
-
+import random
 from puts import print_cyan, print_green, print_red, print_yellow
 
 from refer import REFER
@@ -17,13 +17,16 @@ ROOT = Path(__file__).resolve().parent
 DATA_DIR = ROOT / "data"
 
 
-def split_original(
-    dataset: str, split_by: str, uids_fp: str, new_split_by: str, overwrite: bool
+def split_random(
+    dataset: str, split_by: str, new_split_by: str, overwrite: bool, seed: int = 0
 ):
     assert dataset in ["refcoco", "refcoco+", "refcocog"]
     assert split_by in ["unc", "google", "umd"]
     ref_fp = DATA_DIR / dataset / f"refs({split_by}).p"
     assert ref_fp.exists()
+
+    random.seed(seed)
+    print(f"Random seed: {seed}")
 
     export_fp = DATA_DIR / dataset / f"refs({new_split_by}).p"
     if export_fp.exists():
@@ -33,18 +36,12 @@ def split_original(
             print_yellow(f"'{export_fp}' already exists. Skip...")
             return
 
-    uids_fp = Path(uids_fp)
-    assert uids_fp.exists()
-
-    with open(uids_fp, "r") as f:
-        uid_splits = json.load(f)
-
     with open(ref_fp, "rb") as f:
         refs: list = pickle.load(f)
 
     print(f"Loaded {len(refs)} refs from {ref_fp}")
 
-    uid_ref_map = {}
+    refs_flatten = []
     for ref in refs:
         ref_id = ref.get("ref_id")
         num_sent = len(ref.get("sent_ids"))
@@ -59,29 +56,21 @@ def split_original(
             # new_ref["split"] = new_split
             new_ref["sent_ids"] = [ref["sent_ids"][i]]
             new_ref["sentences"] = [ref["sentences"][i]]
-            uid_ref_map[uid] = new_ref
+            refs_flatten.append(new_ref)
+
+    random.shuffle(refs_flatten)
+    split_idx = int(len(refs_flatten) * 0.6)
+    support_random = refs_flatten[:split_idx]
+    query_random = refs_flatten[split_idx:]
 
     new_refs = []
-    for new_split in [
-        "meta_support",
-        "meta_query_sww",
-        "meta_query_swp",
-        "meta_query_spp",
-        "meta_support_sww",
-        "meta_support_swp",
-        "meta_support_spp",
-    ]:
-        set_uids = uid_splits.get(new_split, [])
-        print(f" >>>>>>>>>>   Split [{new_split}] has {len(set_uids)} uids")
-        for uid in set_uids:
-            new_ref = copy.deepcopy(uid_ref_map.get(uid))
-            if new_ref is None:
-                print_red(f"UID {uid} not found in original refs")
-                continue
-            new_ref["split"] = new_split
-            new_refs.append(new_ref)
 
-    print(f"Total {len(new_refs)} new refs are generated (with each contains one sent)")
+    for ref in support_random:
+        ref["split"] = "meta_support_random"
+        new_refs.append(ref)
+    for ref in query_random:
+        ref["split"] = "meta_query_random"
+        new_refs.append(ref)
 
     with export_fp.open("wb") as f:
         pickle.dump(new_refs, f)
@@ -101,13 +90,8 @@ def check(dataset: str, split_by: str):
     )
     print("Among them:")
     for split_name in [
-        "meta_support",
-        "meta_query_sww",
-        "meta_query_swp",
-        "meta_query_spp",
-        "meta_support_sww",
-        "meta_support_swp",
-        "meta_support_spp",
+        "meta_support_random",
+        "meta_query_random",
     ]:
         ref_ids = refer.getRefIds(split=split_name)
         print_cyan(f"{len(ref_ids)} refs are in split [{split_name}].")
@@ -116,46 +100,34 @@ def check(dataset: str, split_by: str):
             continue
 
 
-def main(split_num: int):
-    assert split_num in [1, 2, 3, 5, 6, 7, 8]
+def main(seed: int):
 
-    split_dir = (
-        ROOT.parent
-        / "DEEP_LEARNING"
-        / "novel_composition"
-        / "data"
-        / f"meta_split{split_num}"
-    )
-
-    split_original(
+    split_random(
         dataset="refcoco",
         split_by="unc",
-        uids_fp=split_dir / "refcoco_unc_train_split_uids.json",
-        new_split_by=f"meta_split{split_num}s",
+        new_split_by=f"meta_split_rand{seed}",
         overwrite=False,
+        seed=seed,
     )
-    split_original(
+    split_random(
         dataset="refcoco+",
         split_by="unc",
-        uids_fp=split_dir / "refcoco+_unc_train_split_uids.json",
-        new_split_by=f"meta_split{split_num}s",
+        new_split_by=f"meta_split_rand{seed}",
         overwrite=False,
+        seed=seed,
     )
-    split_original(
+    split_random(
         dataset="refcocog",
         split_by="umd",
-        uids_fp=split_dir / "refcocog_umd_train_split_uids.json",
-        new_split_by=f"meta_split{split_num}s",
+        new_split_by=f"meta_split_rand{seed}",
         overwrite=False,
+        seed=seed,
     )
 
-    check(dataset="refcoco", split_by=f"meta_split{split_num}s")
-    check(dataset="refcoco+", split_by=f"meta_split{split_num}s")
-    check(dataset="refcocog", split_by=f"meta_split{split_num}s")
+    check(dataset="refcoco", split_by=f"meta_split_rand{seed}")
+    check(dataset="refcoco+", split_by=f"meta_split_rand{seed}")
+    check(dataset="refcocog", split_by=f"meta_split_rand{seed}")
 
 
 if __name__ == "__main__":
-    main(5)
-    main(6)
-    main(7)
-    main(8)
+    main(seed=0)
