@@ -389,13 +389,21 @@ def inspect_candidates():
     with open("candidates.json", "r") as f:
         candidates = json.load(f)
 
-    for candidate in candidates:
-        H = candidate["H"]
-        M = candidate["M"]
-        N = candidate["N"]
-        print("H Sent:", end=" ")
-        print_cyan(H[5])
-        print_yellow(H[7])
+    all_H = [x["H"] for x in candidates]
+    md_lines = [f"| {x[0]} | {x[5]} | ![]({x[6]}) | {x[7]} |" for x in all_H]
+    md_lines = ["| idx | sent | vi | nc |"] + ["| --- | --- | --- | --- |"] + md_lines
+
+    with Path("candidates-H.md").open("w") as f:
+        f.write("\n".join(md_lines))
+        print_green("Saved md file")
+
+    # for candidate in candidates:
+    #     H = candidate["H"]
+    #     M = candidate["M"]
+    #     N = candidate["N"]
+    #     print("H Sent:", end=" ")
+    #     print_cyan(H[5])
+    #     print_yellow(H[7])
 
 
 if __name__ == "__main__":
@@ -403,5 +411,5 @@ if __name__ == "__main__":
     init()
     # main()
     # find_p1()
-    generate_visual_for_candidates()
-    # inspect_candidates()
+    # generate_visual_for_candidates()
+    inspect_candidates()
