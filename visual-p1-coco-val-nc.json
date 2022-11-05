@@ -1,0 +1,6081 @@
+[
+    [
+        0,
+        120624,
+        77,
+        "--- swp ---",
+        0.0,
+        "bowl behind the others can only see part",
+        "visual-p1/refcoco_unc_ref77_idx0_pred_bad.png",
+        [
+            "[bowl] [behind the others]"
+        ]
+    ],
+    [
+        62,
+        120686,
+        395,
+        "--- swp ---",
+        0.09694126844522623,
+        "person in white sleeping far away",
+        "visual-p1/refcoco_unc_ref395_idx62_pred_bad.png",
+        [
+            "[sleeping] [far away]"
+        ]
+    ],
+    [
+        63,
+        120687,
+        395,
+        "sww --- ---",
+        0.06696718824498288,
+        "sleeping guy in back",
+        "visual-p1/refcoco_unc_ref395_idx63_pred_bad.png",
+        [
+            "[sleeping] [guy]"
+        ]
+    ],
+    [
+        74,
+        120698,
+        412,
+        "--- swp ---",
+        0.0010143641204919667,
+        "girl at the sink",
+        "visual-p1/refcoco_unc_ref412_idx74_pred_bad.png",
+        [
+            "[girl] [at the sink]"
+        ]
+    ],
+    [
+        159,
+        120783,
+        788,
+        "sww --- ---",
+        0.0,
+        "man in jersey",
+        "visual-p1/refcoco_unc_ref788_idx159_pred_bad.png",
+        [
+            "[in] [jersey]"
+        ]
+    ],
+    [
+        160,
+        120784,
+        788,
+        "--- swp ---",
+        0.0,
+        "guy in back with arm on chair",
+        "visual-p1/refcoco_unc_ref788_idx160_pred_bad.png",
+        [
+            "[arm] [on chair]"
+        ]
+    ],
+    [
+        161,
+        120785,
+        788,
+        "sww --- ---",
+        0.006869385598309075,
+        "guy back navy 07",
+        "visual-p1/refcoco_unc_ref788_idx161_pred_bad.png",
+        [
+            "[back] [navy]",
+            "[navy] [07]"
+        ]
+    ],
+    [
+        164,
+        120788,
+        789,
+        "sww --- spp",
+        0.0005197089629807308,
+        "chair on far right in foreground",
+        "visual-p1/refcoco_unc_ref789_idx164_pred_bad.png",
+        [
+            "[far right] [in foreground]",
+            "[chair] [on]"
+        ]
+    ],
+    [
+        210,
+        120834,
+        1175,
+        "sww --- ---",
+        0.0,
+        "dude whos way too cool to wear a purple tshirt",
+        "visual-p1/refcoco_unc_ref1175_idx210_pred_bad.png",
+        [
+            "[s] [way]",
+            "[too] [cool]"
+        ]
+    ],
+    [
+        257,
+        120881,
+        1383,
+        "sww --- ---",
+        0.0,
+        "car next to cab",
+        "visual-p1/refcoco_unc_ref1383_idx257_pred_bad.png",
+        [
+            "[to] [cab]"
+        ]
+    ],
+    [
+        344,
+        120968,
+        1802,
+        "sww --- ---",
+        0.00045167118337850043,
+        "umbrella floor",
+        "visual-p1/refcoco_unc_ref1802_idx344_pred_bad.png",
+        [
+            "[umbrella] [floor]"
+        ]
+    ],
+    [
+        379,
+        121003,
+        1960,
+        "sww --- ---",
+        0.0,
+        "huge butt",
+        "visual-p1/refcoco_unc_ref1960_idx379_pred_bad.png",
+        [
+            "[huge] [butt]"
+        ]
+    ],
+    [
+        387,
+        121011,
+        1969,
+        "sww --- ---",
+        0.0006285355122564425,
+        "top comic near front",
+        "visual-p1/refcoco_unc_ref1969_idx387_pred_bad.png",
+        [
+            "[top] [comic]"
+        ]
+    ],
+    [
+        388,
+        121012,
+        1969,
+        "--- --- spp",
+        0.00021177467174925878,
+        "open book left of man",
+        "visual-p1/refcoco_unc_ref1969_idx388_pred_bad.png",
+        [
+            "[open book] [left of man]"
+        ]
+    ],
+    [
+        389,
+        121013,
+        1969,
+        "sww --- ---",
+        0.001018959933039776,
+        "front top magazine",
+        "visual-p1/refcoco_unc_ref1969_idx389_pred_bad.png",
+        [
+            "[top] [magazine]"
+        ]
+    ],
+    [
+        393,
+        121017,
+        2003,
+        "sww --- ---",
+        0.0,
+        "last book on top right",
+        "visual-p1/refcoco_unc_ref2003_idx393_pred_bad.png",
+        [
+            "[last] [book]"
+        ]
+    ],
+    [
+        395,
+        121019,
+        2003,
+        "sww swp ---",
+        0.0,
+        "book next ti bible on right",
+        "visual-p1/refcoco_unc_ref2003_idx395_pred_bad.png",
+        [
+            "[bible] [on right]",
+            "[next] [ti]"
+        ]
+    ],
+    [
+        516,
+        121140,
+        2672,
+        "--- swp spp",
+        0.016222263658400148,
+        "man in right front with blue tie next to older woman",
+        "visual-p1/refcoco_unc_ref2672_idx516_pred_bad.png",
+        [
+            "[right front] [with blue tie]",
+            "[to] [older woman]",
+            "[with blue tie] [next]"
+        ]
+    ],
+    [
+        535,
+        121159,
+        2678,
+        "--- swp ---",
+        0.014959257307333685,
+        "bootom far left guy",
+        "visual-p1/refcoco_unc_ref2678_idx535_pred_bad.png",
+        [
+            "[far left] [guy]"
+        ]
+    ],
+    [
+        683,
+        121307,
+        3254,
+        "sww --- ---",
+        0.0,
+        "man wearing skiis",
+        "visual-p1/refcoco_unc_ref3254_idx683_pred_bad.png",
+        [
+            "[wearing] [skiis]"
+        ]
+    ],
+    [
+        726,
+        121350,
+        3520,
+        "sww --- ---",
+        0.029899398639914573,
+        "closed silver laptop",
+        "visual-p1/refcoco_unc_ref3520_idx726_pred_bad.png",
+        [
+            "[closed] [silver]"
+        ]
+    ],
+    [
+        740,
+        121364,
+        3572,
+        "sww --- ---",
+        0.0,
+        "person in background directly above fist",
+        "visual-p1/refcoco_unc_ref3572_idx740_pred_bad.png",
+        [
+            "[above] [fist]"
+        ]
+    ],
+    [
+        741,
+        121365,
+        3572,
+        "sww swp ---",
+        0.0,
+        "guy in stands above tennis players hand",
+        "visual-p1/refcoco_unc_ref3572_idx741_pred_bad.png",
+        [
+            "[guy] [in stands]",
+            "[in stands] [above]",
+            "[tennis] [players]"
+        ]
+    ],
+    [
+        754,
+        121378,
+        3642,
+        "sww --- ---",
+        0.010866984939202911,
+        "right bannana on cluster",
+        "visual-p1/refcoco_unc_ref3642_idx754_pred_bad.png",
+        [
+            "[on] [cluster]"
+        ]
+    ],
+    [
+        765,
+        121389,
+        3651,
+        "sww --- ---",
+        0.0,
+        "black on right beside plate in front",
+        "visual-p1/refcoco_unc_ref3651_idx765_pred_bad.png",
+        [
+            "[beside] [plate]"
+        ]
+    ],
+    [
+        774,
+        121398,
+        3700,
+        "sww --- ---",
+        0.0,
+        "man wearing flame shirt",
+        "visual-p1/refcoco_unc_ref3700_idx774_pred_bad.png",
+        [
+            "[flame] [shirt]"
+        ]
+    ],
+    [
+        781,
+        121405,
+        3702,
+        "--- --- spp",
+        0.0029815146094215863,
+        "the person holding the pie",
+        "visual-p1/refcoco_unc_ref3702_idx781_pred_bad.png",
+        [
+            "[the person] [holding the pie]"
+        ]
+    ],
+    [
+        803,
+        121427,
+        3810,
+        "--- swp ---",
+        0.0,
+        "stripes above red",
+        "visual-p1/refcoco_unc_ref3810_idx803_pred_bad.png",
+        [
+            "[stripes] [above red]"
+        ]
+    ],
+    [
+        819,
+        121443,
+        3890,
+        "sww --- ---",
+        0.04965532577273738,
+        "man in usa tee",
+        "visual-p1/refcoco_unc_ref3890_idx819_pred_bad.png",
+        [
+            "[usa] [tee]"
+        ]
+    ],
+    [
+        841,
+        121465,
+        4020,
+        "sww --- ---",
+        0.0,
+        "sitting back to us",
+        "visual-p1/refcoco_unc_ref4020_idx841_pred_bad.png",
+        [
+            "[sitting] [back]"
+        ]
+    ],
+    [
+        853,
+        121477,
+        4098,
+        "--- swp ---",
+        1.9047981866321262e-05,
+        "older boy between the candles",
+        "visual-p1/refcoco_unc_ref4098_idx853_pred_bad.png",
+        [
+            "[between] [the candles]"
+        ]
+    ],
+    [
+        896,
+        121520,
+        4248,
+        "sww --- ---",
+        0.0,
+        "fabric behind scissors",
+        "visual-p1/refcoco_unc_ref4248_idx896_pred_bad.png",
+        [
+            "[behind] [scissors]"
+        ]
+    ],
+    [
+        899,
+        121523,
+        4249,
+        "--- swp spp",
+        0.012004943211910786,
+        "tie second bottom from top",
+        "visual-p1/refcoco_unc_ref4249_idx899_pred_bad.png",
+        [
+            "[second bottom] [from top]",
+            "[tie] [second bottom]"
+        ]
+    ],
+    [
+        900,
+        121524,
+        4249,
+        "sww --- ---",
+        0.056558473133965476,
+        "second tie from top paisley",
+        "visual-p1/refcoco_unc_ref4249_idx900_pred_bad.png",
+        [
+            "[top] [paisley]"
+        ]
+    ],
+    [
+        911,
+        121535,
+        4321,
+        "sww swp ---",
+        0.0,
+        "rofl edge of couch near her arm",
+        "visual-p1/refcoco_unc_ref4321_idx911_pred_bad.png",
+        [
+            "[near] [her arm]",
+            "[rofl] [edge]"
+        ]
+    ],
+    [
+        913,
+        121537,
+        4321,
+        "sww --- ---",
+        0.00016087947446038342,
+        "arm couch left",
+        "visual-p1/refcoco_unc_ref4321_idx913_pred_bad.png",
+        [
+            "[arm] [couch]"
+        ]
+    ],
+    [
+        970,
+        121594,
+        4585,
+        "sww --- ---",
+        0.0,
+        "the empty water glass",
+        "visual-p1/refcoco_unc_ref4585_idx970_pred_bad.png",
+        [
+            "[empty] [water]"
+        ]
+    ],
+    [
+        1005,
+        121629,
+        4828,
+        "sww --- ---",
+        0.06126011744167593,
+        "top right person stripes",
+        "visual-p1/refcoco_unc_ref4828_idx1005_pred_bad.png",
+        [
+            "[person] [stripes]"
+        ]
+    ],
+    [
+        1026,
+        121650,
+        4974,
+        "sww --- ---",
+        0.0,
+        "center knife",
+        "visual-p1/refcoco_unc_ref4974_idx1026_pred_bad.png",
+        [
+            "[center] [knife]"
+        ]
+    ],
+    [
+        1027,
+        121651,
+        4975,
+        "sww --- ---",
+        0.0,
+        "third knife from bottom",
+        "visual-p1/refcoco_unc_ref4975_idx1027_pred_bad.png",
+        [
+            "[third] [knife]"
+        ]
+    ],
+    [
+        1028,
+        121652,
+        4975,
+        "sww --- ---",
+        0.0,
+        "third knife from bottom",
+        "visual-p1/refcoco_unc_ref4975_idx1028_pred_bad.png",
+        [
+            "[third] [knife]"
+        ]
+    ],
+    [
+        1029,
+        121653,
+        4975,
+        "sww --- ---",
+        0.0,
+        "third blade from bottom fourth handle from bottom",
+        "visual-p1/refcoco_unc_ref4975_idx1029_pred_bad.png",
+        [
+            "[fourth] [handle]",
+            "[third] [blade]"
+        ]
+    ],
+    [
+        1063,
+        121687,
+        5143,
+        "--- swp spp",
+        0.07056025369978858,
+        "muffin behind big one in front",
+        "visual-p1/refcoco_unc_ref5143_idx1063_pred_bad.png",
+        [
+            "[behind big one] [in front]",
+            "[muffin] [behind big one]"
+        ]
+    ],
+    [
+        1128,
+        121752,
+        5283,
+        "sww --- ---",
+        0.008342287779622936,
+        "banana closet to the green apple and avocado",
+        "visual-p1/refcoco_unc_ref5283_idx1128_pred_bad.png",
+        [
+            "[apple] [and]",
+            "[and] [avocado]",
+            "[banana] [closet]"
+        ]
+    ],
+    [
+        1148,
+        121772,
+        5436,
+        "--- swp ---",
+        0.0,
+        "bear behind tree",
+        "visual-p1/refcoco_unc_ref5436_idx1148_pred_bad.png",
+        [
+            "[bear] [behind tree]"
+        ]
+    ],
+    [
+        1161,
+        121785,
+        5469,
+        "--- swp ---",
+        0.0,
+        "broccoli by the spoon it is on the left plate",
+        "visual-p1/refcoco_unc_ref5469_idx1161_pred_bad.png",
+        [
+            "[by] [the spoon]"
+        ]
+    ],
+    [
+        1180,
+        121804,
+        5723,
+        "sww --- ---",
+        0.06889108178117676,
+        "red shirt right of dude looking at us person",
+        "visual-p1/refcoco_unc_ref5723_idx1180_pred_bad.png",
+        [
+            "[us] [person]"
+        ]
+    ],
+    [
+        1299,
+        121923,
+        6234,
+        "--- swp ---",
+        0.08786013392254105,
+        "toilet seat hangin on right with moon on it",
+        "visual-p1/refcoco_unc_ref6234_idx1299_pred_bad.png",
+        [
+            "[toilet seat] [hangin]"
+        ]
+    ],
+    [
+        1301,
+        121925,
+        6235,
+        "sww --- ---",
+        0.02118900593292166,
+        "guitar seat",
+        "visual-p1/refcoco_unc_ref6235_idx1301_pred_bad.png",
+        [
+            "[guitar] [seat]"
+        ]
+    ],
+    [
+        1333,
+        121957,
+        6421,
+        "--- --- spp",
+        0.033804259678176615,
+        "second car from left blue",
+        "visual-p1/refcoco_unc_ref6421_idx1333_pred_bad.png",
+        [
+            "[second car] [from left blue]"
+        ]
+    ],
+    [
+        1352,
+        121976,
+        6469,
+        "sww --- ---",
+        0.07316174966242481,
+        "i meant giraffee",
+        "visual-p1/refcoco_unc_ref6469_idx1352_pred_bad.png",
+        [
+            "[meant] [giraffee]"
+        ]
+    ],
+    [
+        1400,
+        122024,
+        6708,
+        "sww --- ---",
+        0.0,
+        "unit person is touching",
+        "visual-p1/refcoco_unc_ref6708_idx1400_pred_bad.png",
+        [
+            "[unit] [person]"
+        ]
+    ],
+    [
+        1407,
+        122031,
+        6711,
+        "sww swp ---",
+        0.0,
+        "middle square three from the right",
+        "visual-p1/refcoco_unc_ref6711_idx1407_pred_bad.png",
+        [
+            "[three] [from the right]",
+            "[square] [three]"
+        ]
+    ],
+    [
+        1408,
+        122032,
+        6711,
+        "--- swp ---",
+        0.0,
+        "middle box third row from right",
+        "visual-p1/refcoco_unc_ref6711_idx1408_pred_bad.png",
+        [
+            "[row] [from right]"
+        ]
+    ],
+    [
+        1410,
+        122034,
+        6712,
+        "--- swp ---",
+        0.002243464689816621,
+        "top box to right of black box",
+        "visual-p1/refcoco_unc_ref6712_idx1410_pred_bad.png",
+        [
+            "[of] [black box]"
+        ]
+    ],
+    [
+        1411,
+        122035,
+        6712,
+        "--- swp ---",
+        0.05757449901360191,
+        "top of third applicance over from right",
+        "visual-p1/refcoco_unc_ref6712_idx1411_pred_bad.png",
+        [
+            "[over] [from right]"
+        ]
+    ],
+    [
+        1412,
+        122036,
+        6713,
+        "sww swp ---",
+        0.0,
+        "appliances inf front of man bottom right",
+        "visual-p1/refcoco_unc_ref6713_idx1412_pred_bad.png",
+        [
+            "[of man] [bottom]",
+            "[inf] [front]"
+        ]
+    ],
+    [
+        1415,
+        122039,
+        6714,
+        "--- swp ---",
+        0.033108962312502134,
+        "middle white below black one",
+        "visual-p1/refcoco_unc_ref6714_idx1415_pred_bad.png",
+        [
+            "[middle white] [below]",
+            "[below] [black one]"
+        ]
+    ],
+    [
+        1416,
+        122040,
+        6714,
+        "sww --- ---",
+        4.408976676513381e-05,
+        "one with orange tag",
+        "visual-p1/refcoco_unc_ref6714_idx1416_pred_bad.png",
+        [
+            "[orange] [tag]"
+        ]
+    ],
+    [
+        1418,
+        122042,
+        6715,
+        "--- swp ---",
+        0.003732654136659055,
+        "second from left fridge",
+        "visual-p1/refcoco_unc_ref6715_idx1418_pred_bad.png",
+        [
+            "[from] [left fridge]"
+        ]
+    ],
+    [
+        1436,
+        122060,
+        6737,
+        "sww --- ---",
+        0.019383578136287022,
+        "man with white top hair",
+        "visual-p1/refcoco_unc_ref6737_idx1436_pred_bad.png",
+        [
+            "[top] [hair]"
+        ]
+    ],
+    [
+        1441,
+        122065,
+        6846,
+        "sww --- ---",
+        0.0,
+        "the empty drink galss near the shells",
+        "visual-p1/refcoco_unc_ref6846_idx1441_pred_bad.png",
+        [
+            "[empty] [drink]",
+            "[drink] [galss]"
+        ]
+    ],
+    [
+        1446,
+        122070,
+        6867,
+        "--- --- spp",
+        0.0005946910309779965,
+        "the gazed donut in the middle from the right",
+        "visual-p1/refcoco_unc_ref6867_idx1446_pred_bad.png",
+        [
+            "[in the middle] [from the right]"
+        ]
+    ],
+    [
+        1448,
+        122072,
+        6868,
+        "sww --- ---",
+        0.0,
+        "bottom right hand doughnut",
+        "visual-p1/refcoco_unc_ref6868_idx1448_pred_bad.png",
+        [
+            "[hand] [doughnut]"
+        ]
+    ],
+    [
+        1450,
+        122074,
+        6869,
+        "sww --- ---",
+        0.00613945329630171,
+        "bottom row light full donut",
+        "visual-p1/refcoco_unc_ref6869_idx1450_pred_bad.png",
+        [
+            "[row] [light]",
+            "[light] [full]"
+        ]
+    ],
+    [
+        1520,
+        122144,
+        7090,
+        "--- --- spp",
+        0.0,
+        "the suitcase on the table",
+        "visual-p1/refcoco_unc_ref7090_idx1520_pred_bad.png",
+        [
+            "[the suitcase] [on the table]"
+        ]
+    ],
+    [
+        1530,
+        122154,
+        7240,
+        "sww --- ---",
+        0.021892206692079627,
+        "blurry broccoli top right",
+        "visual-p1/refcoco_unc_ref7240_idx1530_pred_bad.png",
+        [
+            "[blurry] [broccoli]"
+        ]
+    ],
+    [
+        1543,
+        122167,
+        7261,
+        "--- swp ---",
+        0.0,
+        "girl with mic",
+        "visual-p1/refcoco_unc_ref7261_idx1543_pred_bad.png",
+        [
+            "[girl] [with mic]"
+        ]
+    ],
+    [
+        1544,
+        122168,
+        7261,
+        "sww --- ---",
+        0.0,
+        "girl at microphone",
+        "visual-p1/refcoco_unc_ref7261_idx1544_pred_bad.png",
+        [
+            "[at] [microphone]"
+        ]
+    ],
+    [
+        1545,
+        122169,
+        7261,
+        "sww --- ---",
+        0.0,
+        "girl at mike",
+        "visual-p1/refcoco_unc_ref7261_idx1545_pred_bad.png",
+        [
+            "[at] [mike]"
+        ]
+    ],
+    [
+        1552,
+        122176,
+        7264,
+        "sww --- ---",
+        0.0,
+        "last boy in line",
+        "visual-p1/refcoco_unc_ref7264_idx1552_pred_bad.png",
+        [
+            "[last] [boy]"
+        ]
+    ],
+    [
+        1558,
+        122182,
+        7266,
+        "sww --- ---",
+        0.046785379568884726,
+        "fat boy on right behind mike",
+        "visual-p1/refcoco_unc_ref7266_idx1558_pred_bad.png",
+        [
+            "[behind] [mike]"
+        ]
+    ],
+    [
+        1560,
+        122184,
+        7266,
+        "sww --- ---",
+        0.06750280793710221,
+        "fat boy on the right behind microphone",
+        "visual-p1/refcoco_unc_ref7266_idx1560_pred_bad.png",
+        [
+            "[behind] [microphone]"
+        ]
+    ],
+    [
+        1566,
+        122190,
+        7295,
+        "sww --- ---",
+        0.0,
+        "wine glass bottomright",
+        "visual-p1/refcoco_unc_ref7295_idx1566_pred_bad.png",
+        [
+            "[glass] [bottomright]"
+        ]
+    ],
+    [
+        1609,
+        122233,
+        7546,
+        "--- swp ---",
+        0.0,
+        "a glass on a table",
+        "visual-p1/refcoco_unc_ref7546_idx1609_pred_bad.png",
+        [
+            "[on] [a table]"
+        ]
+    ],
+    [
+        1665,
+        122289,
+        7739,
+        "--- swp ---",
+        0.05791480835110852,
+        "left upper person",
+        "visual-p1/refcoco_unc_ref7739_idx1665_pred_bad.png",
+        [
+            "[left] [upper person]"
+        ]
+    ],
+    [
+        1690,
+        122314,
+        7888,
+        "sww --- ---",
+        0.030840361751854485,
+        "middle front horse blond hair",
+        "visual-p1/refcoco_unc_ref7888_idx1690_pred_bad.png",
+        [
+            "[horse] [blond]"
+        ]
+    ],
+    [
+        1701,
+        122325,
+        7941,
+        "sww --- ---",
+        0.0,
+        "not full chair",
+        "visual-p1/refcoco_unc_ref7941_idx1701_pred_bad.png",
+        [
+            "[not] [full]",
+            "[full] [chair]"
+        ]
+    ],
+    [
+        1716,
+        122340,
+        7976,
+        "sww swp ---",
+        0.0,
+        "image in front of players chin",
+        "visual-p1/refcoco_unc_ref7976_idx1716_pred_bad.png",
+        [
+            "[front] [of players]",
+            "[image] [in]"
+        ]
+    ],
+    [
+        1749,
+        122373,
+        8162,
+        "sww --- ---",
+        0.002733923758182518,
+        "person to left if man in fatigues front",
+        "visual-p1/refcoco_unc_ref8162_idx1749_pred_bad.png",
+        [
+            "[fatigues] [front]"
+        ]
+    ],
+    [
+        1753,
+        122377,
+        8164,
+        "--- swp ---",
+        0.016780619566134886,
+        "man in hat on the right next to guy in white shirt",
+        "visual-p1/refcoco_unc_ref8164_idx1753_pred_bad.png",
+        [
+            "[man in hat] [on]",
+            "[to] [guy in white shirt]"
+        ]
+    ],
+    [
+        1759,
+        122383,
+        8166,
+        "sww --- ---",
+        0.002062079444323855,
+        "guy left not camo",
+        "visual-p1/refcoco_unc_ref8166_idx1759_pred_bad.png",
+        [
+            "[not] [camo]"
+        ]
+    ],
+    [
+        1773,
+        122397,
+        8366,
+        "sww swp ---",
+        0.057734456107970934,
+        "person partially blocked by cake",
+        "visual-p1/refcoco_unc_ref8366_idx1773_pred_bad.png",
+        [
+            "[blocked] [by cake]",
+            "[partially] [blocked]"
+        ]
+    ],
+    [
+        1775,
+        122399,
+        8366,
+        "sww --- ---",
+        0.057662247438198345,
+        "person closet to cake woman",
+        "visual-p1/refcoco_unc_ref8366_idx1775_pred_bad.png",
+        [
+            "[cake] [woman]",
+            "[person] [closet]"
+        ]
+    ],
+    [
+        1813,
+        122437,
+        8446,
+        "sww --- ---",
+        0.0,
+        "back of her chair",
+        "visual-p1/refcoco_unc_ref8446_idx1813_pred_bad.png",
+        [
+            "[her] [chair]"
+        ]
+    ],
+    [
+        1833,
+        122457,
+        8542,
+        "--- swp ---",
+        0.00105267774902408,
+        "second elephant behind",
+        "visual-p1/refcoco_unc_ref8542_idx1833_pred_bad.png",
+        [
+            "[second elephant] [behind]"
+        ]
+    ],
+    [
+        1863,
+        122487,
+        8665,
+        "sww --- ---",
+        0.01634593468138452,
+        "blurry dug out player",
+        "visual-p1/refcoco_unc_ref8665_idx1863_pred_bad.png",
+        [
+            "[blurry] [dug]",
+            "[out] [player]"
+        ]
+    ],
+    [
+        1887,
+        122511,
+        8817,
+        "--- swp ---",
+        0.0002415151900343206,
+        "whats under the bag",
+        "visual-p1/refcoco_unc_ref8817_idx1887_pred_bad.png",
+        [
+            "[under] [the bag]"
+        ]
+    ],
+    [
+        1927,
+        122551,
+        9004,
+        "sww --- ---",
+        0.006961667319322978,
+        "monitor middle",
+        "visual-p1/refcoco_unc_ref9004_idx1927_pred_bad.png",
+        [
+            "[monitor] [middle]"
+        ]
+    ],
+    [
+        1952,
+        122576,
+        9087,
+        "--- swp ---",
+        0.0,
+        "food in center of bottom plate",
+        "visual-p1/refcoco_unc_ref9087_idx1952_pred_bad.png",
+        [
+            "[center] [of bottom plate]"
+        ]
+    ],
+    [
+        2035,
+        122659,
+        9450,
+        "sww --- ---",
+        0.0,
+        "crone with hand on mouse",
+        "visual-p1/refcoco_unc_ref9450_idx2035_pred_bad.png",
+        [
+            "[on] [mouse]"
+        ]
+    ],
+    [
+        2045,
+        122669,
+        9498,
+        "--- --- spp",
+        0.0,
+        "left pic girl in pink shirt",
+        "visual-p1/refcoco_unc_ref9498_idx2045_pred_bad.png",
+        [
+            "[pic girl] [in pink shirt]"
+        ]
+    ],
+    [
+        2077,
+        122701,
+        9666,
+        "--- swp ---",
+        0.0030745858352021994,
+        "bus going left to right",
+        "visual-p1/refcoco_unc_ref9666_idx2077_pred_bad.png",
+        [
+            "[going] [left to right]"
+        ]
+    ],
+    [
+        2078,
+        122702,
+        9666,
+        "sww --- ---",
+        0.003691334153629812,
+        "horizontal bus center",
+        "visual-p1/refcoco_unc_ref9666_idx2078_pred_bad.png",
+        [
+            "[horizontal] [bus]"
+        ]
+    ],
+    [
+        2088,
+        122712,
+        9670,
+        "sww swp ---",
+        0.0,
+        "third lane in red and white bus",
+        "visual-p1/refcoco_unc_ref9670_idx2088_pred_bad.png",
+        [
+            "[in] [red and white bus]",
+            "[third] [lane]"
+        ]
+    ],
+    [
+        2091,
+        122715,
+        9671,
+        "sww --- ---",
+        0.0,
+        "driver visible",
+        "visual-p1/refcoco_unc_ref9671_idx2091_pred_bad.png",
+        [
+            "[driver] [visible]"
+        ]
+    ],
+    [
+        2097,
+        122721,
+        9695,
+        "sww --- ---",
+        0.08776273241713824,
+        "right wine glass wred wine",
+        "visual-p1/refcoco_unc_ref9695_idx2097_pred_bad.png",
+        [
+            "[wred] [wine]"
+        ]
+    ],
+    [
+        2098,
+        122722,
+        9695,
+        "sww --- ---",
+        0.0,
+        "wine glass nearest female",
+        "visual-p1/refcoco_unc_ref9695_idx2098_pred_bad.png",
+        [
+            "[nearest] [female]"
+        ]
+    ],
+    [
+        2126,
+        122750,
+        9831,
+        "--- --- spp",
+        0.0,
+        "man with arm in front of him",
+        "visual-p1/refcoco_unc_ref9831_idx2126_pred_bad.png",
+        [
+            "[with arm] [in front of him]"
+        ]
+    ],
+    [
+        2148,
+        122772,
+        10079,
+        "--- --- spp",
+        0.001880002148573884,
+        "banana slices in bowl",
+        "visual-p1/refcoco_unc_ref10079_idx2148_pred_bad.png",
+        [
+            "[banana slices] [in bowl]"
+        ]
+    ],
+    [
+        2149,
+        122773,
+        10079,
+        "--- swp ---",
+        0.0,
+        "bananas inside the bowl",
+        "visual-p1/refcoco_unc_ref10079_idx2149_pred_bad.png",
+        [
+            "[bananas] [inside the bowl]"
+        ]
+    ],
+    [
+        2158,
+        122782,
+        10177,
+        "--- swp ---",
+        0.03353834326350182,
+        "front left orange tilted toward back right",
+        "visual-p1/refcoco_unc_ref10177_idx2158_pred_bad.png",
+        [
+            "[toward] [back right]"
+        ]
+    ],
+    [
+        2164,
+        122788,
+        10179,
+        "sww --- ---",
+        0.040512936904221516,
+        "orange in the bottom left counting counterclockwise from the top its number 5",
+        "visual-p1/refcoco_unc_ref10179_idx2164_pred_bad.png",
+        [
+            "[its] [number]",
+            "[orange] [in]",
+            "[left] [counting]"
+        ]
+    ],
+    [
+        2183,
+        122807,
+        10269,
+        "--- swp ---",
+        0.025136489312430704,
+        "man getting cut",
+        "visual-p1/refcoco_unc_ref10269_idx2183_pred_bad.png",
+        [
+            "[man] [getting cut]"
+        ]
+    ],
+    [
+        2212,
+        122836,
+        10325,
+        "sww --- ---",
+        0.0012054417082831067,
+        "kid in black arms out",
+        "visual-p1/refcoco_unc_ref10325_idx2212_pred_bad.png",
+        [
+            "[black] [arms]"
+        ]
+    ],
+    [
+        2234,
+        122858,
+        10490,
+        "sww swp ---",
+        0.0019627669065603996,
+        "far item multicolored in front of child",
+        "visual-p1/refcoco_unc_ref10490_idx2234_pred_bad.png",
+        [
+            "[front] [of child]",
+            "[far] [item]"
+        ]
+    ],
+    [
+        2307,
+        122931,
+        10807,
+        "--- swp ---",
+        0.0,
+        "man standing in the back",
+        "visual-p1/refcoco_unc_ref10807_idx2307_pred_bad.png",
+        [
+            "[man] [standing in the back]"
+        ]
+    ],
+    [
+        2316,
+        122940,
+        10880,
+        "--- swp ---",
+        0.0,
+        "man in black shorts wwith yellow shoes",
+        "visual-p1/refcoco_unc_ref10880_idx2316_pred_bad.png",
+        [
+            "[wwith] [yellow shoes]"
+        ]
+    ],
+    [
+        2481,
+        123105,
+        11452,
+        "sww --- ---",
+        0.08107574636072046,
+        "partial zebra fourth from left",
+        "visual-p1/refcoco_unc_ref11452_idx2481_pred_bad.png",
+        [
+            "[zebra] [fourth]"
+        ]
+    ],
+    [
+        2517,
+        123141,
+        11557,
+        "sww --- ---",
+        0.027042240307713957,
+        "person bending washing dishes",
+        "visual-p1/refcoco_unc_ref11557_idx2517_pred_bad.png",
+        [
+            "[washing] [dishes]"
+        ]
+    ],
+    [
+        2533,
+        123157,
+        11667,
+        "sww --- ---",
+        0.0,
+        "left side orange vase",
+        "visual-p1/refcoco_unc_ref11667_idx2533_pred_bad.png",
+        [
+            "[side] [orange]"
+        ]
+    ],
+    [
+        2539,
+        123163,
+        11669,
+        "--- swp ---",
+        0.08877005347593583,
+        "below orange vase on bottom left plant",
+        "visual-p1/refcoco_unc_ref11669_idx2539_pred_bad.png",
+        [
+            "[bottom left] [plant]",
+            "[below] [orange vase]"
+        ]
+    ],
+    [
+        2558,
+        123182,
+        11759,
+        "--- --- spp",
+        0.00046331395838598264,
+        "front chair left side",
+        "visual-p1/refcoco_unc_ref11759_idx2558_pred_bad.png",
+        [
+            "[front chair] [left side]"
+        ]
+    ],
+    [
+        2559,
+        123183,
+        11759,
+        "--- --- spp",
+        0.00045755168254232355,
+        "chair at the end of table on the left",
+        "visual-p1/refcoco_unc_ref11759_idx2559_pred_bad.png",
+        [
+            "[at the end of table] [on the left]"
+        ]
+    ],
+    [
+        2567,
+        123191,
+        11766,
+        "sww --- ---",
+        0.0012384598063499212,
+        "bird closer to left back facing us",
+        "visual-p1/refcoco_unc_ref11766_idx2567_pred_bad.png",
+        [
+            "[bird] [closer]",
+            "[closer] [to]"
+        ]
+    ],
+    [
+        2569,
+        123193,
+        11775,
+        "sww swp ---",
+        0.0005219206680584551,
+        "whole bear next to empty spot on center seat",
+        "visual-p1/refcoco_unc_ref11775_idx2569_pred_bad.png",
+        [
+            "[to] [empty spot]",
+            "[center] [seat]"
+        ]
+    ],
+    [
+        2593,
+        123217,
+        11899,
+        "--- --- spp",
+        0.004109637994496659,
+        "second sink from the left",
+        "visual-p1/refcoco_unc_ref11899_idx2593_pred_bad.png",
+        [
+            "[second sink] [from the left]"
+        ]
+    ],
+    [
+        2597,
+        123221,
+        11900,
+        "sww --- ---",
+        0.0015059047317111834,
+        "sink closest to towels",
+        "visual-p1/refcoco_unc_ref11900_idx2597_pred_bad.png",
+        [
+            "[to] [towels]"
+        ]
+    ],
+    [
+        2606,
+        123230,
+        11972,
+        "sww swp ---",
+        0.0,
+        "sixth bleacher from the bottom count the one shes sittign on",
+        "visual-p1/refcoco_unc_ref11972_idx2606_pred_bad.png",
+        [
+            "[the bottom] [count]",
+            "[sixth] [bleacher]"
+        ]
+    ],
+    [
+        2607,
+        123231,
+        11972,
+        "sww --- ---",
+        0.0,
+        "bleacher on either side of ears the thin bleacher",
+        "visual-p1/refcoco_unc_ref11972_idx2607_pred_bad.png",
+        [
+            "[of] [ears]",
+            "[thin] [bleacher]"
+        ]
+    ],
+    [
+        2608,
+        123232,
+        11972,
+        "sww --- ---",
+        0.0,
+        "click on either bleacher parellel to ears",
+        "visual-p1/refcoco_unc_ref11972_idx2608_pred_bad.png",
+        [
+            "[to] [ears]"
+        ]
+    ],
+    [
+        2624,
+        123248,
+        12007,
+        "--- --- spp",
+        0.0,
+        "second carrot from right",
+        "visual-p1/refcoco_unc_ref12007_idx2624_pred_bad.png",
+        [
+            "[second carrot] [from right]"
+        ]
+    ],
+    [
+        2628,
+        123252,
+        12009,
+        "sww swp ---",
+        0.0,
+        "carrot in middle with bottom pointing to knife",
+        "visual-p1/refcoco_unc_ref12009_idx2628_pred_bad.png",
+        [
+            "[pointing] [to knife]",
+            "[carrot] [in middle]",
+            "[bottom] [pointing]"
+        ]
+    ],
+    [
+        2635,
+        123259,
+        12051,
+        "--- swp ---",
+        0.008747835433211918,
+        "man in red shirt putting something in his mouth",
+        "visual-p1/refcoco_unc_ref12051_idx2635_pred_bad.png",
+        [
+            "[something] [in his mouth]"
+        ]
+    ],
+    [
+        2676,
+        123300,
+        12166,
+        "sww --- ---",
+        0.0,
+        "bike with big trailer center",
+        "visual-p1/refcoco_unc_ref12166_idx2676_pred_bad.png",
+        [
+            "[big] [trailer]",
+            "[trailer] [center]"
+        ]
+    ],
+    [
+        2743,
+        123367,
+        12500,
+        "--- --- spp",
+        4.520591293341169e-05,
+        "green shirt with soccer on it",
+        "visual-p1/refcoco_unc_ref12500_idx2743_pred_bad.png",
+        [
+            "[green shirt] [with soccer]",
+            "[with soccer] [on it]"
+        ]
+    ],
+    [
+        2769,
+        123393,
+        12531,
+        "--- swp ---",
+        0.0,
+        "dude in a white hat towards bottom center",
+        "visual-p1/refcoco_unc_ref12531_idx2769_pred_bad.png",
+        [
+            "[towards] [bottom center]"
+        ]
+    ],
+    [
+        2788,
+        123412,
+        12627,
+        "sww --- ---",
+        0.0,
+        "pastry next to right hand coffee mug",
+        "visual-p1/refcoco_unc_ref12627_idx2788_pred_bad.png",
+        [
+            "[hand] [coffee]",
+            "[pastry] [next]"
+        ]
+    ],
+    [
+        2817,
+        123441,
+        12766,
+        "--- swp ---",
+        0.0011879363847944143,
+        "license plate right",
+        "visual-p1/refcoco_unc_ref12766_idx2817_pred_bad.png",
+        [
+            "[license plate] [right]"
+        ]
+    ],
+    [
+        2827,
+        123451,
+        12786,
+        "--- swp ---",
+        0.0,
+        "the chair that the man in the dark polo is in",
+        "visual-p1/refcoco_unc_ref12786_idx2827_pred_bad.png",
+        [
+            "[in] [the dark polo]"
+        ]
+    ],
+    [
+        2862,
+        123486,
+        12907,
+        "--- swp ---",
+        0.024916501034772453,
+        "person on skis",
+        "visual-p1/refcoco_unc_ref12907_idx2862_pred_bad.png",
+        [
+            "[person] [on skis]"
+        ]
+    ],
+    [
+        2867,
+        123491,
+        12924,
+        "sww --- ---",
+        0.030901058894043997,
+        "pot cat is in",
+        "visual-p1/refcoco_unc_ref12924_idx2867_pred_bad.png",
+        [
+            "[pot] [cat]"
+        ]
+    ],
+    [
+        2868,
+        123492,
+        12924,
+        "--- swp ---",
+        0.05149147727272727,
+        "pot the cat is on",
+        "visual-p1/refcoco_unc_ref12924_idx2868_pred_bad.png",
+        [
+            "[pot] [the cat]"
+        ]
+    ],
+    [
+        2881,
+        123505,
+        12985,
+        "sww --- ---",
+        0.009317504611455328,
+        "bed next to rainbow colored bed",
+        "visual-p1/refcoco_unc_ref12985_idx2881_pred_bad.png",
+        [
+            "[colored] [bed]"
+        ]
+    ],
+    [
+        2890,
+        123514,
+        13005,
+        "sww --- ---",
+        0.0,
+        "hot dog on grill left side third from bottom",
+        "visual-p1/refcoco_unc_ref13005_idx2890_pred_bad.png",
+        [
+            "[on] [grill]"
+        ]
+    ],
+    [
+        2893,
+        123517,
+        13006,
+        "sww swp ---",
+        0.0515814365947384,
+        "left hand row of hot dogs fifth from the front",
+        "visual-p1/refcoco_unc_ref13006_idx2893_pred_bad.png",
+        [
+            "[of hot dogs] [fifth]",
+            "[fifth] [from the front]",
+            "[hand] [row]"
+        ]
+    ],
+    [
+        2894,
+        123518,
+        13006,
+        "sww swp ---",
+        0.0,
+        "fifth hot dog from front on left",
+        "visual-p1/refcoco_unc_ref13006_idx2894_pred_bad.png",
+        [
+            "[from] [front on left]",
+            "[fifth] [hot]"
+        ]
+    ],
+    [
+        2896,
+        123520,
+        13007,
+        "--- swp ---",
+        0.05005702183121538,
+        "left row second hot dog from bottom",
+        "visual-p1/refcoco_unc_ref13007_idx2896_pred_bad.png",
+        [
+            "[dog] [from bottom]"
+        ]
+    ],
+    [
+        2897,
+        123521,
+        13007,
+        "--- --- spp",
+        0.0,
+        "second hot dog left row",
+        "visual-p1/refcoco_unc_ref13007_idx2897_pred_bad.png",
+        [
+            "[second hot dog] [left row]"
+        ]
+    ],
+    [
+        2898,
+        123522,
+        13007,
+        "--- swp spp",
+        0.0,
+        "second row from right and second one from front",
+        "visual-p1/refcoco_unc_ref13007_idx2898_pred_bad.png",
+        [
+            "[second row] [from right]",
+            "[second one] [from front]",
+            "[and] [second one]"
+        ]
+    ],
+    [
+        2952,
+        123576,
+        13315,
+        "--- --- spp",
+        0.0010404899221118972,
+        "big sheep in front of blue guy",
+        "visual-p1/refcoco_unc_ref13315_idx2952_pred_bad.png",
+        [
+            "[big sheep] [in front of blue guy]"
+        ]
+    ],
+    [
+        2953,
+        123577,
+        13315,
+        "--- swp ---",
+        0.0011798310978638849,
+        "full sheep directly under mans left hand",
+        "visual-p1/refcoco_unc_ref13315_idx2953_pred_bad.png",
+        [
+            "[under] [mans left hand]"
+        ]
+    ],
+    [
+        2954,
+        123578,
+        13316,
+        "sww --- ---",
+        0.0,
+        "sheep that has his tail near mans headugh",
+        "visual-p1/refcoco_unc_ref13316_idx2954_pred_bad.png",
+        [
+            "[his] [tail]"
+        ]
+    ],
+    [
+        2957,
+        123581,
+        13317,
+        "--- --- spp",
+        0.003471830190809529,
+        "closest sheep thats looking at us second up",
+        "visual-p1/refcoco_unc_ref13317_idx2957_pred_bad.png",
+        [
+            "[at us] [second up]"
+        ]
+    ],
+    [
+        2958,
+        123582,
+        13317,
+        "sww --- ---",
+        0.0010059687479042317,
+        "first lamb facing us centerish",
+        "visual-p1/refcoco_unc_ref13317_idx2958_pred_bad.png",
+        [
+            "[us] [centerish]"
+        ]
+    ],
+    [
+        2959,
+        123583,
+        13318,
+        "sww --- ---",
+        0.0024864706742723417,
+        "sheep on the right that is facing us the rightmost one",
+        "visual-p1/refcoco_unc_ref13318_idx2959_pred_bad.png",
+        [
+            "[rightmost] [one]"
+        ]
+    ],
+    [
+        2963,
+        123587,
+        13319,
+        "--- swp ---",
+        0.08714896782592524,
+        "the sheep behind the sheep looking at the camera",
+        "visual-p1/refcoco_unc_ref13319_idx2963_pred_bad.png",
+        [
+            "[behind] [the sheep]"
+        ]
+    ],
+    [
+        2964,
+        123588,
+        13346,
+        "sww --- ---",
+        0.0,
+        "girls legs in redpink pants",
+        "visual-p1/refcoco_unc_ref13346_idx2964_pred_bad.png",
+        [
+            "[redpink] [pants]",
+            "[girls] [legs]"
+        ]
+    ],
+    [
+        2976,
+        123600,
+        13352,
+        "sww swp ---",
+        0.0,
+        "banan portion pointing towards the far left corner",
+        "visual-p1/refcoco_unc_ref13352_idx2976_pred_bad.png",
+        [
+            "[towards] [the far left corner]",
+            "[banan] [portion]"
+        ]
+    ],
+    [
+        2984,
+        123608,
+        13355,
+        "sww --- ---",
+        0.0,
+        "short banana second down",
+        "visual-p1/refcoco_unc_ref13355_idx2984_pred_bad.png",
+        [
+            "[short] [banana]"
+        ]
+    ],
+    [
+        2985,
+        123609,
+        13355,
+        "sww --- ---",
+        0.08819064966605951,
+        "banana touching top right corner of the sign",
+        "visual-p1/refcoco_unc_ref13355_idx2985_pred_bad.png",
+        [
+            "[touching] [top]"
+        ]
+    ],
+    [
+        2987,
+        123611,
+        13356,
+        "--- --- spp",
+        0.07097217088239953,
+        "top third from left banana",
+        "visual-p1/refcoco_unc_ref13356_idx2987_pred_bad.png",
+        [
+            "[top third] [from left banana]"
+        ]
+    ],
+    [
+        2989,
+        123613,
+        13357,
+        "sww --- ---",
+        0.000655512548383069,
+        "banana above free",
+        "visual-p1/refcoco_unc_ref13357_idx2989_pred_bad.png",
+        [
+            "[above] [free]"
+        ]
+    ],
+    [
+        2990,
+        123614,
+        13357,
+        "sww --- ---",
+        0.000749063670411985,
+        "banana just above free sign",
+        "visual-p1/refcoco_unc_ref13357_idx2990_pred_bad.png",
+        [
+            "[free] [sign]"
+        ]
+    ],
+    [
+        2991,
+        123615,
+        13357,
+        "sww --- ---",
+        0.0032702345764417332,
+        "banana right above free",
+        "visual-p1/refcoco_unc_ref13357_idx2991_pred_bad.png",
+        [
+            "[above] [free]"
+        ]
+    ],
+    [
+        3024,
+        123648,
+        13513,
+        "--- swp ---",
+        0.02911944202266783,
+        "the yellow stuff under the hotdog without a bun",
+        "visual-p1/refcoco_unc_ref13513_idx3024_pred_bad.png",
+        [
+            "[under] [the hotdog]",
+            "[without] [a bun]"
+        ]
+    ],
+    [
+        3036,
+        123660,
+        13596,
+        "--- swp ---",
+        0.0,
+        "stand back right",
+        "visual-p1/refcoco_unc_ref13596_idx3036_pred_bad.png",
+        [
+            "[stand] [back right]"
+        ]
+    ],
+    [
+        3037,
+        123661,
+        13596,
+        "sww --- ---",
+        0.014640302902818678,
+        "right table behind fruit",
+        "visual-p1/refcoco_unc_ref13596_idx3037_pred_bad.png",
+        [
+            "[behind] [fruit]"
+        ]
+    ],
+    [
+        3047,
+        123671,
+        13649,
+        "sww --- ---",
+        0.0,
+        "pastry above the brown donut",
+        "visual-p1/refcoco_unc_ref13649_idx3047_pred_bad.png",
+        [
+            "[pastry] [above]"
+        ]
+    ],
+    [
+        3052,
+        123676,
+        13651,
+        "sww --- ---",
+        0.0,
+        "halloween donut first row",
+        "visual-p1/refcoco_unc_ref13651_idx3052_pred_bad.png",
+        [
+            "[halloween] [donut]",
+            "[donut] [first]"
+        ]
+    ],
+    [
+        3075,
+        123699,
+        13677,
+        "--- --- spp",
+        0.0,
+        "old man in crowd",
+        "visual-p1/refcoco_unc_ref13677_idx3075_pred_bad.png",
+        [
+            "[old man] [in crowd]"
+        ]
+    ],
+    [
+        3076,
+        123700,
+        13677,
+        "--- --- spp",
+        0.0,
+        "old man in the stands",
+        "visual-p1/refcoco_unc_ref13677_idx3076_pred_bad.png",
+        [
+            "[old man] [in the stands]"
+        ]
+    ],
+    [
+        3095,
+        123719,
+        13776,
+        "--- swp spp",
+        0.0,
+        "kitchen drawers left on man toward top",
+        "visual-p1/refcoco_unc_ref13776_idx3095_pred_bad.png",
+        [
+            "[on man] [toward top]",
+            "[left] [on man]"
+        ]
+    ],
+    [
+        3096,
+        123720,
+        13776,
+        "sww swp spp",
+        0.030512025841372387,
+        "left drawer on table in back",
+        "visual-p1/refcoco_unc_ref13776_idx3096_pred_bad.png",
+        [
+            "[on table] [in back]",
+            "[drawer] [on table]",
+            "[left] [drawer]"
+        ]
+    ],
+    [
+        3097,
+        123721,
+        13776,
+        "sww --- ---",
+        0.0,
+        "drawer left",
+        "visual-p1/refcoco_unc_ref13776_idx3097_pred_bad.png",
+        [
+            "[drawer] [left]"
+        ]
+    ],
+    [
+        3139,
+        123763,
+        14036,
+        "--- --- spp",
+        0.0,
+        "the person in the background under elbow",
+        "visual-p1/refcoco_unc_ref14036_idx3139_pred_bad.png",
+        [
+            "[the background] [under elbow]"
+        ]
+    ],
+    [
+        3147,
+        123771,
+        14048,
+        "sww --- ---",
+        0.0,
+        "the book by richard",
+        "visual-p1/refcoco_unc_ref14048_idx3147_pred_bad.png",
+        [
+            "[by] [richard]"
+        ]
+    ],
+    [
+        3150,
+        123774,
+        14049,
+        "sww --- ---",
+        0.0,
+        "first book after the 3 black from right",
+        "visual-p1/refcoco_unc_ref14049_idx3150_pred_bad.png",
+        [
+            "[3] [black]"
+        ]
+    ],
+    [
+        3184,
+        123808,
+        14200,
+        "--- swp ---",
+        0.0,
+        "slice at 700 if it were a clock",
+        "visual-p1/refcoco_unc_ref14200_idx3184_pred_bad.png",
+        [
+            "[were] [a clock]"
+        ]
+    ],
+    [
+        3264,
+        123888,
+        14613,
+        "--- --- spp",
+        0.0,
+        "this side of net",
+        "visual-p1/refcoco_unc_ref14613_idx3264_pred_bad.png",
+        [
+            "[this side] [of net]"
+        ]
+    ],
+    [
+        3277,
+        123901,
+        14700,
+        "--- --- spp",
+        0.0,
+        "black screen behind boy",
+        "visual-p1/refcoco_unc_ref14700_idx3277_pred_bad.png",
+        [
+            "[black screen] [behind boy]"
+        ]
+    ],
+    [
+        3350,
+        123974,
+        15269,
+        "sww swp ---",
+        0.006762769176009966,
+        "table frame left side by womans shoulder",
+        "visual-p1/refcoco_unc_ref15269_idx3350_pred_bad.png",
+        [
+            "[by] [womans shoulder]",
+            "[table] [frame]"
+        ]
+    ],
+    [
+        3363,
+        123987,
+        15323,
+        "--- swp ---",
+        0.011072602634999108,
+        "woman with cake",
+        "visual-p1/refcoco_unc_ref15323_idx3363_pred_bad.png",
+        [
+            "[woman] [with cake]"
+        ]
+    ],
+    [
+        3406,
+        124030,
+        15513,
+        "sww --- spp",
+        0.0,
+        "red stool in very front of green one",
+        "visual-p1/refcoco_unc_ref15513_idx3406_pred_bad.png",
+        [
+            "[very front] [of green one]",
+            "[red] [stool]"
+        ]
+    ],
+    [
+        3478,
+        124102,
+        15794,
+        "--- --- spp",
+        0.010632406689555875,
+        "second person in from right",
+        "visual-p1/refcoco_unc_ref15794_idx3478_pred_bad.png",
+        [
+            "[second person] [in from right]"
+        ]
+    ],
+    [
+        3481,
+        124105,
+        15795,
+        "--- swp ---",
+        0.011181174023272443,
+        "man in fur coat middle",
+        "visual-p1/refcoco_unc_ref15795_idx3481_pred_bad.png",
+        [
+            "[fur coat] [middle]"
+        ]
+    ],
+    [
+        3550,
+        124174,
+        16233,
+        "--- swp ---",
+        0.0,
+        "second in top row",
+        "visual-p1/refcoco_unc_ref16233_idx3550_pred_bad.png",
+        [
+            "[second] [in top row]"
+        ]
+    ],
+    [
+        3562,
+        124186,
+        16237,
+        "sww --- ---",
+        0.009975734699379887,
+        "im so srry lol second from right back row",
+        "visual-p1/refcoco_unc_ref16237_idx3562_pred_bad.png",
+        [
+            "[m] [so]",
+            "[lol] [second]"
+        ]
+    ],
+    [
+        3574,
+        124198,
+        16339,
+        "--- swp ---",
+        0.0,
+        "person with yellow umbrella",
+        "visual-p1/refcoco_unc_ref16339_idx3574_pred_bad.png",
+        [
+            "[person] [with yellow umbrella]"
+        ]
+    ],
+    [
+        3592,
+        124216,
+        16417,
+        "sww --- spp",
+        0.0,
+        "leaf pointing left with white stripe on it",
+        "visual-p1/refcoco_unc_ref16417_idx3592_pred_bad.png",
+        [
+            "[white stripe] [on it]",
+            "[leaf] [pointing]"
+        ]
+    ],
+    [
+        3599,
+        124223,
+        16419,
+        "sww --- ---",
+        0.0,
+        "banana in the front fourth from the right",
+        "visual-p1/refcoco_unc_ref16419_idx3599_pred_bad.png",
+        [
+            "[front] [fourth]"
+        ]
+    ],
+    [
+        3621,
+        124245,
+        16536,
+        "sww --- ---",
+        0.0,
+        "super blurry guy",
+        "visual-p1/refcoco_unc_ref16536_idx3621_pred_bad.png",
+        [
+            "[super] [blurry]"
+        ]
+    ],
+    [
+        3632,
+        124256,
+        16563,
+        "--- --- spp",
+        0.08373000761614623,
+        "cow with nose over fence",
+        "visual-p1/refcoco_unc_ref16563_idx3632_pred_bad.png",
+        [
+            "[with nose] [over fence]"
+        ]
+    ],
+    [
+        3643,
+        124267,
+        16572,
+        "--- --- spp",
+        0.0,
+        "the goat on the right",
+        "visual-p1/refcoco_unc_ref16572_idx3643_pred_bad.png",
+        [
+            "[the goat] [on the right]"
+        ]
+    ],
+    [
+        3717,
+        124341,
+        16847,
+        "sww --- ---",
+        0.0,
+        "tight red car",
+        "visual-p1/refcoco_unc_ref16847_idx3717_pred_bad.png",
+        [
+            "[tight] [red]"
+        ]
+    ],
+    [
+        3738,
+        124362,
+        16872,
+        "--- swp ---",
+        0.08887268180871015,
+        "the one on the bottom on top of the one laying down",
+        "visual-p1/refcoco_unc_ref16872_idx3738_pred_bad.png",
+        [
+            "[on the bottom] [on]"
+        ]
+    ],
+    [
+        3741,
+        124365,
+        16873,
+        "sww swp ---",
+        0.0,
+        "teddy thats laying flat near middle",
+        "visual-p1/refcoco_unc_ref16873_idx3741_pred_bad.png",
+        [
+            "[flat] [near middle]",
+            "[teddy] [that]"
+        ]
+    ],
+    [
+        3745,
+        124369,
+        16874,
+        "sww --- ---",
+        0.05269566393830752,
+        "on top upside down lol",
+        "visual-p1/refcoco_unc_ref16874_idx3745_pred_bad.png",
+        [
+            "[top] [upside]",
+            "[down] [lol]"
+        ]
+    ],
+    [
+        3807,
+        124431,
+        17091,
+        "--- swp ---",
+        0.09355928354480683,
+        "laptop being used",
+        "visual-p1/refcoco_unc_ref17091_idx3807_pred_bad.png",
+        [
+            "[laptop] [being used]"
+        ]
+    ],
+    [
+        3867,
+        124491,
+        17361,
+        "sww --- ---",
+        0.002213009132164267,
+        "weekender skateboard douce",
+        "visual-p1/refcoco_unc_ref17361_idx3867_pred_bad.png",
+        [
+            "[weekender] [skateboard]",
+            "[skateboard] [douce]"
+        ]
+    ],
+    [
+        3893,
+        124517,
+        17534,
+        "sww --- ---",
+        0.035304669239549925,
+        "smily guy",
+        "visual-p1/refcoco_unc_ref17534_idx3893_pred_bad.png",
+        [
+            "[smily] [guy]"
+        ]
+    ],
+    [
+        3912,
+        124536,
+        17795,
+        "--- swp ---",
+        0.0,
+        "dude touching apple laptop",
+        "visual-p1/refcoco_unc_ref17795_idx3912_pred_bad.png",
+        [
+            "[touching] [apple laptop]"
+        ]
+    ],
+    [
+        3923,
+        124547,
+        17824,
+        "--- swp ---",
+        0.0,
+        "food with blue bottom",
+        "visual-p1/refcoco_unc_ref17824_idx3923_pred_bad.png",
+        [
+            "[food] [with blue bottom]"
+        ]
+    ],
+    [
+        3925,
+        124549,
+        17824,
+        "sww --- ---",
+        0.0,
+        "the sushi with the pink stick on it",
+        "visual-p1/refcoco_unc_ref17824_idx3925_pred_bad.png",
+        [
+            "[pink] [stick]"
+        ]
+    ],
+    [
+        3933,
+        124557,
+        17827,
+        "sww --- ---",
+        0.0,
+        "you clicked the correct one plate in the tray bottom right",
+        "visual-p1/refcoco_unc_ref17827_idx3933_pred_bad.png",
+        [
+            "[tray] [bottom]",
+            "[correct] [one]",
+            "[one] [plate]"
+        ]
+    ],
+    [
+        3943,
+        124567,
+        17840,
+        "--- swp ---",
+        0.0,
+        "snowboarder with blue pants",
+        "visual-p1/refcoco_unc_ref17840_idx3943_pred_bad.png",
+        [
+            "[snowboarder] [with blue pants]"
+        ]
+    ],
+    [
+        3945,
+        124569,
+        17840,
+        "sww --- ---",
+        0.0,
+        "snowboarder blue pants",
+        "visual-p1/refcoco_unc_ref17840_idx3945_pred_bad.png",
+        [
+            "[snowboarder] [blue]"
+        ]
+    ],
+    [
+        3949,
+        124573,
+        17844,
+        "--- --- spp",
+        0.0,
+        "blue part of table",
+        "visual-p1/refcoco_unc_ref17844_idx3949_pred_bad.png",
+        [
+            "[blue part] [of table]"
+        ]
+    ],
+    [
+        3987,
+        124611,
+        18120,
+        "--- --- spp",
+        0.07012608630130104,
+        "table area above bowl",
+        "visual-p1/refcoco_unc_ref18120_idx3987_pred_bad.png",
+        [
+            "[table area] [above bowl]"
+        ]
+    ],
+    [
+        3991,
+        124615,
+        18151,
+        "--- swp ---",
+        4.2884098576247925e-05,
+        "bed farthest from the tv",
+        "visual-p1/refcoco_unc_ref18151_idx3991_pred_bad.png",
+        [
+            "[from] [the tv]"
+        ]
+    ],
+    [
+        4006,
+        124630,
+        18197,
+        "--- swp ---",
+        0.044299397497296465,
+        "giraffe missing head",
+        "visual-p1/refcoco_unc_ref18197_idx4006_pred_bad.png",
+        [
+            "[giraffe] [missing head]"
+        ]
+    ],
+    [
+        4056,
+        124680,
+        18361,
+        "sww --- ---",
+        0.03682188065099457,
+        "bike closer than red",
+        "visual-p1/refcoco_unc_ref18361_idx4056_pred_bad.png",
+        [
+            "[than] [red]"
+        ]
+    ],
+    [
+        4087,
+        124711,
+        18483,
+        "--- swp ---",
+        0.05532110937068092,
+        "blond haired boy watching",
+        "visual-p1/refcoco_unc_ref18483_idx4087_pred_bad.png",
+        [
+            "[blond haired boy] [watching]"
+        ]
+    ],
+    [
+        4092,
+        124716,
+        18485,
+        "--- swp ---",
+        0.0,
+        "man on knees",
+        "visual-p1/refcoco_unc_ref18485_idx4092_pred_bad.png",
+        [
+            "[man] [on knees]"
+        ]
+    ],
+    [
+        4135,
+        124759,
+        18718,
+        "--- --- spp",
+        0.0009086220868839174,
+        "animal in front of man in gray pants",
+        "visual-p1/refcoco_unc_ref18718_idx4135_pred_bad.png",
+        [
+            "[of man] [in gray pants]"
+        ]
+    ],
+    [
+        4164,
+        124788,
+        18836,
+        "--- swp ---",
+        0.001691985139956597,
+        "thumps up at the stop sign",
+        "visual-p1/refcoco_unc_ref18836_idx4164_pred_bad.png",
+        [
+            "[at] [the stop sign]"
+        ]
+    ],
+    [
+        4166,
+        124790,
+        18836,
+        "--- --- spp",
+        0.0024461658203921276,
+        "cool guy with sunglasses",
+        "visual-p1/refcoco_unc_ref18836_idx4166_pred_bad.png",
+        [
+            "[cool guy] [with sunglasses]"
+        ]
+    ],
+    [
+        4215,
+        124839,
+        19171,
+        "sww --- ---",
+        0.0,
+        "man leaning on red and white roadblock post with tanktop and bandana",
+        "visual-p1/refcoco_unc_ref19171_idx4215_pred_bad.png",
+        [
+            "[tanktop] [and]",
+            "[and] [bandana]"
+        ]
+    ],
+    [
+        4217,
+        124841,
+        19171,
+        "--- swp ---",
+        0.0,
+        "on right the man leaing on the barricade",
+        "visual-p1/refcoco_unc_ref19171_idx4217_pred_bad.png",
+        [
+            "[right] [the man]"
+        ]
+    ],
+    [
+        4223,
+        124847,
+        19173,
+        "sww --- ---",
+        0.0,
+        "blond riding in back",
+        "visual-p1/refcoco_unc_ref19173_idx4223_pred_bad.png",
+        [
+            "[blond] [riding]"
+        ]
+    ],
+    [
+        4261,
+        124885,
+        19505,
+        "--- --- spp",
+        0.0,
+        "pants on the right side of the player we see",
+        "visual-p1/refcoco_unc_ref19505_idx4261_pred_bad.png",
+        [
+            "[the player] [we see]"
+        ]
+    ],
+    [
+        4310,
+        124934,
+        19756,
+        "--- swp ---",
+        0.0,
+        "stir fry at top",
+        "visual-p1/refcoco_unc_ref19756_idx4310_pred_bad.png",
+        [
+            "[fry] [at top]"
+        ]
+    ],
+    [
+        4314,
+        124938,
+        19757,
+        "sww --- ---",
+        0.0,
+        "batter 2ns up on left",
+        "visual-p1/refcoco_unc_ref19757_idx4314_pred_bad.png",
+        [
+            "[batter] [2ns]"
+        ]
+    ],
+    [
+        4320,
+        124944,
+        19784,
+        "sww swp spp",
+        0.0,
+        "third teddy bear from right only the legs visible brown bear sort of behind it",
+        "visual-p1/refcoco_unc_ref19784_idx4320_pred_bad.png",
+        [
+            "[sort of] [behind it]",
+            "[bear] [sort of]",
+            "[legs] [visible]",
+            "[visible] [brown]"
+        ]
+    ],
+    [
+        4326,
+        124950,
+        19786,
+        "--- --- spp",
+        0.0,
+        "bear on top faced down",
+        "visual-p1/refcoco_unc_ref19786_idx4326_pred_bad.png",
+        [
+            "[on top] [faced down]"
+        ]
+    ],
+    [
+        4338,
+        124962,
+        19978,
+        "--- swp ---",
+        0.00044978737324174024,
+        "dude with the watch",
+        "visual-p1/refcoco_unc_ref19978_idx4338_pred_bad.png",
+        [
+            "[dude] [with the watch]"
+        ]
+    ],
+    [
+        4342,
+        124966,
+        19979,
+        "sww swp ---",
+        0.004533030381426949,
+        "guy wiht plain gray shirt",
+        "visual-p1/refcoco_unc_ref19979_idx4342_pred_bad.png",
+        [
+            "[wiht] [plain gray]",
+            "[guy] [wiht]"
+        ]
+    ],
+    [
+        4364,
+        124988,
+        20159,
+        "sww --- ---",
+        0.00967132894077756,
+        "laptop table",
+        "visual-p1/refcoco_unc_ref20159_idx4364_pred_bad.png",
+        [
+            "[laptop] [table]"
+        ]
+    ],
+    [
+        4374,
+        124998,
+        20164,
+        "--- --- spp",
+        0.0,
+        "sitting person on back leaning on table",
+        "visual-p1/refcoco_unc_ref20164_idx4374_pred_bad.png",
+        [
+            "[on back] [leaning on table]"
+        ]
+    ],
+    [
+        4404,
+        125028,
+        20327,
+        "--- --- spp",
+        0.0,
+        "woman in green left of glass",
+        "visual-p1/refcoco_unc_ref20327_idx4404_pred_bad.png",
+        [
+            "[green left] [of glass]"
+        ]
+    ],
+    [
+        4439,
+        125063,
+        20397,
+        "sww --- ---",
+        0.0018398055062750509,
+        "orange slice next to banana",
+        "visual-p1/refcoco_unc_ref20397_idx4439_pred_bad.png",
+        [
+            "[to] [banana]"
+        ]
+    ],
+    [
+        4440,
+        125064,
+        20397,
+        "--- --- spp",
+        0.0,
+        "orange wedge furthest left",
+        "visual-p1/refcoco_unc_ref20397_idx4440_pred_bad.png",
+        [
+            "[orange wedge] [furthest left]"
+        ]
+    ],
+    [
+        4441,
+        125065,
+        20397,
+        "--- swp ---",
+        0.0,
+        "orange in front of banana",
+        "visual-p1/refcoco_unc_ref20397_idx4441_pred_bad.png",
+        [
+            "[front] [of banana]"
+        ]
+    ],
+    [
+        4533,
+        125157,
+        21074,
+        "--- --- spp",
+        0.0,
+        "far left phone right of guy in blue polo",
+        "visual-p1/refcoco_unc_ref21074_idx4533_pred_bad.png",
+        [
+            "[of guy] [in blue polo]"
+        ]
+    ],
+    [
+        4538,
+        125162,
+        21076,
+        "sww --- ---",
+        0.0058814843980706764,
+        "windows live dude",
+        "visual-p1/refcoco_unc_ref21076_idx4538_pred_bad.png",
+        [
+            "[live] [dude]"
+        ]
+    ],
+    [
+        4539,
+        125163,
+        21076,
+        "--- --- spp",
+        0.007696962362338134,
+        "the guy in costume",
+        "visual-p1/refcoco_unc_ref21076_idx4539_pred_bad.png",
+        [
+            "[the guy] [in costume]"
+        ]
+    ],
+    [
+        4540,
+        125164,
+        21076,
+        "sww --- ---",
+        0.0,
+        "person dressed as phone",
+        "visual-p1/refcoco_unc_ref21076_idx4540_pred_bad.png",
+        [
+            "[as] [phone]"
+        ]
+    ],
+    [
+        4542,
+        125166,
+        21077,
+        "sww swp ---",
+        0.0,
+        "guy wearing badge around neck",
+        "visual-p1/refcoco_unc_ref21077_idx4542_pred_bad.png",
+        [
+            "[badge] [around neck]",
+            "[wearing] [badge]"
+        ]
+    ],
+    [
+        4546,
+        125170,
+        21087,
+        "sww swp ---",
+        0.0,
+        "tofu dog not the sign",
+        "visual-p1/refcoco_unc_ref21087_idx4546_pred_bad.png",
+        [
+            "[not] [the sign]",
+            "[tofu] [dog]"
+        ]
+    ],
+    [
+        4641,
+        125265,
+        21729,
+        "sww swp ---",
+        0.0009681764606836168,
+        "elephant the is in the back that is between another elephant and a waterfall",
+        "visual-p1/refcoco_unc_ref21729_idx4641_pred_bad.png",
+        [
+            "[another elephant] [and]",
+            "[elephant] [the]"
+        ]
+    ],
+    [
+        4656,
+        125280,
+        21842,
+        "sww --- ---",
+        8.878891914289097e-05,
+        "nut and carrot section to the right of the meat section",
+        "visual-p1/refcoco_unc_ref21842_idx4656_pred_bad.png",
+        [
+            "[meat] [section]",
+            "[nut] [and]",
+            "[carrot] [section]"
+        ]
+    ],
+    [
+        4664,
+        125288,
+        21869,
+        "--- swp ---",
+        0.025099644511472584,
+        "doughnut with nuts above right chocolate",
+        "visual-p1/refcoco_unc_ref21869_idx4664_pred_bad.png",
+        [
+            "[doughnut] [with nuts]"
+        ]
+    ],
+    [
+        4669,
+        125293,
+        21871,
+        "sww --- ---",
+        0.0,
+        "donut lol",
+        "visual-p1/refcoco_unc_ref21871_idx4669_pred_bad.png",
+        [
+            "[donut] [lol]"
+        ]
+    ],
+    [
+        4687,
+        125311,
+        21899,
+        "sww --- ---",
+        0.0,
+        "adult holding kid",
+        "visual-p1/refcoco_unc_ref21899_idx4687_pred_bad.png",
+        [
+            "[adult] [holding]"
+        ]
+    ],
+    [
+        4734,
+        125358,
+        22000,
+        "--- swp ---",
+        0.0,
+        "man standing alone",
+        "visual-p1/refcoco_unc_ref22000_idx4734_pred_bad.png",
+        [
+            "[man] [standing alone]"
+        ]
+    ],
+    [
+        4749,
+        125373,
+        22067,
+        "sww --- ---",
+        0.0,
+        "d shirt",
+        "visual-p1/refcoco_unc_ref22067_idx4749_pred_bad.png",
+        [
+            "[d] [shirt]"
+        ]
+    ],
+    [
+        4777,
+        125401,
+        22095,
+        "--- swp ---",
+        0.003783319002579536,
+        "in back pizza on left upper corner",
+        "visual-p1/refcoco_unc_ref22095_idx4777_pred_bad.png",
+        [
+            "[in] [back pizza]"
+        ]
+    ],
+    [
+        4800,
+        125424,
+        22146,
+        "sww --- ---",
+        0.0,
+        "man to right of 27 frt",
+        "visual-p1/refcoco_unc_ref22146_idx4800_pred_bad.png",
+        [
+            "[27] [frt]"
+        ]
+    ],
+    [
+        4826,
+        125450,
+        22185,
+        "--- swp ---",
+        0.0038717758925012813,
+        "guy behind riling with hands between legs",
+        "visual-p1/refcoco_unc_ref22185_idx4826_pred_bad.png",
+        [
+            "[hands] [between legs]"
+        ]
+    ],
+    [
+        4827,
+        125451,
+        22185,
+        "--- swp ---",
+        0.006205314987184676,
+        "man in hat and sunglasses",
+        "visual-p1/refcoco_unc_ref22185_idx4827_pred_bad.png",
+        [
+            "[in] [hat and sunglasses]"
+        ]
+    ],
+    [
+        4828,
+        125452,
+        22185,
+        "sww swp ---",
+        0.008464919420478594,
+        "guy with hat and sunglasses to right on sandwich eater",
+        "visual-p1/refcoco_unc_ref22185_idx4828_pred_bad.png",
+        [
+            "[guy] [with hat and sunglasses]",
+            "[sandwich] [eater]"
+        ]
+    ],
+    [
+        4848,
+        125472,
+        22260,
+        "--- swp ---",
+        0.0,
+        "woman by balloons",
+        "visual-p1/refcoco_unc_ref22260_idx4848_pred_bad.png",
+        [
+            "[woman] [by balloons]"
+        ]
+    ],
+    [
+        4849,
+        125473,
+        22261,
+        "--- swp ---",
+        0.0,
+        "girl in pink headband",
+        "visual-p1/refcoco_unc_ref22261_idx4849_pred_bad.png",
+        [
+            "[in] [pink headband]"
+        ]
+    ],
+    [
+        4851,
+        125475,
+        22261,
+        "sww --- ---",
+        0.021162650082059257,
+        "pink head band",
+        "visual-p1/refcoco_unc_ref22261_idx4851_pred_bad.png",
+        [
+            "[pink] [head]"
+        ]
+    ],
+    [
+        4853,
+        125477,
+        22262,
+        "--- swp ---",
+        0.004899694924655635,
+        "lady to the left of woman in pink",
+        "visual-p1/refcoco_unc_ref22262_idx4853_pred_bad.png",
+        [
+            "[of] [woman in pink]"
+        ]
+    ],
+    [
+        4854,
+        125478,
+        22262,
+        "--- swp spp",
+        0.005273294203961849,
+        "woman to the left of lady in pink",
+        "visual-p1/refcoco_unc_ref22262_idx4854_pred_bad.png",
+        [
+            "[the left] [of lady in pink]",
+            "[of] [lady in pink]"
+        ]
+    ],
+    [
+        4865,
+        125489,
+        22277,
+        "sww --- spp",
+        0.0,
+        "the fridge the sign is cutting into",
+        "visual-p1/refcoco_unc_ref22277_idx4865_pred_bad.png",
+        [
+            "[the fridge] [the sign]",
+            "[cutting] [into]"
+        ]
+    ],
+    [
+        4874,
+        125498,
+        22286,
+        "sww swp spp",
+        0.0,
+        "man in middle holding an object out to the people on the right",
+        "visual-p1/refcoco_unc_ref22286_idx4874_pred_bad.png",
+        [
+            "[the people] [on the right]",
+            "[to] [the people]",
+            "[out] [to]"
+        ]
+    ],
+    [
+        4888,
+        125512,
+        22459,
+        "sww --- ---",
+        0.003358694907121804,
+        "ugly bald guy",
+        "visual-p1/refcoco_unc_ref22459_idx4888_pred_bad.png",
+        [
+            "[ugly] [bald]"
+        ]
+    ],
+    [
+        4922,
+        125546,
+        22516,
+        "--- swp ---",
+        0.0,
+        "black dotted on white",
+        "visual-p1/refcoco_unc_ref22516_idx4922_pred_bad.png",
+        [
+            "[dotted] [on white]"
+        ]
+    ],
+    [
+        4946,
+        125570,
+        22560,
+        "--- swp ---",
+        0.0024937105530299687,
+        "the player not the bat",
+        "visual-p1/refcoco_unc_ref22560_idx4946_pred_bad.png",
+        [
+            "[the player] [not]",
+            "[not] [the bat]"
+        ]
+    ],
+    [
+        4955,
+        125579,
+        22696,
+        "sww --- ---",
+        0.0,
+        "frig left",
+        "visual-p1/refcoco_unc_ref22696_idx4955_pred_bad.png",
+        [
+            "[frig] [left]"
+        ]
+    ],
+    [
+        4956,
+        125580,
+        22696,
+        "--- swp ---",
+        0.0,
+        "fridge far back",
+        "visual-p1/refcoco_unc_ref22696_idx4956_pred_bad.png",
+        [
+            "[fridge] [far back]"
+        ]
+    ],
+    [
+        4957,
+        125581,
+        22696,
+        "--- --- spp",
+        0.0,
+        "white fridge in back",
+        "visual-p1/refcoco_unc_ref22696_idx4957_pred_bad.png",
+        [
+            "[white fridge] [in back]"
+        ]
+    ],
+    [
+        4958,
+        125582,
+        22713,
+        "--- swp ---",
+        0.0,
+        "black shape upper left half of page",
+        "visual-p1/refcoco_unc_ref22713_idx4958_pred_bad.png",
+        [
+            "[half] [of page]"
+        ]
+    ],
+    [
+        4962,
+        125586,
+        22714,
+        "--- swp ---",
+        0.08546394714162597,
+        "pillow behind kid",
+        "visual-p1/refcoco_unc_ref22714_idx4962_pred_bad.png",
+        [
+            "[pillow] [behind kid]"
+        ]
+    ],
+    [
+        4988,
+        125612,
+        22811,
+        "--- swp ---",
+        0.0,
+        "left one holding the bat",
+        "visual-p1/refcoco_unc_ref22811_idx4988_pred_bad.png",
+        [
+            "[one] [holding the bat]"
+        ]
+    ],
+    [
+        4989,
+        125613,
+        22811,
+        "sww --- ---",
+        0.0,
+        "kid kneeling holding black bat",
+        "visual-p1/refcoco_unc_ref22811_idx4989_pred_bad.png",
+        [
+            "[black] [bat]"
+        ]
+    ],
+    [
+        4993,
+        125617,
+        22813,
+        "--- swp ---",
+        0.0,
+        "middle row left",
+        "visual-p1/refcoco_unc_ref22813_idx4993_pred_bad.png",
+        [
+            "[middle row] [left]"
+        ]
+    ],
+    [
+        4994,
+        125618,
+        22813,
+        "--- swp ---",
+        0.0009737625101433595,
+        "far left boy in the second row",
+        "visual-p1/refcoco_unc_ref22813_idx4994_pred_bad.png",
+        [
+            "[in] [the second row]"
+        ]
+    ],
+    [
+        4998,
+        125622,
+        22815,
+        "--- swp spp",
+        0.0615505090054816,
+        "boy right side standing up",
+        "visual-p1/refcoco_unc_ref22815_idx4998_pred_bad.png",
+        [
+            "[right side] [standing up]",
+            "[boy] [right side]"
+        ]
+    ],
+    [
+        5007,
+        125631,
+        22820,
+        "--- swp ---",
+        0.005164393282346448,
+        "tan couch with white pillow",
+        "visual-p1/refcoco_unc_ref22820_idx5007_pred_bad.png",
+        [
+            "[with] [white pillow]"
+        ]
+    ],
+    [
+        5010,
+        125634,
+        22888,
+        "sww --- ---",
+        0.002308998302207131,
+        "the yellow flower closet to the screen",
+        "visual-p1/refcoco_unc_ref22888_idx5010_pred_bad.png",
+        [
+            "[flower] [closet]"
+        ]
+    ],
+    [
+        5040,
+        125664,
+        22994,
+        "--- --- spp",
+        0.002333668893566395,
+        "white sofa to right",
+        "visual-p1/refcoco_unc_ref22994_idx5040_pred_bad.png",
+        [
+            "[white sofa] [to right]"
+        ]
+    ],
+    [
+        5046,
+        125670,
+        22996,
+        "--- swp ---",
+        0.0,
+        "hand holding fork",
+        "visual-p1/refcoco_unc_ref22996_idx5046_pred_bad.png",
+        [
+            "[hand] [holding fork]"
+        ]
+    ],
+    [
+        5086,
+        125710,
+        23095,
+        "sww --- spp",
+        0.0,
+        "black woman on the far right not sitting",
+        "visual-p1/refcoco_unc_ref23095_idx5086_pred_bad.png",
+        [
+            "[black woman] [on the far right]",
+            "[not] [sitting]"
+        ]
+    ],
+    [
+        5151,
+        125775,
+        23400,
+        "--- swp ---",
+        0.0,
+        "woman sitting on back",
+        "visual-p1/refcoco_unc_ref23400_idx5151_pred_bad.png",
+        [
+            "[sitting] [on back]"
+        ]
+    ],
+    [
+        5156,
+        125780,
+        23402,
+        "sww --- ---",
+        0.021441679276262837,
+        "boy standing next to pole white shirt",
+        "visual-p1/refcoco_unc_ref23402_idx5156_pred_bad.png",
+        [
+            "[pole] [white]"
+        ]
+    ],
+    [
+        5157,
+        125781,
+        23402,
+        "--- swp ---",
+        0.0,
+        "man near pole",
+        "visual-p1/refcoco_unc_ref23402_idx5157_pred_bad.png",
+        [
+            "[man] [near pole]"
+        ]
+    ],
+    [
+        5190,
+        125814,
+        23507,
+        "--- --- spp",
+        0.026383306251603525,
+        "zebra looking at the camera on the left",
+        "visual-p1/refcoco_unc_ref23507_idx5190_pred_bad.png",
+        [
+            "[at the camera] [on the left]"
+        ]
+    ],
+    [
+        5198,
+        125822,
+        23522,
+        "--- --- spp",
+        0.0016478989288656962,
+        "gray shirt in center",
+        "visual-p1/refcoco_unc_ref23522_idx5198_pred_bad.png",
+        [
+            "[gray shirt] [in center]"
+        ]
+    ],
+    [
+        5251,
+        125875,
+        23767,
+        "--- swp ---",
+        0.0,
+        "right tie the car second from the top",
+        "visual-p1/refcoco_unc_ref23767_idx5251_pred_bad.png",
+        [
+            "[tie] [the car]",
+            "[the car] [second]"
+        ]
+    ],
+    [
+        5272,
+        125896,
+        23854,
+        "--- --- spp",
+        0.001958421211208195,
+        "the keyboard on the left with the black mouse ontop",
+        "visual-p1/refcoco_unc_ref23854_idx5272_pred_bad.png",
+        [
+            "[the keyboard] [on the left]"
+        ]
+    ],
+    [
+        5273,
+        125897,
+        23854,
+        "--- swp spp",
+        0.0005148107080627277,
+        "fourth from bottom keyboard on left",
+        "visual-p1/refcoco_unc_ref23854_idx5273_pred_bad.png",
+        [
+            "[bottom keyboard] [on left]",
+            "[from] [bottom keyboard]"
+        ]
+    ],
+    [
+        5277,
+        125901,
+        23856,
+        "sww --- ---",
+        0.0,
+        "third keyboard on right",
+        "visual-p1/refcoco_unc_ref23856_idx5277_pred_bad.png",
+        [
+            "[third] [keyboard]"
+        ]
+    ],
+    [
+        5278,
+        125902,
+        23856,
+        "sww --- ---",
+        0.0003015782595583554,
+        "keyboard right and sort of middle under mouse facing right",
+        "visual-p1/refcoco_unc_ref23856_idx5278_pred_bad.png",
+        [
+            "[under] [mouse]",
+            "[and] [sort]"
+        ]
+    ],
+    [
+        5320,
+        125944,
+        23954,
+        "--- --- spp",
+        0.0,
+        "monitor which looks like a camera in center",
+        "visual-p1/refcoco_unc_ref23954_idx5320_pred_bad.png",
+        [
+            "[a camera] [in center]"
+        ]
+    ],
+    [
+        5321,
+        125945,
+        23954,
+        "--- swp ---",
+        0.0327048417132216,
+        "screen with glare",
+        "visual-p1/refcoco_unc_ref23954_idx5321_pred_bad.png",
+        [
+            "[screen] [with glare]"
+        ]
+    ],
+    [
+        5322,
+        125946,
+        23964,
+        "--- swp ---",
+        0.0037753457198608635,
+        "the glass the guy is pouring into",
+        "visual-p1/refcoco_unc_ref23964_idx5322_pred_bad.png",
+        [
+            "[is] [pouring into]"
+        ]
+    ],
+    [
+        5335,
+        125959,
+        24079,
+        "sww --- ---",
+        0.0,
+        "short black hair backpack lady",
+        "visual-p1/refcoco_unc_ref24079_idx5335_pred_bad.png",
+        [
+            "[short] [black]",
+            "[hair] [backpack]",
+            "[backpack] [lady]"
+        ]
+    ],
+    [
+        5339,
+        125963,
+        24081,
+        "sww --- ---",
+        0.0,
+        "woman pouring drinks",
+        "visual-p1/refcoco_unc_ref24081_idx5339_pred_bad.png",
+        [
+            "[pouring] [drinks]"
+        ]
+    ],
+    [
+        5340,
+        125964,
+        24081,
+        "sww --- ---",
+        0.0,
+        "brown rag on head",
+        "visual-p1/refcoco_unc_ref24081_idx5340_pred_bad.png",
+        [
+            "[brown] [rag]"
+        ]
+    ],
+    [
+        5400,
+        126024,
+        24301,
+        "sww --- ---",
+        0.01742109694840452,
+        "woman in dark sweater",
+        "visual-p1/refcoco_unc_ref24301_idx5400_pred_bad.png",
+        [
+            "[dark] [sweater]"
+        ]
+    ],
+    [
+        5427,
+        126051,
+        24353,
+        "--- swp ---",
+        0.0,
+        "bananas thrid from left",
+        "visual-p1/refcoco_unc_ref24353_idx5427_pred_bad.png",
+        [
+            "[thrid] [from left]"
+        ]
+    ],
+    [
+        5428,
+        126052,
+        24353,
+        "sww --- ---",
+        0.0,
+        "6th bunch from right",
+        "visual-p1/refcoco_unc_ref24353_idx5428_pred_bad.png",
+        [
+            "[6th] [bunch]"
+        ]
+    ],
+    [
+        5468,
+        126092,
+        24617,
+        "sww --- ---",
+        0.010340136054421769,
+        "right hrse",
+        "visual-p1/refcoco_unc_ref24617_idx5468_pred_bad.png",
+        [
+            "[right] [hrse]"
+        ]
+    ],
+    [
+        5479,
+        126103,
+        24664,
+        "--- swp ---",
+        0.09719686828120563,
+        "chair closes to camera at red table",
+        "visual-p1/refcoco_unc_ref24664_idx5479_pred_bad.png",
+        [
+            "[at] [red table]"
+        ]
+    ],
+    [
+        5523,
+        126147,
+        24829,
+        "sww --- ---",
+        0.0,
+        "2 gray tv on left side",
+        "visual-p1/refcoco_unc_ref24829_idx5523_pred_bad.png",
+        [
+            "[2] [gray]"
+        ]
+    ],
+    [
+        5524,
+        126148,
+        24829,
+        "sww --- ---",
+        0.0,
+        "stack of 2 monitors on left side of pic",
+        "visual-p1/refcoco_unc_ref24829_idx5524_pred_bad.png",
+        [
+            "[2] [monitors]"
+        ]
+    ],
+    [
+        5525,
+        126149,
+        24829,
+        "--- swp ---",
+        0.0,
+        "screens left of the sitting man",
+        "visual-p1/refcoco_unc_ref24829_idx5525_pred_bad.png",
+        [
+            "[left] [of the sitting man]"
+        ]
+    ],
+    [
+        5527,
+        126151,
+        24830,
+        "sww --- ---",
+        0.055305843267539574,
+        "third tv from bottom",
+        "visual-p1/refcoco_unc_ref24830_idx5527_pred_bad.png",
+        [
+            "[third] [tv]"
+        ]
+    ],
+    [
+        5529,
+        126153,
+        24831,
+        "sww --- ---",
+        0.004463986037457206,
+        "small tv closes to us",
+        "visual-p1/refcoco_unc_ref24831_idx5529_pred_bad.png",
+        [
+            "[small] [tv]"
+        ]
+    ],
+    [
+        5612,
+        126236,
+        25363,
+        "sww --- ---",
+        0.000992795143813468,
+        "horizontal surfboard",
+        "visual-p1/refcoco_unc_ref25363_idx5612_pred_bad.png",
+        [
+            "[horizontal] [surfboard]"
+        ]
+    ],
+    [
+        5618,
+        126242,
+        25365,
+        "sww --- ---",
+        0.001540875217123326,
+        "surf board girl is holding",
+        "visual-p1/refcoco_unc_ref25365_idx5618_pred_bad.png",
+        [
+            "[board] [girl]"
+        ]
+    ],
+    [
+        5649,
+        126273,
+        25423,
+        "sww --- ---",
+        0.0,
+        "bowl of sushi on right",
+        "visual-p1/refcoco_unc_ref25423_idx5649_pred_bad.png",
+        [
+            "[of] [sushi]"
+        ]
+    ],
+    [
+        5655,
+        126279,
+        25426,
+        "--- --- spp",
+        0.0,
+        "middle cup on the right",
+        "visual-p1/refcoco_unc_ref25426_idx5655_pred_bad.png",
+        [
+            "[middle cup] [on the right]"
+        ]
+    ],
+    [
+        5749,
+        126373,
+        25969,
+        "sww --- ---",
+        0.0,
+        "science magazine",
+        "visual-p1/refcoco_unc_ref25969_idx5749_pred_bad.png",
+        [
+            "[science] [magazine]"
+        ]
+    ],
+    [
+        5753,
+        126377,
+        25970,
+        "sww --- ---",
+        0.0,
+        "wittgenstein mag m",
+        "visual-p1/refcoco_unc_ref25970_idx5753_pred_bad.png",
+        [
+            "[mag] [m]"
+        ]
+    ],
+    [
+        5775,
+        126399,
+        26223,
+        "sww --- ---",
+        0.0,
+        "tuna bowl",
+        "visual-p1/refcoco_unc_ref26223_idx5775_pred_bad.png",
+        [
+            "[tuna] [bowl]"
+        ]
+    ],
+    [
+        5803,
+        126427,
+        26312,
+        "sww --- ---",
+        0.0,
+        "the peaches in the white basket bottom row right",
+        "visual-p1/refcoco_unc_ref26312_idx5803_pred_bad.png",
+        [
+            "[white] [basket]"
+        ]
+    ],
+    [
+        5804,
+        126428,
+        26312,
+        "--- swp ---",
+        0.0006180871828236825,
+        "fruit above the bananas",
+        "visual-p1/refcoco_unc_ref26312_idx5804_pred_bad.png",
+        [
+            "[above] [the bananas]"
+        ]
+    ],
+    [
+        5805,
+        126429,
+        26313,
+        "sww swp ---",
+        0.0,
+        "pile of green apples center of display",
+        "visual-p1/refcoco_unc_ref26313_idx5805_pred_bad.png",
+        [
+            "[green apples] [center]",
+            "[of] [display]"
+        ]
+    ],
+    [
+        5806,
+        126430,
+        26313,
+        "--- swp ---",
+        0.0,
+        "green apples middle",
+        "visual-p1/refcoco_unc_ref26313_idx5806_pred_bad.png",
+        [
+            "[green apples] [middle]"
+        ]
+    ],
+    [
+        5818,
+        126442,
+        26374,
+        "--- swp ---",
+        0.0014835297917003068,
+        "one with finger in mouth",
+        "visual-p1/refcoco_unc_ref26374_idx5818_pred_bad.png",
+        [
+            "[one] [with finger in mouth]"
+        ]
+    ],
+    [
+        5826,
+        126450,
+        26397,
+        "sww --- ---",
+        0.0,
+        "orange top rite",
+        "visual-p1/refcoco_unc_ref26397_idx5826_pred_bad.png",
+        [
+            "[top] [rite]"
+        ]
+    ],
+    [
+        5974,
+        126598,
+        26910,
+        "--- --- spp",
+        0.08135362679111653,
+        "coffee cup closest to us",
+        "visual-p1/refcoco_unc_ref26910_idx5974_pred_bad.png",
+        [
+            "[coffee cup] [closest to us]"
+        ]
+    ],
+    [
+        5975,
+        126599,
+        26910,
+        "sww --- ---",
+        0.08523113727513662,
+        "coffee black front",
+        "visual-p1/refcoco_unc_ref26910_idx5975_pred_bad.png",
+        [
+            "[coffee] [black]"
+        ]
+    ],
+    [
+        5976,
+        126600,
+        26910,
+        "sww --- ---",
+        0.0,
+        "mug with dark coffee",
+        "visual-p1/refcoco_unc_ref26910_idx5976_pred_bad.png",
+        [
+            "[dark] [coffee]"
+        ]
+    ],
+    [
+        6017,
+        126641,
+        27069,
+        "--- --- spp",
+        0.003545194858192206,
+        "black sheep near front",
+        "visual-p1/refcoco_unc_ref27069_idx6017_pred_bad.png",
+        [
+            "[black sheep] [near front]"
+        ]
+    ],
+    [
+        6042,
+        126666,
+        27217,
+        "sww swp ---",
+        0.0,
+        "fourth chair from left in closest row",
+        "visual-p1/refcoco_unc_ref27217_idx6042_pred_bad.png",
+        [
+            "[in] [closest row]",
+            "[fourth] [chair]"
+        ]
+    ],
+    [
+        6045,
+        126669,
+        27218,
+        "--- --- spp",
+        0.0,
+        "middle chair in back row",
+        "visual-p1/refcoco_unc_ref27218_idx6045_pred_bad.png",
+        [
+            "[middle chair] [in back row]"
+        ]
+    ],
+    [
+        6073,
+        126697,
+        27321,
+        "sww swp ---",
+        0.018827789092554878,
+        "the exposed wood to the top of the sandwhich",
+        "visual-p1/refcoco_unc_ref27321_idx6073_pred_bad.png",
+        [
+            "[of] [the sandwhich]",
+            "[exposed] [wood]"
+        ]
+    ],
+    [
+        6086,
+        126710,
+        27426,
+        "--- swp ---",
+        0.0,
+        "the bread only",
+        "visual-p1/refcoco_unc_ref27426_idx6086_pred_bad.png",
+        [
+            "[the bread] [only]"
+        ]
+    ],
+    [
+        6114,
+        126738,
+        27481,
+        "--- swp ---",
+        0.0,
+        "seat on the left",
+        "visual-p1/refcoco_unc_ref27481_idx6114_pred_bad.png",
+        [
+            "[seat] [on the left]"
+        ]
+    ],
+    [
+        6213,
+        126837,
+        28010,
+        "sww --- ---",
+        0.0015878056525881232,
+        "second 2 left",
+        "visual-p1/refcoco_unc_ref28010_idx6213_pred_bad.png",
+        [
+            "[second] [2]",
+            "[2] [left]"
+        ]
+    ],
+    [
+        6214,
+        126838,
+        28010,
+        "--- --- spp",
+        0.0021328698949364087,
+        "cell phone second from left",
+        "visual-p1/refcoco_unc_ref28010_idx6214_pred_bad.png",
+        [
+            "[cell phone] [second from left]"
+        ]
+    ],
+    [
+        6215,
+        126839,
+        28011,
+        "--- --- spp",
+        0.0013108362463027695,
+        "remote to the left side of big one",
+        "visual-p1/refcoco_unc_ref28011_idx6215_pred_bad.png",
+        [
+            "[the left side] [of big one]"
+        ]
+    ],
+    [
+        6218,
+        126842,
+        28012,
+        "sww --- ---",
+        0.004005975013579576,
+        "remote between black ones",
+        "visual-p1/refcoco_unc_ref28012_idx6218_pred_bad.png",
+        [
+            "[black] [ones]"
+        ]
+    ],
+    [
+        6267,
+        126891,
+        28193,
+        "--- swp ---",
+        0.03584152771839818,
+        "front guy red and white shirt",
+        "visual-p1/refcoco_unc_ref28193_idx6267_pred_bad.png",
+        [
+            "[guy] [red and white]"
+        ]
+    ],
+    [
+        6273,
+        126897,
+        28205,
+        "sww swp ---",
+        0.0,
+        "the pizza slice has sauce on it",
+        "visual-p1/refcoco_unc_ref28205_idx6273_pred_bad.png",
+        [
+            "[sauce] [on it]",
+            "[has] [sauce]"
+        ]
+    ],
+    [
+        6308,
+        126932,
+        28419,
+        "sww --- spp",
+        0.052921195652173916,
+        "front of motocycle with two people on it",
+        "visual-p1/refcoco_unc_ref28419_idx6308_pred_bad.png",
+        [
+            "[two people] [on it]",
+            "[of] [motocycle]"
+        ]
+    ],
+    [
+        6327,
+        126951,
+        28509,
+        "sww --- ---",
+        0.0028473244968090328,
+        "donut in right section top row far right",
+        "visual-p1/refcoco_unc_ref28509_idx6327_pred_bad.png",
+        [
+            "[section] [top]"
+        ]
+    ],
+    [
+        6376,
+        127000,
+        28596,
+        "--- --- spp",
+        0.0,
+        "chair to the right of the girl in yellow",
+        "visual-p1/refcoco_unc_ref28596_idx6376_pred_bad.png",
+        [
+            "[the girl] [in yellow]"
+        ]
+    ],
+    [
+        6377,
+        127001,
+        28596,
+        "--- --- spp",
+        0.0,
+        "chair to the right of the woman in yellow shirt",
+        "visual-p1/refcoco_unc_ref28596_idx6377_pred_bad.png",
+        [
+            "[the woman] [in yellow shirt]"
+        ]
+    ],
+    [
+        6393,
+        127017,
+        28681,
+        "sww --- ---",
+        1.913582609361246e-05,
+        "leg with shoe on skateboard",
+        "visual-p1/refcoco_unc_ref28681_idx6393_pred_bad.png",
+        [
+            "[with] [shoe]"
+        ]
+    ],
+    [
+        6399,
+        127023,
+        28683,
+        "sww --- ---",
+        0.0017565150740929995,
+        "space in front of and behind hairy leg",
+        "visual-p1/refcoco_unc_ref28683_idx6399_pred_bad.png",
+        [
+            "[hairy] [leg]",
+            "[of] [and]"
+        ]
+    ],
+    [
+        6400,
+        127024,
+        28683,
+        "sww swp ---",
+        0.021793313069908813,
+        "area in between the dogs head and guys leg",
+        "visual-p1/refcoco_unc_ref28683_idx6400_pred_bad.png",
+        [
+            "[between] [the dogs head]",
+            "[dogs] [head]",
+            "[guys] [leg]"
+        ]
+    ],
+    [
+        6401,
+        127025,
+        28683,
+        "sww --- ---",
+        0.05615108392073414,
+        "above skateboard left of shoe",
+        "visual-p1/refcoco_unc_ref28683_idx6401_pred_bad.png",
+        [
+            "[of] [shoe]",
+            "[above] [skateboard]"
+        ]
+    ],
+    [
+        6500,
+        127124,
+        29084,
+        "--- swp ---",
+        0.0,
+        "the mans right foot",
+        "visual-p1/refcoco_unc_ref29084_idx6500_pred_bad.png",
+        [
+            "[mans] [right foot]"
+        ]
+    ],
+    [
+        6574,
+        127198,
+        29469,
+        "sww --- ---",
+        0.0009202914882428067,
+        "coach reading off game plan",
+        "visual-p1/refcoco_unc_ref29469_idx6574_pred_bad.png",
+        [
+            "[game] [plan]",
+            "[coach] [reading]",
+            "[reading] [off]"
+        ]
+    ],
+    [
+        6682,
+        127306,
+        30106,
+        "sww --- ---",
+        0.0050908576681043625,
+        "bacl and whitre",
+        "visual-p1/refcoco_unc_ref30106_idx6682_pred_bad.png",
+        [
+            "[bacl] [and]",
+            "[and] [whitre]"
+        ]
+    ],
+    [
+        6700,
+        127324,
+        30144,
+        "sww --- ---",
+        0.0,
+        "woman with cheetah shirt",
+        "visual-p1/refcoco_unc_ref30144_idx6700_pred_bad.png",
+        [
+            "[cheetah] [shirt]"
+        ]
+    ],
+    [
+        6722,
+        127346,
+        30207,
+        "--- --- spp",
+        0.0,
+        "white cake on right",
+        "visual-p1/refcoco_unc_ref30207_idx6722_pred_bad.png",
+        [
+            "[white cake] [on right]"
+        ]
+    ],
+    [
+        6723,
+        127347,
+        30207,
+        "--- swp ---",
+        0.0,
+        "white cake right",
+        "visual-p1/refcoco_unc_ref30207_idx6723_pred_bad.png",
+        [
+            "[white cake] [right]"
+        ]
+    ],
+    [
+        6763,
+        127387,
+        30340,
+        "sww --- ---",
+        0.0,
+        "yellow faced clock on bottom",
+        "visual-p1/refcoco_unc_ref30340_idx6763_pred_bad.png",
+        [
+            "[yellow] [faced]",
+            "[faced] [clock]"
+        ]
+    ],
+    [
+        6833,
+        127457,
+        30715,
+        "--- swp ---",
+        0.0,
+        "right orange next to left orange",
+        "visual-p1/refcoco_unc_ref30715_idx6833_pred_bad.png",
+        [
+            "[to] [left orange]"
+        ]
+    ],
+    [
+        6899,
+        127523,
+        30994,
+        "sww --- ---",
+        0.0,
+        "glass of water 34 empty left side",
+        "visual-p1/refcoco_unc_ref30994_idx6899_pred_bad.png",
+        [
+            "[34] [empty]"
+        ]
+    ],
+    [
+        6901,
+        127525,
+        30995,
+        "sww --- ---",
+        0.04478946130322277,
+        "glass 13 full",
+        "visual-p1/refcoco_unc_ref30995_idx6901_pred_bad.png",
+        [
+            "[glass] [13]",
+            "[13] [full]"
+        ]
+    ],
+    [
+        6909,
+        127533,
+        31083,
+        "sww --- ---",
+        1.6281341582546403e-05,
+        "thrid umbrella from the front",
+        "visual-p1/refcoco_unc_ref31083_idx6909_pred_bad.png",
+        [
+            "[thrid] [umbrella]"
+        ]
+    ],
+    [
+        6910,
+        127534,
+        31083,
+        "--- swp ---",
+        0.0002072216753872455,
+        "umbrealla in front middle slightly to left",
+        "visual-p1/refcoco_unc_ref31083_idx6910_pred_bad.png",
+        [
+            "[umbrealla] [in front middle]",
+            "[in front middle] [slightly]"
+        ]
+    ],
+    [
+        6911,
+        127535,
+        31084,
+        "--- swp ---",
+        0.0009816584861792818,
+        "the umbrella second from front one",
+        "visual-p1/refcoco_unc_ref31084_idx6911_pred_bad.png",
+        [
+            "[from] [front one]",
+            "[the umbrella] [second]"
+        ]
+    ],
+    [
+        6913,
+        127537,
+        31084,
+        "--- swp ---",
+        0.0024903083361146054,
+        "unmbrella in middle",
+        "visual-p1/refcoco_unc_ref31084_idx6913_pred_bad.png",
+        [
+            "[unmbrella] [in middle]"
+        ]
+    ],
+    [
+        6917,
+        127541,
+        31110,
+        "--- --- spp",
+        0.0002646502835538752,
+        "food at the top of the plate on the bottom",
+        "visual-p1/refcoco_unc_ref31110_idx6917_pred_bad.png",
+        [
+            "[of the plate] [on the bottom]"
+        ]
+    ],
+    [
+        6928,
+        127552,
+        31118,
+        "sww swp ---",
+        0.047568546301086395,
+        "girl with brown hair closest to camera hair in a bun",
+        "visual-p1/refcoco_unc_ref31118_idx6928_pred_bad.png",
+        [
+            "[brown hair] [closest]",
+            "[camera] [hair]"
+        ]
+    ],
+    [
+        6937,
+        127561,
+        31212,
+        "sww swp ---",
+        0.0,
+        "table on side to right of mans hand",
+        "visual-p1/refcoco_unc_ref31212_idx6937_pred_bad.png",
+        [
+            "[of] [mans hand]",
+            "[table] [on]",
+            "[side] [to]"
+        ]
+    ],
+    [
+        6970,
+        127594,
+        31405,
+        "--- --- spp",
+        0.0020403780068728524,
+        "third elephant from right",
+        "visual-p1/refcoco_unc_ref31405_idx6970_pred_bad.png",
+        [
+            "[third elephant] [from right]"
+        ]
+    ],
+    [
+        6971,
+        127595,
+        31405,
+        "--- swp ---",
+        0.001722059583261581,
+        "third from right elephant",
+        "visual-p1/refcoco_unc_ref31405_idx6971_pred_bad.png",
+        [
+            "[third] [from right elephant]"
+        ]
+    ],
+    [
+        6982,
+        127606,
+        31419,
+        "sww --- ---",
+        0.0,
+        "broken vase style",
+        "visual-p1/refcoco_unc_ref31419_idx6982_pred_bad.png",
+        [
+            "[broken] [vase]",
+            "[vase] [style]"
+        ]
+    ],
+    [
+        6985,
+        127609,
+        31420,
+        "sww --- ---",
+        0.0,
+        "round base",
+        "visual-p1/refcoco_unc_ref31420_idx6985_pred_bad.png",
+        [
+            "[round] [base]"
+        ]
+    ],
+    [
+        7010,
+        127634,
+        31469,
+        "sww --- ---",
+        0.0,
+        "farthest brocoli left",
+        "visual-p1/refcoco_unc_ref31469_idx7010_pred_bad.png",
+        [
+            "[farthest] [brocoli]"
+        ]
+    ],
+    [
+        7115,
+        127739,
+        31950,
+        "--- --- spp",
+        0.0036795105010749133,
+        "tea cup on the right",
+        "visual-p1/refcoco_unc_ref31950_idx7115_pred_bad.png",
+        [
+            "[tea cup] [on the right]"
+        ]
+    ],
+    [
+        7129,
+        127753,
+        32015,
+        "--- --- spp",
+        0.006595961063489758,
+        "elephant head in center",
+        "visual-p1/refcoco_unc_ref32015_idx7129_pred_bad.png",
+        [
+            "[elephant head] [in center]"
+        ]
+    ],
+    [
+        7154,
+        127778,
+        32249,
+        "--- --- spp",
+        0.0004677633117642473,
+        "second man in from left",
+        "visual-p1/refcoco_unc_ref32249_idx7154_pred_bad.png",
+        [
+            "[second man] [in from left]"
+        ]
+    ],
+    [
+        7156,
+        127780,
+        32249,
+        "sww --- ---",
+        0.0,
+        "background person behind lamp",
+        "visual-p1/refcoco_unc_ref32249_idx7156_pred_bad.png",
+        [
+            "[behind] [lamp]"
+        ]
+    ],
+    [
+        7215,
+        127839,
+        32626,
+        "sww --- ---",
+        0.002004042050916255,
+        "woman in british flag dress",
+        "visual-p1/refcoco_unc_ref32626_idx7215_pred_bad.png",
+        [
+            "[flag] [dress]"
+        ]
+    ],
+    [
+        7217,
+        127841,
+        32627,
+        "--- swp ---",
+        0.00046091445427728613,
+        "lady standing behind mans arm",
+        "visual-p1/refcoco_unc_ref32627_idx7217_pred_bad.png",
+        [
+            "[behind] [mans arm]"
+        ]
+    ],
+    [
+        7233,
+        127857,
+        32664,
+        "--- --- spp",
+        0.0,
+        "third wine glass from the left",
+        "visual-p1/refcoco_unc_ref32664_idx7233_pred_bad.png",
+        [
+            "[third wine glass] [from the left]"
+        ]
+    ],
+    [
+        7237,
+        127861,
+        32665,
+        "--- --- spp",
+        0.0,
+        "wine glass in the middle left",
+        "visual-p1/refcoco_unc_ref32665_idx7237_pred_bad.png",
+        [
+            "[wine glass] [in the middle left]"
+        ]
+    ],
+    [
+        7255,
+        127879,
+        32810,
+        "sww --- ---",
+        0.0,
+        "small freezer next to fridge",
+        "visual-p1/refcoco_unc_ref32810_idx7255_pred_bad.png",
+        [
+            "[to] [fridge]",
+            "[small] [freezer]"
+        ]
+    ],
+    [
+        7256,
+        127880,
+        32810,
+        "sww --- ---",
+        0.0,
+        "dishwasher beside refrigerator",
+        "visual-p1/refcoco_unc_ref32810_idx7256_pred_bad.png",
+        [
+            "[beside] [refrigerator]"
+        ]
+    ],
+    [
+        7257,
+        127881,
+        32811,
+        "sww --- ---",
+        0.0,
+        "white refrigerator front",
+        "visual-p1/refcoco_unc_ref32811_idx7257_pred_bad.png",
+        [
+            "[white] [refrigerator]",
+            "[refrigerator] [front]"
+        ]
+    ],
+    [
+        7262,
+        127886,
+        32836,
+        "sww --- ---",
+        0.0,
+        "apple pieces",
+        "visual-p1/refcoco_unc_ref32836_idx7262_pred_bad.png",
+        [
+            "[apple] [pieces]"
+        ]
+    ],
+    [
+        7272,
+        127896,
+        32967,
+        "--- --- spp",
+        0.08668083858671749,
+        "second scissors from the top",
+        "visual-p1/refcoco_unc_ref32967_idx7272_pred_bad.png",
+        [
+            "[second scissors] [from the top]"
+        ]
+    ],
+    [
+        7273,
+        127897,
+        32967,
+        "sww --- ---",
+        0.08590315993493233,
+        "second layer of scissor",
+        "visual-p1/refcoco_unc_ref32967_idx7273_pred_bad.png",
+        [
+            "[of] [scissor]"
+        ]
+    ],
+    [
+        7283,
+        127907,
+        33051,
+        "--- swp ---",
+        0.0,
+        "legs of small elephant under the big one",
+        "visual-p1/refcoco_unc_ref33051_idx7283_pred_bad.png",
+        [
+            "[of] [small elephant]",
+            "[under] [the big one]"
+        ]
+    ],
+    [
+        7312,
+        127936,
+        33072,
+        "--- swp ---",
+        0.0,
+        "click the motorcycle that the girl with the pink shirt is riding",
+        "visual-p1/refcoco_unc_ref33072_idx7312_pred_bad.png",
+        [
+            "[with] [the pink shirt]"
+        ]
+    ],
+    [
+        7398,
+        128022,
+        33280,
+        "sww --- ---",
+        0.0,
+        "the closed phone",
+        "visual-p1/refcoco_unc_ref33280_idx7398_pred_bad.png",
+        [
+            "[closed] [phone]"
+        ]
+    ],
+    [
+        7449,
+        128073,
+        33640,
+        "--- --- spp",
+        0.04470704900421453,
+        "the person to the left of the man in white shorts",
+        "visual-p1/refcoco_unc_ref33640_idx7449_pred_bad.png",
+        [
+            "[the man] [in white shorts]"
+        ]
+    ],
+    [
+        7483,
+        128107,
+        34006,
+        "sww --- ---",
+        0.0,
+        "fry at far left beside broccoli",
+        "visual-p1/refcoco_unc_ref34006_idx7483_pred_bad.png",
+        [
+            "[beside] [broccoli]"
+        ]
+    ],
+    [
+        7484,
+        128108,
+        34006,
+        "sww swp ---",
+        0.0033938693721341662,
+        "french frie front and center closest to the broccoli but really long",
+        "visual-p1/refcoco_unc_ref34006_idx7484_pred_bad.png",
+        [
+            "[to] [the broccoli]",
+            "[french] [frie]",
+            "[frie] [front]",
+            "[really] [long]"
+        ]
+    ],
+    [
+        7485,
+        128109,
+        34006,
+        "sww --- ---",
+        0.003847798204360838,
+        "fry neares brocolli shaped like 7",
+        "visual-p1/refcoco_unc_ref34006_idx7485_pred_bad.png",
+        [
+            "[like] [7]"
+        ]
+    ],
+    [
+        7493,
+        128117,
+        34130,
+        "sww --- ---",
+        0.0,
+        "bowl with small white pieces",
+        "visual-p1/refcoco_unc_ref34130_idx7493_pred_bad.png",
+        [
+            "[white] [pieces]"
+        ]
+    ],
+    [
+        7528,
+        128152,
+        34263,
+        "sww --- ---",
+        0.011880289398510291,
+        "largest brown cow looking at the camera",
+        "visual-p1/refcoco_unc_ref34263_idx7528_pred_bad.png",
+        [
+            "[largest] [brown]"
+        ]
+    ],
+    [
+        7529,
+        128153,
+        34263,
+        "sww swp ---",
+        0.004297114794352364,
+        "cow below dark cow",
+        "visual-p1/refcoco_unc_ref34263_idx7529_pred_bad.png",
+        [
+            "[below] [dark cow]",
+            "[cow] [below]"
+        ]
+    ],
+    [
+        7541,
+        128165,
+        34281,
+        "--- swp ---",
+        0.0012497176842580743,
+        "elephant looking left",
+        "visual-p1/refcoco_unc_ref34281_idx7541_pred_bad.png",
+        [
+            "[elephant] [looking left]"
+        ]
+    ],
+    [
+        7565,
+        128189,
+        34476,
+        "sww --- ---",
+        0.0,
+        "crouching dude foreground",
+        "visual-p1/refcoco_unc_ref34476_idx7565_pred_bad.png",
+        [
+            "[crouching] [dude]",
+            "[dude] [foreground]"
+        ]
+    ],
+    [
+        7611,
+        128235,
+        34769,
+        "--- swp ---",
+        0.01291918636613524,
+        "one on left in foreground",
+        "visual-p1/refcoco_unc_ref34769_idx7611_pred_bad.png",
+        [
+            "[one] [on left in foreground]"
+        ]
+    ],
+    [
+        7655,
+        128279,
+        34909,
+        "--- swp spp",
+        0.0,
+        "elephant with baby under it",
+        "visual-p1/refcoco_unc_ref34909_idx7655_pred_bad.png",
+        [
+            "[with baby] [under it]",
+            "[elephant] [with baby]"
+        ]
+    ],
+    [
+        7664,
+        128288,
+        34912,
+        "--- swp ---",
+        0.0029256171849951908,
+        "middle wine glass infront of pizza",
+        "visual-p1/refcoco_unc_ref34912_idx7664_pred_bad.png",
+        [
+            "[infront] [of pizza]"
+        ]
+    ],
+    [
+        7692,
+        128316,
+        35094,
+        "--- --- spp",
+        0.06799285896454986,
+        "the small piece of broccoli in front",
+        "visual-p1/refcoco_unc_ref35094_idx7692_pred_bad.png",
+        [
+            "[of broccoli] [in front]"
+        ]
+    ],
+    [
+        7693,
+        128317,
+        35094,
+        "sww swp ---",
+        0.06387755102040817,
+        "the broccli piece up front in the bowl it is touching the bowl",
+        "visual-p1/refcoco_unc_ref35094_idx7693_pred_bad.png",
+        [
+            "[touching] [the bowl]",
+            "[front] [in the bowl]",
+            "[broccli] [piece]"
+        ]
+    ],
+    [
+        7710,
+        128334,
+        35317,
+        "sww --- ---",
+        0.004472219509813495,
+        "phone reflection mirror",
+        "visual-p1/refcoco_unc_ref35317_idx7710_pred_bad.png",
+        [
+            "[phone] [reflection]"
+        ]
+    ],
+    [
+        7763,
+        128387,
+        35610,
+        "sww --- ---",
+        0.0,
+        "light above walk sign",
+        "visual-p1/refcoco_unc_ref35610_idx7763_pred_bad.png",
+        [
+            "[above] [walk]"
+        ]
+    ],
+    [
+        7803,
+        128427,
+        36016,
+        "sww swp ---",
+        0.018294561700816517,
+        "the part of the suitcase the mischievous cat is about to jump into",
+        "visual-p1/refcoco_unc_ref36016_idx7803_pred_bad.png",
+        [
+            "[of] [the suitcase]",
+            "[jump] [into]"
+        ]
+    ],
+    [
+        7835,
+        128459,
+        36097,
+        "sww --- ---",
+        0.0,
+        "donut wrapped in paper",
+        "visual-p1/refcoco_unc_ref36097_idx7835_pred_bad.png",
+        [
+            "[in] [paper]"
+        ]
+    ],
+    [
+        7836,
+        128460,
+        36098,
+        "sww --- ---",
+        0.0,
+        "swirly danish",
+        "visual-p1/refcoco_unc_ref36098_idx7836_pred_bad.png",
+        [
+            "[swirly] [danish]"
+        ]
+    ],
+    [
+        7901,
+        128525,
+        36437,
+        "--- --- spp",
+        0.0343904768250161,
+        "teddy bear facing camera",
+        "visual-p1/refcoco_unc_ref36437_idx7901_pred_bad.png",
+        [
+            "[teddy bear] [facing camera]"
+        ]
+    ],
+    [
+        7913,
+        128537,
+        36468,
+        "sww --- ---",
+        0.0,
+        "person to left with arm showing",
+        "visual-p1/refcoco_unc_ref36468_idx7913_pred_bad.png",
+        [
+            "[arm] [showing]"
+        ]
+    ],
+    [
+        7932,
+        128556,
+        36521,
+        "--- --- spp",
+        0.030508689585183307,
+        "that her foot is on",
+        "visual-p1/refcoco_unc_ref36521_idx7932_pred_bad.png",
+        [
+            "[her foot] [is on]"
+        ]
+    ],
+    [
+        7953,
+        128577,
+        36686,
+        "--- swp ---",
+        5.6583488937927916e-05,
+        "far left person seated",
+        "visual-p1/refcoco_unc_ref36686_idx7953_pred_bad.png",
+        [
+            "[far left person] [seated]"
+        ]
+    ],
+    [
+        7985,
+        128609,
+        36777,
+        "sww --- ---",
+        0.018996632415162768,
+        "slice of pizza at 9 o clock",
+        "visual-p1/refcoco_unc_ref36777_idx7985_pred_bad.png",
+        [
+            "[9] [o]"
+        ]
+    ],
+    [
+        7987,
+        128611,
+        36778,
+        "--- swp ---",
+        0.013472161506974526,
+        "left side just below middle of pizza",
+        "visual-p1/refcoco_unc_ref36778_idx7987_pred_bad.png",
+        [
+            "[below] [middle of pizza]"
+        ]
+    ],
+    [
+        7989,
+        128613,
+        36778,
+        "sww --- ---",
+        0.0,
+        "bottom left corner slice of pizza at 8 o clock position",
+        "visual-p1/refcoco_unc_ref36778_idx7989_pred_bad.png",
+        [
+            "[corner] [slice]",
+            "[8] [o]",
+            "[clock] [position]"
+        ]
+    ],
+    [
+        8038,
+        128662,
+        36888,
+        "sww --- ---",
+        0.0,
+        "flip phone on right",
+        "visual-p1/refcoco_unc_ref36888_idx8038_pred_bad.png",
+        [
+            "[flip] [phone]"
+        ]
+    ],
+    [
+        8096,
+        128720,
+        37108,
+        "--- swp ---",
+        0.002938043997208858,
+        "u had it cow butt",
+        "visual-p1/refcoco_unc_ref37108_idx8096_pred_bad.png",
+        [
+            "[it] [cow butt]"
+        ]
+    ],
+    [
+        8101,
+        128725,
+        37113,
+        "--- swp ---",
+        0.05414491377946527,
+        "white area behind bears head",
+        "visual-p1/refcoco_unc_ref37113_idx8101_pred_bad.png",
+        [
+            "[behind] [bears head]"
+        ]
+    ],
+    [
+        8120,
+        128744,
+        37358,
+        "--- --- spp",
+        0.0,
+        "chef glaceing over at a reastraunt its blurry",
+        "visual-p1/refcoco_unc_ref37358_idx8120_pred_bad.png",
+        [
+            "[a reastraunt] [its blurry]"
+        ]
+    ],
+    [
+        8186,
+        128810,
+        37837,
+        "--- swp ---",
+        0.0,
+        "seat in front of people",
+        "visual-p1/refcoco_unc_ref37837_idx8186_pred_bad.png",
+        [
+            "[seat] [in front of people]"
+        ]
+    ],
+    [
+        8201,
+        128825,
+        37842,
+        "--- swp ---",
+        0.0,
+        "plane leading the pack",
+        "visual-p1/refcoco_unc_ref37842_idx8201_pred_bad.png",
+        [
+            "[leading] [the pack]"
+        ]
+    ],
+    [
+        8202,
+        128826,
+        37842,
+        "--- swp ---",
+        0.0,
+        "plane leading the way",
+        "visual-p1/refcoco_unc_ref37842_idx8202_pred_bad.png",
+        [
+            "[leading] [the way]"
+        ]
+    ],
+    [
+        8231,
+        128855,
+        37943,
+        "--- swp ---",
+        0.06317027796016633,
+        "rim of plate with all the food",
+        "visual-p1/refcoco_unc_ref37943_idx8231_pred_bad.png",
+        [
+            "[rim] [of plate]",
+            "[with] [all the food]"
+        ]
+    ],
+    [
+        8258,
+        128882,
+        38084,
+        "--- swp ---",
+        0.0,
+        "bot with no shirt",
+        "visual-p1/refcoco_unc_ref38084_idx8258_pred_bad.png",
+        [
+            "[bot] [with no shirt]"
+        ]
+    ],
+    [
+        8313,
+        128937,
+        38332,
+        "--- swp ---",
+        0.0,
+        "guy right behind meter",
+        "visual-p1/refcoco_unc_ref38332_idx8313_pred_bad.png",
+        [
+            "[guy] [right behind meter]"
+        ]
+    ],
+    [
+        8317,
+        128941,
+        38394,
+        "sww --- ---",
+        0.0034946572067704185,
+        "triangular slice",
+        "visual-p1/refcoco_unc_ref38394_idx8317_pred_bad.png",
+        [
+            "[triangular] [slice]"
+        ]
+    ],
+    [
+        8335,
+        128959,
+        38497,
+        "--- --- spp",
+        0.015396102972550136,
+        "person on far left under umbrella",
+        "visual-p1/refcoco_unc_ref38497_idx8335_pred_bad.png",
+        [
+            "[far left] [under umbrella]"
+        ]
+    ],
+    [
+        8347,
+        128971,
+        38501,
+        "sww swp ---",
+        0.0,
+        "guy close to center second row up blue tie",
+        "visual-p1/refcoco_unc_ref38501_idx8347_pred_bad.png",
+        [
+            "[up] [blue tie]",
+            "[guy] [close]"
+        ]
+    ],
+    [
+        8370,
+        128994,
+        38581,
+        "sww --- ---",
+        0.004259050482274834,
+        "man in the front ight with all white",
+        "visual-p1/refcoco_unc_ref38581_idx8370_pred_bad.png",
+        [
+            "[front] [ight]"
+        ]
+    ],
+    [
+        8407,
+        129031,
+        38865,
+        "sww swp ---",
+        0.004278201966784515,
+        "inside of tub under the window",
+        "visual-p1/refcoco_unc_ref38865_idx8407_pred_bad.png",
+        [
+            "[under] [the window]",
+            "[of] [tub]"
+        ]
+    ],
+    [
+        8444,
+        129068,
+        38982,
+        "sww --- ---",
+        0.0033021704663495706,
+        "guy without mitt",
+        "visual-p1/refcoco_unc_ref38982_idx8444_pred_bad.png",
+        [
+            "[without] [mitt]"
+        ]
+    ],
+    [
+        8550,
+        129174,
+        39441,
+        "sww --- ---",
+        0.0590571835419321,
+        "farleft btoom second kid",
+        "visual-p1/refcoco_unc_ref39441_idx8550_pred_bad.png",
+        [
+            "[farleft] [btoom]",
+            "[btoom] [second]"
+        ]
+    ],
+    [
+        8579,
+        129203,
+        39530,
+        "sww --- ---",
+        0.0,
+        "fedex name",
+        "visual-p1/refcoco_unc_ref39530_idx8579_pred_bad.png",
+        [
+            "[fedex] [name]"
+        ]
+    ],
+    [
+        8598,
+        129222,
+        39650,
+        "sww --- ---",
+        0.06214758519244913,
+        "the bread with sticks in it",
+        "visual-p1/refcoco_unc_ref39650_idx8598_pred_bad.png",
+        [
+            "[with] [sticks]"
+        ]
+    ],
+    [
+        8600,
+        129224,
+        39662,
+        "sww swp ---",
+        0.0813293359698922,
+        "person in crowd blurry right above childs helmet",
+        "visual-p1/refcoco_unc_ref39662_idx8600_pred_bad.png",
+        [
+            "[person] [in crowd]",
+            "[childs] [helmet]"
+        ]
+    ],
+    [
+        8719,
+        129343,
+        40195,
+        "sww --- ---",
+        0.0,
+        "person pointing blurry",
+        "visual-p1/refcoco_unc_ref40195_idx8719_pred_bad.png",
+        [
+            "[pointing] [blurry]"
+        ]
+    ],
+    [
+        8751,
+        129375,
+        40311,
+        "--- swp ---",
+        0.0209176192074625,
+        "a truck parked",
+        "visual-p1/refcoco_unc_ref40311_idx8751_pred_bad.png",
+        [
+            "[a truck] [parked]"
+        ]
+    ],
+    [
+        8809,
+        129433,
+        40611,
+        "sww --- ---",
+        0.0,
+        "woman at bottom of frame brown shirt",
+        "visual-p1/refcoco_unc_ref40611_idx8809_pred_bad.png",
+        [
+            "[frame] [brown]"
+        ]
+    ],
+    [
+        8846,
+        129470,
+        40756,
+        "sww --- ---",
+        0.0017948305493705394,
+        "second microwave oven from bottom",
+        "visual-p1/refcoco_unc_ref40756_idx8846_pred_bad.png",
+        [
+            "[second] [microwave]"
+        ]
+    ],
+    [
+        8866,
+        129490,
+        40844,
+        "--- swp ---",
+        0.05835515792804036,
+        "man with stuffed dog",
+        "visual-p1/refcoco_unc_ref40844_idx8866_pred_bad.png",
+        [
+            "[with] [stuffed dog]"
+        ]
+    ],
+    [
+        8967,
+        129591,
+        41282,
+        "--- swp spp",
+        0.0,
+        "first umbrella not the one in upper right",
+        "visual-p1/refcoco_unc_ref41282_idx8967_pred_bad.png",
+        [
+            "[the one] [in upper right]",
+            "[first umbrella] [not]"
+        ]
+    ],
+    [
+        8988,
+        129612,
+        41376,
+        "sww --- ---",
+        0.0011492451548869038,
+        "middle fan above red",
+        "visual-p1/refcoco_unc_ref41376_idx8988_pred_bad.png",
+        [
+            "[middle] [fan]"
+        ]
+    ],
+    [
+        8998,
+        129622,
+        41379,
+        "sww --- ---",
+        0.0,
+        "the umbrella in back to the right of the bottom red to the left of the bottom greem",
+        "visual-p1/refcoco_unc_ref41379_idx8998_pred_bad.png",
+        [
+            "[bottom] [greem]"
+        ]
+    ],
+    [
+        8999,
+        129623,
+        41379,
+        "sww --- ---",
+        0.05397839807748171,
+        "bottomright of picture the space between the red circle and the dark green outlined circle",
+        "visual-p1/refcoco_unc_ref41379_idx8999_pred_bad.png",
+        [
+            "[green] [outlined]",
+            "[outlined] [circle]"
+        ]
+    ],
+    [
+        9005,
+        129629,
+        41395,
+        "--- swp ---",
+        0.00945323847271116,
+        "man closest to trash",
+        "visual-p1/refcoco_unc_ref41395_idx9005_pred_bad.png",
+        [
+            "[man] [closest to trash]"
+        ]
+    ],
+    [
+        9019,
+        129643,
+        41436,
+        "--- swp ---",
+        0.04548248309772587,
+        "girl holding a phone",
+        "visual-p1/refcoco_unc_ref41436_idx9019_pred_bad.png",
+        [
+            "[holding] [a phone]"
+        ]
+    ],
+    [
+        9038,
+        129662,
+        41482,
+        "sww --- ---",
+        0.005123046256450381,
+        "the pizza mouth",
+        "visual-p1/refcoco_unc_ref41482_idx9038_pred_bad.png",
+        [
+            "[pizza] [mouth]"
+        ]
+    ],
+    [
+        9044,
+        129668,
+        41548,
+        "--- swp ---",
+        0.0049382716049382715,
+        "person on left facing guy with tie",
+        "visual-p1/refcoco_unc_ref41548_idx9044_pred_bad.png",
+        [
+            "[facing] [guy with tie]"
+        ]
+    ],
+    [
+        9065,
+        129689,
+        41650,
+        "sww --- ---",
+        0.00021600216002160022,
+        "man signing ball has red button on shirt",
+        "visual-p1/refcoco_unc_ref41650_idx9065_pred_bad.png",
+        [
+            "[red] [button]",
+            "[signing] [ball]"
+        ]
+    ],
+    [
+        9068,
+        129692,
+        41651,
+        "sww --- ---",
+        0.0,
+        "guy laughing at kids dream of being a soccer star",
+        "visual-p1/refcoco_unc_ref41651_idx9068_pred_bad.png",
+        [
+            "[soccer] [star]",
+            "[kids] [dream]"
+        ]
+    ],
+    [
+        9096,
+        129720,
+        41765,
+        "--- swp ---",
+        0.0,
+        "first cup after the bowl up",
+        "visual-p1/refcoco_unc_ref41765_idx9096_pred_bad.png",
+        [
+            "[the bowl] [up]"
+        ]
+    ],
+    [
+        9119,
+        129743,
+        41929,
+        "sww --- ---",
+        0.06814438427834774,
+        "closest back",
+        "visual-p1/refcoco_unc_ref41929_idx9119_pred_bad.png",
+        [
+            "[closest] [back]"
+        ]
+    ],
+    [
+        9129,
+        129753,
+        42041,
+        "sww --- ---",
+        0.0,
+        "the umpire in white wearing black mask",
+        "visual-p1/refcoco_unc_ref42041_idx9129_pred_bad.png",
+        [
+            "[black] [mask]"
+        ]
+    ],
+    [
+        9138,
+        129762,
+        42105,
+        "sww --- ---",
+        0.0002694419184264592,
+        "dip top back",
+        "visual-p1/refcoco_unc_ref42105_idx9138_pred_bad.png",
+        [
+            "[dip] [top]"
+        ]
+    ],
+    [
+        9205,
+        129829,
+        42424,
+        "sww --- ---",
+        0.0,
+        "pink shirt jeans girl",
+        "visual-p1/refcoco_unc_ref42424_idx9205_pred_bad.png",
+        [
+            "[jeans] [girl]"
+        ]
+    ],
+    [
+        9257,
+        129881,
+        42549,
+        "--- --- spp",
+        0.00028603209915779436,
+        "vase to the very right of white one",
+        "visual-p1/refcoco_unc_ref42549_idx9257_pred_bad.png",
+        [
+            "[the very right] [of white one]"
+        ]
+    ],
+    [
+        9285,
+        129909,
+        42687,
+        "sww --- ---",
+        0.0003056487187536141,
+        "kid with blk mark on face",
+        "visual-p1/refcoco_unc_ref42687_idx9285_pred_bad.png",
+        [
+            "[blk] [mark]"
+        ]
+    ],
+    [
+        9376,
+        130000,
+        42958,
+        "--- --- spp",
+        0.0992299794661191,
+        "pizza slice at 4 oclock",
+        "visual-p1/refcoco_unc_ref42958_idx9376_pred_bad.png",
+        [
+            "[pizza slice] [at 4 oclock]"
+        ]
+    ],
+    [
+        9379,
+        130003,
+        42959,
+        "--- --- spp",
+        0.00023208010078907233,
+        "the slice of pizza on the very bottom of the box",
+        "visual-p1/refcoco_unc_ref42959_idx9379_pred_bad.png",
+        [
+            "[the very bottom] [of the box]"
+        ]
+    ],
+    [
+        9380,
+        130004,
+        42959,
+        "sww --- ---",
+        0.0398402345922443,
+        "sorry slice at 6 oclock",
+        "visual-p1/refcoco_unc_ref42959_idx9380_pred_bad.png",
+        [
+            "[sorry] [slice]"
+        ]
+    ],
+    [
+        9414,
+        130038,
+        43041,
+        "sww --- ---",
+        0.00020049455323130388,
+        "i am a proud baptist i would love that book",
+        "visual-p1/refcoco_unc_ref43041_idx9414_pred_bad.png",
+        [
+            "[i] [am]"
+        ]
+    ],
+    [
+        9418,
+        130042,
+        43043,
+        "--- swp ---",
+        0.013553857176976356,
+        "yellow book by purple bear",
+        "visual-p1/refcoco_unc_ref43043_idx9418_pred_bad.png",
+        [
+            "[by] [purple bear]"
+        ]
+    ],
+    [
+        9419,
+        130043,
+        43043,
+        "--- swp ---",
+        0.0,
+        "block to right of bear",
+        "visual-p1/refcoco_unc_ref43043_idx9419_pred_bad.png",
+        [
+            "[block] [to right of bear]"
+        ]
+    ],
+    [
+        9443,
+        130067,
+        43120,
+        "--- --- spp",
+        0.0,
+        "animal front of tree",
+        "visual-p1/refcoco_unc_ref43120_idx9443_pred_bad.png",
+        [
+            "[animal front] [of tree]"
+        ]
+    ],
+    [
+        9446,
+        130070,
+        43126,
+        "--- swp ---",
+        0.0014876208691956222,
+        "dude standing behind woman checking her ass out",
+        "visual-p1/refcoco_unc_ref43126_idx9446_pred_bad.png",
+        [
+            "[checking] [her ass]",
+            "[her ass] [out]"
+        ]
+    ],
+    [
+        9455,
+        130079,
+        43129,
+        "--- swp ---",
+        0.011667992574913817,
+        "the guy beside lady in red who is cutting the cake",
+        "visual-p1/refcoco_unc_ref43129_idx9455_pred_bad.png",
+        [
+            "[is] [cutting the cake]",
+            "[beside] [lady in red]"
+        ]
+    ],
+    [
+        9483,
+        130107,
+        43191,
+        "sww swp ---",
+        0.03702135666572585,
+        "dude 3 in from right hand side",
+        "visual-p1/refcoco_unc_ref43191_idx9483_pred_bad.png",
+        [
+            "[from] [right hand side]",
+            "[dude] [3]"
+        ]
+    ],
+    [
+        9488,
+        130112,
+        43193,
+        "sww --- ---",
+        0.0,
+        "o right lol 2 from left",
+        "visual-p1/refcoco_unc_ref43193_idx9488_pred_bad.png",
+        [
+            "[lol] [2]"
+        ]
+    ],
+    [
+        9513,
+        130137,
+        43205,
+        "--- swp ---",
+        0.0,
+        "toilet on right side",
+        "visual-p1/refcoco_unc_ref43205_idx9513_pred_bad.png",
+        [
+            "[toilet] [on right side]"
+        ]
+    ],
+    [
+        9533,
+        130157,
+        43277,
+        "--- --- spp",
+        0.0030109993650273446,
+        "sandwich half with red flag in it",
+        "visual-p1/refcoco_unc_ref43277_idx9533_pred_bad.png",
+        [
+            "[red flag] [in it]"
+        ]
+    ],
+    [
+        9577,
+        130201,
+        43441,
+        "--- swp ---",
+        0.0,
+        "guy in the chair",
+        "visual-p1/refcoco_unc_ref43441_idx9577_pred_bad.png",
+        [
+            "[guy] [in the chair]"
+        ]
+    ],
+    [
+        9676,
+        130300,
+        44074,
+        "--- swp ---",
+        0.012469324136101346,
+        "floor next to the girl",
+        "visual-p1/refcoco_unc_ref44074_idx9676_pred_bad.png",
+        [
+            "[next] [to the girl]"
+        ]
+    ],
+    [
+        9677,
+        130301,
+        44075,
+        "--- swp ---",
+        0.02284659608165912,
+        "white blanket by girl face",
+        "visual-p1/refcoco_unc_ref44075_idx9677_pred_bad.png",
+        [
+            "[by] [girl face]"
+        ]
+    ],
+    [
+        9726,
+        130350,
+        44336,
+        "--- swp ---",
+        0.0004937052579609973,
+        "arm behind the guy",
+        "visual-p1/refcoco_unc_ref44336_idx9726_pred_bad.png",
+        [
+            "[arm] [behind the guy]"
+        ]
+    ],
+    [
+        9740,
+        130364,
+        44530,
+        "sww --- ---",
+        0.0,
+        "first chair on table next to the one that is down",
+        "visual-p1/refcoco_unc_ref44530_idx9740_pred_bad.png",
+        [
+            "[is] [down]"
+        ]
+    ],
+    [
+        9753,
+        130377,
+        44563,
+        "--- swp ---",
+        0.0,
+        "glass in front of food",
+        "visual-p1/refcoco_unc_ref44563_idx9753_pred_bad.png",
+        [
+            "[front] [of food]"
+        ]
+    ],
+    [
+        9769,
+        130393,
+        44577,
+        "--- swp ---",
+        0.0,
+        "singer in white",
+        "visual-p1/refcoco_unc_ref44577_idx9769_pred_bad.png",
+        [
+            "[singer] [in white]"
+        ]
+    ],
+    [
+        9825,
+        130449,
+        45038,
+        "--- swp ---",
+        0.030264755294492747,
+        "sking in snow",
+        "visual-p1/refcoco_unc_ref45038_idx9825_pred_bad.png",
+        [
+            "[sking] [in snow]"
+        ]
+    ],
+    [
+        9837,
+        130461,
+        45045,
+        "--- swp ---",
+        0.0,
+        "other woman standing",
+        "visual-p1/refcoco_unc_ref45045_idx9837_pred_bad.png",
+        [
+            "[other woman] [standing]"
+        ]
+    ],
+    [
+        9839,
+        130463,
+        45045,
+        "--- swp ---",
+        0.0,
+        "woman to the left of old lady",
+        "visual-p1/refcoco_unc_ref45045_idx9839_pred_bad.png",
+        [
+            "[of] [old lady]"
+        ]
+    ],
+    [
+        9890,
+        130514,
+        45259,
+        "sww --- ---",
+        0.0,
+        "gangsta teddy bear",
+        "visual-p1/refcoco_unc_ref45259_idx9890_pred_bad.png",
+        [
+            "[gangsta] [teddy]"
+        ]
+    ],
+    [
+        9906,
+        130530,
+        45377,
+        "sww --- ---",
+        0.04027487030126513,
+        "wine glass in front next to water carafe",
+        "visual-p1/refcoco_unc_ref45377_idx9906_pred_bad.png",
+        [
+            "[water] [carafe]"
+        ]
+    ],
+    [
+        9910,
+        130534,
+        45379,
+        "sww --- ---",
+        0.0,
+        "vase next to half empty beer on left",
+        "visual-p1/refcoco_unc_ref45379_idx9910_pred_bad.png",
+        [
+            "[half] [empty]",
+            "[empty] [beer]"
+        ]
+    ],
+    [
+        9913,
+        130537,
+        45380,
+        "--- swp ---",
+        0.003714073481515342,
+        "beer bottle second from the bottom",
+        "visual-p1/refcoco_unc_ref45380_idx9913_pred_bad.png",
+        [
+            "[beer bottle] [second]"
+        ]
+    ],
+    [
+        9918,
+        130542,
+        45382,
+        "--- --- spp",
+        6.173982836327716e-05,
+        "second chair on left",
+        "visual-p1/refcoco_unc_ref45382_idx9918_pred_bad.png",
+        [
+            "[second chair] [on left]"
+        ]
+    ],
+    [
+        9920,
+        130544,
+        45382,
+        "--- --- spp",
+        0.06296572280178837,
+        "back of chair second to left",
+        "visual-p1/refcoco_unc_ref45382_idx9920_pred_bad.png",
+        [
+            "[of chair] [second to left]"
+        ]
+    ],
+    [
+        9933,
+        130557,
+        45399,
+        "sww --- ---",
+        0.0,
+        "remaining pizza",
+        "visual-p1/refcoco_unc_ref45399_idx9933_pred_bad.png",
+        [
+            "[remaining] [pizza]"
+        ]
+    ],
+    [
+        9955,
+        130579,
+        45517,
+        "sww --- ---",
+        0.001719215301016179,
+        "im lifting my arm up so my shorts that are already too short hike up more",
+        "visual-p1/refcoco_unc_ref45517_idx9955_pred_bad.png",
+        [
+            "[up] [more]",
+            "[too] [short]",
+            "[are] [already]",
+            "[my] [shorts]",
+            "[my] [arm]"
+        ]
+    ],
+    [
+        9969,
+        130593,
+        45548,
+        "sww --- ---",
+        0.0,
+        "oops right",
+        "visual-p1/refcoco_unc_ref45548_idx9969_pred_bad.png",
+        [
+            "[oops] [right]"
+        ]
+    ],
+    [
+        9990,
+        130614,
+        45562,
+        "--- swp ---",
+        0.057856673241288625,
+        "white car behind last horse on the right",
+        "visual-p1/refcoco_unc_ref45562_idx9990_pred_bad.png",
+        [
+            "[behind] [last horse]"
+        ]
+    ],
+    [
+        9991,
+        130615,
+        45562,
+        "--- swp ---",
+        0.06639304683727668,
+        "space between the horses legs on the right",
+        "visual-p1/refcoco_unc_ref45562_idx9991_pred_bad.png",
+        [
+            "[the horses] [legs]"
+        ]
+    ],
+    [
+        10057,
+        130681,
+        46046,
+        "--- swp ---",
+        0.0683005583335202,
+        "cuo wth flowers painted on it",
+        "visual-p1/refcoco_unc_ref46046_idx10057_pred_bad.png",
+        [
+            "[painted] [on it]"
+        ]
+    ],
+    [
+        10059,
+        130683,
+        46047,
+        "--- --- spp",
+        4.8164916674694154e-05,
+        "white vase toward right",
+        "visual-p1/refcoco_unc_ref46047_idx10059_pred_bad.png",
+        [
+            "[white vase] [toward right]"
+        ]
+    ],
+    [
+        10060,
+        130684,
+        46047,
+        "--- swp ---",
+        0.0002541360644489059,
+        "white vase behind red thing",
+        "visual-p1/refcoco_unc_ref46047_idx10060_pred_bad.png",
+        [
+            "[behind] [red thing]"
+        ]
+    ],
+    [
+        10087,
+        130711,
+        46236,
+        "sww --- ---",
+        0.0,
+        "atlanta player to the right",
+        "visual-p1/refcoco_unc_ref46236_idx10087_pred_bad.png",
+        [
+            "[atlanta] [player]"
+        ]
+    ],
+    [
+        10099,
+        130723,
+        46267,
+        "sww --- ---",
+        0.0,
+        "bike next to stripe of rope",
+        "visual-p1/refcoco_unc_ref46267_idx10099_pred_bad.png",
+        [
+            "[of] [rope]"
+        ]
+    ],
+    [
+        10154,
+        130778,
+        46766,
+        "--- swp ---",
+        0.0,
+        "girl holding chin",
+        "visual-p1/refcoco_unc_ref46766_idx10154_pred_bad.png",
+        [
+            "[girl] [holding chin]"
+        ]
+    ],
+    [
+        10210,
+        130834,
+        46945,
+        "sww --- ---",
+        0.006192575640292128,
+        "tman shaking soldiers hand",
+        "visual-p1/refcoco_unc_ref46945_idx10210_pred_bad.png",
+        [
+            "[soldiers] [hand]"
+        ]
+    ],
+    [
+        10249,
+        130873,
+        47025,
+        "sww --- ---",
+        0.023066798288910825,
+        "page lower right corner",
+        "visual-p1/refcoco_unc_ref47025_idx10249_pred_bad.png",
+        [
+            "[page] [lower]"
+        ]
+    ],
+    [
+        10261,
+        130885,
+        47058,
+        "sww --- ---",
+        0.0,
+        "front view",
+        "visual-p1/refcoco_unc_ref47058_idx10261_pred_bad.png",
+        [
+            "[front] [view]"
+        ]
+    ],
+    [
+        10328,
+        130952,
+        47667,
+        "--- swp ---",
+        0.0,
+        "lady in black with her arm up in the air",
+        "visual-p1/refcoco_unc_ref47667_idx10328_pred_bad.png",
+        [
+            "[her arm] [up]"
+        ]
+    ],
+    [
+        10330,
+        130954,
+        47667,
+        "sww --- ---",
+        0.002229998627693152,
+        "woan with arm up in the air",
+        "visual-p1/refcoco_unc_ref47667_idx10330_pred_bad.png",
+        [
+            "[woan] [with]"
+        ]
+    ],
+    [
+        10474,
+        131098,
+        48389,
+        "sww swp ---",
+        0.0,
+        "the bottle on table with olive oil in in",
+        "visual-p1/refcoco_unc_ref48389_idx10474_pred_bad.png",
+        [
+            "[the bottle] [on]",
+            "[olive] [oil]"
+        ]
+    ],
+    [
+        10546,
+        131170,
+        48657,
+        "--- --- spp",
+        0.010135970333745364,
+        "third toilet on right",
+        "visual-p1/refcoco_unc_ref48657_idx10546_pred_bad.png",
+        [
+            "[third toilet] [on right]"
+        ]
+    ],
+    [
+        10547,
+        131171,
+        48657,
+        "--- swp ---",
+        0.013478422159020651,
+        "on right third toilet from bottom",
+        "visual-p1/refcoco_unc_ref48657_idx10547_pred_bad.png",
+        [
+            "[on] [right third toilet]"
+        ]
+    ],
+    [
+        10566,
+        131190,
+        48783,
+        "--- --- spp",
+        0.0,
+        "first one left of pole",
+        "visual-p1/refcoco_unc_ref48783_idx10566_pred_bad.png",
+        [
+            "[first one] [left of pole]"
+        ]
+    ],
+    [
+        10593,
+        131217,
+        48927,
+        "sww --- spp",
+        0.0,
+        "flowery bush behind hydrant to our left",
+        "visual-p1/refcoco_unc_ref48927_idx10593_pred_bad.png",
+        [
+            "[behind hydrant] [to our left]",
+            "[flowery] [bush]"
+        ]
+    ],
+    [
+        10594,
+        131218,
+        48933,
+        "sww --- ---",
+        0.0,
+        "angry blue shirt man",
+        "visual-p1/refcoco_unc_ref48933_idx10594_pred_bad.png",
+        [
+            "[angry] [blue]"
+        ]
+    ],
+    [
+        10595,
+        131219,
+        48933,
+        "sww --- ---",
+        0.0,
+        "blue polo white hair",
+        "visual-p1/refcoco_unc_ref48933_idx10595_pred_bad.png",
+        [
+            "[polo] [white]"
+        ]
+    ],
+    [
+        10634,
+        131258,
+        49122,
+        "sww --- ---",
+        0.06499180775532495,
+        "in back arms crossed",
+        "visual-p1/refcoco_unc_ref49122_idx10634_pred_bad.png",
+        [
+            "[back] [arms]"
+        ]
+    ],
+    [
+        10677,
+        131301,
+        49326,
+        "--- swp ---",
+        0.0,
+        "guy left of umbrella",
+        "visual-p1/refcoco_unc_ref49326_idx10677_pred_bad.png",
+        [
+            "[guy] [left of umbrella]"
+        ]
+    ],
+    [
+        10679,
+        131303,
+        49326,
+        "--- swp ---",
+        0.0,
+        "man to left of red umbrella",
+        "visual-p1/refcoco_unc_ref49326_idx10679_pred_bad.png",
+        [
+            "[of] [red umbrella]"
+        ]
+    ],
+    [
+        10723,
+        131347,
+        49564,
+        "sww --- ---",
+        0.02197132616487455,
+        "1 batter",
+        "visual-p1/refcoco_unc_ref49564_idx10723_pred_bad.png",
+        [
+            "[1] [batter]"
+        ]
+    ],
+    [
+        10758,
+        131382,
+        49769,
+        "sww --- ---",
+        0.0,
+        "wily jack bottle",
+        "visual-p1/refcoco_unc_ref49769_idx10758_pred_bad.png",
+        [
+            "[jack] [bottle]"
+        ]
+    ],
+    [
+        10808,
+        131432,
+        49874,
+        "sww --- ---",
+        0.0,
+        "middle above soup",
+        "visual-p1/refcoco_unc_ref49874_idx10808_pred_bad.png",
+        [
+            "[above] [soup]"
+        ]
+    ],
+    [
+        10821,
+        131445,
+        49928,
+        "--- swp spp",
+        0.0,
+        "computer very right of pic",
+        "visual-p1/refcoco_unc_ref49928_idx10821_pred_bad.png",
+        [
+            "[very right] [of pic]",
+            "[computer] [very right of pic]"
+        ]
+    ],
+    [
+        10832,
+        131456,
+        49946,
+        "--- swp ---",
+        0.0,
+        "man in beige shirt sitting on the right side",
+        "visual-p1/refcoco_unc_ref49946_idx10832_pred_bad.png",
+        [
+            "[man] [in beige shirt]",
+            "[sitting] [on the right side]"
+        ]
+    ]
+]
