@@ -348,8 +348,8 @@ def find_p1():
 
     candidates = []
 
-    bad = [x for x in data if x[4] < 0.05 and "s" in x[3]]
-    gud = [x for x in data if x[4] >= 0.95 and "s" not in x[3]]
+    bad = [x for x in data if x[4] < 0.15 and "s" in x[3]]
+    gud = [x for x in data if x[4] >= 0.90 and "s" not in x[3]]
 
     print("bad", len(bad))
     print("gud", len(gud))
@@ -406,10 +406,49 @@ def inspect_candidates():
     #     print_yellow(H[7])
 
 
+def inspect_further(h_idx: int):
+    npz_data = load_npz_as_list(npz_fp)
+
+    with open("candidates.json", "r") as f:
+        candidates = json.load(f)
+
+    target = None
+    for candidate in candidates:
+        if candidate["H"][0] == h_idx:
+            target = candidate
+            break
+
+    H = target["H"]
+    idx = H[0]
+    pred = npz_data[idx]
+    vi_path = visual(idx=idx, pred=pred, gt=False, name="bad")
+
+    Ms = target["M"]
+    Ns = target["N"]
+
+    print(f"Possible M: {len(Ms)}")
+    print(f"Possible N: {len(Ns)}")
+
+    md_lines = ["| idx | sent | vi | iou |"]
+    md_lines.append("| --- | --- | --- | --- |")
+    for M in Ms:
+        visual(idx=M[0], pred=npz_data[M[0]], gt=False, name="gud")
+        md_lines.append(f"| M{M[0]} | {M[5]} | ![]({M[6]}) | {M[4]} |")
+    for N in Ns:
+        visual(idx=N[0], pred=npz_data[N[0]], gt=False, name="gud")
+        md_lines.append(f"| N{N[0]} | {N[5]} | ![]({N[6]}) | {N[4]} |")
+
+    with Path(f"candidates-{h_idx}.md").open("w") as f:
+        f.write("\n".join(md_lines))
+        print_green("Saved md file")
+
+
 if __name__ == "__main__":
     ...
     init()
     # main()
     # find_p1()
     # generate_visual_for_candidates()
-    inspect_candidates()
+    # inspect_candidates()
+    inspect_further(160)
+    inspect_further(5976)
