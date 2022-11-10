@@ -13,22 +13,27 @@ from PIL import Image
 from scipy.ndimage import binary_dilation
 
 from refer import REFER
-from puts import print_green, print_cyan, print_red
+from puts import print_green, print_cyan, print_red, print_yellow
 
 # from matplotlib import lines, patches
 # from matplotlib.patches import Polygon
 # from skimage.measure import find_contours
 
-result_dir = Path("/home/markhh/Documents/qualitative")
-baseline_fp = result_dir / "refcoco_val_baseline_qual.json"
-ours_fp = result_dir / "refcoco_val_meta_qual.json"
-DATA_DIR = Path("__file__").resolve().parent / "data"
-IMG_DIR = DATA_DIR / "images" / "mscoco" / "train2014"
-custom_dir = Path("/home/markhh/CODE/DEEP_LEARNING/novel_composition/data/custom")
-assert custom_dir.exists()
 
+def init(
+    setName: str = "val",
+):
+    global result_dir, baseline_fp, ours_fp, DATA_DIR, IMG_DIR, custom_dir, refer
+    result_dir = Path("/home/markhh/Documents/qualitative_results")
+    baseline_fp = result_dir / f"refcoco_{setName}_baseline_qual.json"
+    ours_fp = result_dir / f"refcoco_{setName}_meta_qual.json"
 
-refer = REFER(str(DATA_DIR), "refcoco", "unc")
+    DATA_DIR = Path("__file__").resolve().parent / "data"
+    IMG_DIR = DATA_DIR / "images" / "mscoco" / "train2014"
+    custom_dir = Path("/home/markhh/CODE/DEEP_LEARNING/novel_composition/data/custom")
+    assert custom_dir.exists()
+
+    refer = REFER(str(DATA_DIR), "refcoco", "unc")
 
 
 def find_ref_id(
@@ -172,8 +177,9 @@ def visual(
         print_red(f"Error: {e}")
 
 
-def main():
-    test_split_fp = custom_dir / "refcoco_unc_val_split_idxes.json"
+def main(setName="val"):
+    assert setName in ["val", "testA", "testB"]
+    test_split_fp = custom_dir / f"refcoco_unc_{setName}_split_idxes.json"
     assert test_split_fp.exists()
 
     with open(test_split_fp, "r") as f:
@@ -192,6 +198,7 @@ def main():
         ours = json.load(f)
 
     n_samples = len(baseline)
+    print(f"n_samples: {n_samples}")
     assert len(baseline[0]) == 4
 
     ours_ious = []
@@ -205,7 +212,7 @@ def main():
     nc_lines_lst = []
 
     nc_lookup_fp = Path(
-        "/home/markhh/CODE/DEEP_LEARNING/novel_composition/coco-val-snc.json"
+        f"/home/markhh/CODE/DEEP_LEARNING/novel_composition/coco-{setName}-snc.json"
     )
     with nc_lookup_fp.open() as f:
         nc_lookup = json.load(f)
@@ -217,11 +224,14 @@ def main():
             assert len(i) == 4
             idx = i[0]
             iou = i[1]
+            pred = i[2]
+            gt = i[3]
 
-            sample = find_custom_sample_line(idx=idx)
+            sample = find_custom_sample_line(setName=setName, idx=idx)
             idx_w_offset = int(sample[0])
             ref_id = int(sample[2])
             if idx_w_offset not in snv:
+                print_yellow(f"idx_w_offset {idx_w_offset} not in snv")
                 continue
 
             if isOurs:
@@ -231,7 +241,7 @@ def main():
             else:
                 base_ious.append(iou)
 
-            info_line = f'{idx} {idx_w_offset} {ref_id} {"sww" if idx_w_offset in sww else "   "} {"swp" if idx_w_offset in swp else "   "} {"spp" if idx_w_offset in spp else "   "}'
+            info_line = f'{idx} {idx_w_offset} {ref_id} {"sww" if idx_w_offset in sww else "---"} {"swp" if idx_w_offset in swp else "---"} {"spp" if idx_w_offset in spp else "---"}'
             print_cyan(info_line)
             nc_lines = []
 
@@ -244,22 +254,30 @@ def main():
                     nc_lines.append(nc_line)
                 nc_lines_lst.append(nc_lines)
 
-            pred = torch.tensor(i[2])
-            gt = torch.tensor(i[3])
+            pred = torch.tensor(pred)
+            gt = torch.tensor(gt)
             pred.unsqueeze_(0).unsqueeze_(0)
             gt.unsqueeze_(0).unsqueeze_(0)
             # print(pred.shape, gt.shape)
             if isOurs:
-                gt_p = visual(idx=idx, pred=gt, gt=True)
-                ours_p = visual(idx=idx, pred=pred, gt=False, name="ours")
+                gt_p = visual(setName=setName, idx=idx, pred=gt, gt=True)
+                ours_p = visual(
+                    setName=setName, idx=idx, pred=pred, gt=False, name="ours"
+                )
                 gt_paths.append(gt_p)
                 ours_paths.append(ours_p)
             else:
-                base_p = visual(idx=idx, pred=pred, gt=False, name="base")
+                base_p = visual(
+                    setName=setName, idx=idx, pred=pred, gt=False, name="base"
+                )
                 base_paths.append(base_p)
 
-    markdown_lines = ["| Sentence | GT | Ours | Base | Base-IOU | Ours-IOU | delta |"]
-    markdown_lines.append("| :--- | :---: | :---: | :---: | :---: | :---: | :---: |")
+    markdown_lines = [
+        "| Sentence | nc | GT | Ours | Base | Base-IOU | Ours-IOU | delta |"
+    ]
+    markdown_lines.append(
+        "| :--- | :-- | :---: | :---: | :---: | :---: | :---: | :---: |"
+    )
     for i in range(len(gt_paths)):
         sent = captions[i]
         gt_p = gt_paths[i].name
@@ -270,25 +288,28 @@ def main():
         delta = "+" + str(round(ours_iou - base_iou, 2))
         ours_iou = str(round(ours_iou, 2))
         base_iou = str(round(base_iou, 2))
+        nc_lines = nc_lines_lst[i]
+
         markdown_lines.append(
-            f"| {sent} | ![{i}]({gt_p}) | ![{i}]({ours_p}) |  ![{i}]({base_p}) | {base_iou} | {ours_iou} | {delta} |"
+            f"| {ref_ids[i]} {sent} | {nc_lines} | ![{i}]({gt_p}) | ![{i}]({ours_p}) |  ![{i}]({base_p}) | {base_iou} | {ours_iou} | {delta} |"
         )
 
-    markdown_lines.append(" ")
-    markdown_lines.append(" ")
-    for i in range(len(info_lines)):
-        info_line = info_lines[i]
-        nc_lines = nc_lines_lst[i]
-        markdown_lines.append(f"-   {info_line}")
-        for j in nc_lines:
-            markdown_lines.append(f"    -   {j}")
+    # markdown_lines.append(" ")
+    # markdown_lines.append(" ")
+    # for i in range(len(info_lines)):
+    #     info_line = info_lines[i]
+    #     nc_lines = nc_lines_lst[i]
+    #     markdown_lines.append(f"-   {info_line}")
+    #     for j in nc_lines:
+    #         markdown_lines.append(f"    -   {j}")
 
-    with open("qualitative/README.md", "w") as f:
+    with open(f"qualitative/README-{setName}.md", "w") as f:
         f.write("\n".join(markdown_lines))
 
 
 if __name__ == "__main__":
-    # main()
-    print(IMG_DIR / get_image_dict(ref_id=10553)["file_name"])
-    print(IMG_DIR / get_image_dict(ref_id=18836)["file_name"])
-    print(IMG_DIR / get_image_dict(ref_id=36437)["file_name"])
+    init(setName="val")
+    main(setName="val")
+    # print(IMG_DIR / get_image_dict(ref_id=10553)["file_name"])
+    # print(IMG_DIR / get_image_dict(ref_id=18836)["file_name"])
+    # print(IMG_DIR / get_image_dict(ref_id=36437)["file_name"])
