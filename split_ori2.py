@@ -117,7 +117,7 @@ def check(dataset: str, split_by: str):
 
 
 def main(split_num: int):
-    assert split_num in [1, 2, 3, 5, 6, 7, 8]
+    assert split_num in [1, 2, 3, 5, 6, 7, 8, 9, 10]
 
     split_dir = (
         ROOT.parent
@@ -155,7 +155,9 @@ def main(split_num: int):
 
 
 if __name__ == "__main__":
-    main(5)
-    main(6)
-    main(7)
-    main(8)
+    # main(5)
+    # main(6)
+    # main(7)
+    # main(8)
+    # main(9)
+    main(10)

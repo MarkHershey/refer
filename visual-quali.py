@@ -308,8 +308,11 @@ def main(setName="val"):
 
 
 if __name__ == "__main__":
-    init(setName="val")
-    main(setName="val")
-    # print(IMG_DIR / get_image_dict(ref_id=10553)["file_name"])
-    # print(IMG_DIR / get_image_dict(ref_id=18836)["file_name"])
-    # print(IMG_DIR / get_image_dict(ref_id=36437)["file_name"])
+    # init(setName="val")
+    # main(setName="val")
+    init()
+    print(IMG_DIR / get_image_dict(ref_id=7249)["file_name"])
+    print(IMG_DIR / get_image_dict(ref_id=37756)["file_name"])
+    print(IMG_DIR / get_image_dict(ref_id=18295)["file_name"])
+    print(IMG_DIR / get_image_dict(ref_id=33292)["file_name"])
+    print(IMG_DIR / get_image_dict(ref_id=38781)["file_name"])
